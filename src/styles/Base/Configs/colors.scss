@@ -1,0 +1,43 @@
+﻿
+$colors: (
+    --color-background: (dark: #1e1e1e, light: #FFFFFF),
+    --color-background-sec: (dark: #3a3a3a, light: #e9e8ef),
+    --color-background-hover: (dark: #292929, light: #e4e4e4),
+    --color-separator: (dark: #C4C4C4, light:#C4C4C4),
+    --color-border: (dark: #000000, light:#353535),
+    --color-disabled: (dark: #898989, light:#898989),
+    
+    --color-font: (dark: #FFFFFF, light: #353535),
+    --color-font-sec: (dark: #000000, light: #FFFFFF),
+    --color-font-label: (dark: #5B5B5B, light: #5B5B5B),
+
+    --shadow-color: (dark: rgb(0 0 0 / 30%), light: rgb(0 0 0 / 10%))
+);
+
+@mixin generate {
+
+    --color-primary: #d82f36;
+    --color-primary-hover: #B50F03;
+    --color-primary-text: #ffffff;
+    --color-secondary: #1192C0;
+    --color-secondary-hover: #1085AF;
+    --color-secondary-text: #FFFFFF;
+    --color-positive: #20B953;
+    --color-negative: #D8000C;
+    --color-inactive: #9d9ca3;
+    --color-inactive-text: #FFFFFF;
+    --color-danger: #d9534f;
+    --color-danger-hover: #c84c49;
+    --color-danger-text: #FFFFFFF;
+    
+    
+    @each $col, $map in $colors {
+        #{$col}: map-get($map, light)
+    }
+
+    .theme-dark {
+        @each $col, $map in $colors {
+            #{$col}: map-get($map, dark)
+        }
+    }
+}

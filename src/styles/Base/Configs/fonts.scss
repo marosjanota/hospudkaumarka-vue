@@ -1,0 +1,44 @@
+﻿@use "colors";
+@use "../Mixins/font";
+
+@mixin generate {
+    --text-xs: 0.75rem; //12px
+    --text-sm: 0.875rem; //14px
+    --text-md: 1rem; //16px
+    --text-lg: 1.125rem; //18px
+    --text-xl: 1.25rem; //20px
+    --text-xxl: 1.5rem; //24px
+    --text-h1: 2rem; //32px
+    --text-h2: var(--text-xxl); //28px
+    --text-h3: var(--text-xl); //24px
+    --text: var(--text-md);
+}
+
+$font-name: 'Montserrat', sans-serif;
+$icon-font: 'Material Icons Outlined';
+
+$style: normal !default;
+$family: $font-name !default;
+$size: var(--text);
+$line-height: 1.5 !default;
+$weight: normal;
+
+$h1-size: var(--text-h1);
+$h1-weight: normal;
+$h1-color: var(--color-text);
+
+$h2-size: var(--text-h2);
+$h2-weight: normal;
+$h2-color: var(--color-text);
+
+$h3-size: var(--text-xxl);
+$h3-weight: normal;
+$h3-color: var(--color-text);
+
+$h4-size: var(--text-lg);
+$h4-weight: normal;
+$h4-color: var(--color-text);
+
+$h5-size: var(--text-md);
+$h5-weight: bold;
+$h5-color: var(--color-text);

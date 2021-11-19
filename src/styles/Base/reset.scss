@@ -1,0 +1,77 @@
+﻿@use "Configs/fonts";
+
+@mixin reset {
+    html,
+    body {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: fonts.$family;
+        font-size: var(--text);
+        font-weight: fonts.$weight;
+        line-height: fonts.$line-height;
+        color: var(--color-font);
+        background-color: var(--color-background);
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: fonts.$h1-size;
+        font-weight: fonts.$h1-weight;
+        color: fonts.$h1-color;
+    }
+
+    h2 {
+        font-size: fonts.$h2-size;
+        font-weight: fonts.$h2-weight;
+        color: fonts.$h2-color;
+    }
+
+    h3 {
+        font-size: fonts.$h3-size;
+        font-weight: fonts.$h3-weight;
+        color: fonts.$h3-color;
+    }
+
+    h4 {
+        font-size: fonts.$h4-size;
+        font-weight: fonts.$h4-weight;
+        color: fonts.$h4-color;
+    }
+
+    h5 {
+        font-size: fonts.$h5-size;
+        font-weight: fonts.$h5-weight;
+        color: fonts.$h5-color;
+    }
+
+    .page-title {
+        display: block;
+        font-size: var(--text-h1);
+        font-weight: 400;
+        margin-bottom: var(--gap-md);
+    }
+
+    .page-subtitle {
+        display: block;
+        font-size: var(--text-h2);
+        font-weight: 400;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    iframe {
+        border: none;
+    }
+}

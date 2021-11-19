@@ -1,0 +1,6 @@
+﻿@use "../Configs/colors" as color;
+
+@mixin set($type: 'primary') {
+    background-color: var(--color-#{$type});
+    color: var(--color-#{$type}-text);
+}

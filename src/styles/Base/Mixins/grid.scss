@@ -1,0 +1,28 @@
+﻿@use "../Configs/sizes";
+
+@mixin create($cols: 2, $rows: 0, $size: max-content, $gap: var(--gap-md)) {
+    display: grid;
+    align-items: center;
+
+    @if $cols != 0 {
+        grid-template-columns: repeat($cols, $size);
+    }
+
+    @if $rows != 0 {
+        grid-template-columns: repeat($rows, $size);
+    }
+
+    @if $gap != 0 {
+        grid-gap: $gap;
+    }
+
+    @content;
+}
+
+@mixin stretch-item-horizontal($columns: 2) {
+    grid-column-end: span $columns;
+}
+
+@mixin stretch-item-vertical($rows: 2) {
+    grid-row-end: span $rows;
+}

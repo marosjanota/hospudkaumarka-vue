@@ -1,0 +1,8 @@
+﻿@mixin generate($repeat: true) {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wcNFQgoiHdD/gAAAAxpVFh0Q29tbWVudAAAAAAAvK6ymQAAACtJREFUOMtjnDlz5n8GPODs2bP4pBmYGCgEowYMBgNYCMWzsbHxaCAOfwMAB2UIU5u61XQAAAAASUVORK5CYII=');
+    background-size: 16px;
+
+    @if $repeat == false {
+        background-repeat: no-repeat;
+    }
+}
