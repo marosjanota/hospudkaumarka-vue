@@ -63,7 +63,7 @@ export default {
             text-align: center;
         }
 
-        @include mq('mobile', max) {
+        @include mq('tablet', max) {
             grid-template-columns: 1fr;
             grid-template-rows: auto auto;
             grid-gap: var(--gap-md);
@@ -76,7 +76,7 @@ export default {
         }
     }
     
-    @include mq('mobile', max) {
+    @include mq('tablet', max) {
         .w-50 {
             width: 100%;
         }

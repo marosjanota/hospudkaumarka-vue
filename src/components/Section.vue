@@ -28,16 +28,18 @@ export default {
 
     .section {
         padding: var(--gap-lg) 0;
+        max-width: 100%;
 
-        @include mq('mobile', max) {
+        @include mq('desktop-large', max) {
             padding: var(--gap-lg);
         }
 
         
-        @include mq('mobile', min) {
+        @include mq('desktop-large', min) {
             &:not(.section--full-width) {
                 .section__content {
                     width: 1150px;
+                    max-width: 100%;
                     margin: 0 auto;
                 }
             }

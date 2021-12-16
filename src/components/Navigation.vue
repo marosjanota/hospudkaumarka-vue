@@ -191,7 +191,7 @@ $hamburger-size: calc(var(--gap-lg) * 2 + #{$hamburger-item-width});
 
     
         
-    @include mq('mobile', max) {
+    @include mq('tablet', max) {
         min-height: 60px;
 
         &__body {
@@ -247,7 +247,7 @@ $hamburger-size: calc(var(--gap-lg) * 2 + #{$hamburger-item-width});
         margin: 0;
     }
 
-    @include mq('mobile', max) {
+    @include mq('tablet', max) {
         display: flex;
         font-size: 1.2rem;
     }

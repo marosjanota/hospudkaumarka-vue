@@ -41,7 +41,7 @@ export default {
   min-height: 100vh;
   margin-top: 7rem;
 
-  @include mq('mobile', max) {
+  @include mq('tablet', max) {
     margin-top: 5rem;
   }
 }

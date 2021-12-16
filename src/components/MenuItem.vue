@@ -48,7 +48,7 @@ export default {
         grid-gap: var(--gap-md);
         font-weight: 500;
 
-        @include mq('mobile', max) {
+        @include mq('tablet', max) {
             grid-template-columns: auto 1fr auto;
         }
         
