@@ -1,4 +1,5 @@
 ﻿@use "Configs/fonts";
+@use "./Mixins/responsive.scss" as r;
 
 @mixin reset {
     html,
@@ -9,10 +10,10 @@
     body {
         margin: 0;
         padding: 0;
-        font-family: fonts.$family;
+        font-family: 'Montserrat', sans-serif;
         font-size: var(--text);
-        font-weight: fonts.$weight;
-        line-height: fonts.$line-height;
+        font-weight: normal;
+        line-height: 1.5;
         color: var(--color-font);
         background-color: var(--color-background);
         transition: background-color 0.2s ease-in-out;
@@ -23,34 +24,28 @@
         box-sizing: border-box;
     }
 
+    :is(h1, h2, h3) {
+        font-weight: normal;
+    }
+
     h1 {
-        font-size: fonts.$h1-size;
-        font-weight: fonts.$h1-weight;
-        color: fonts.$h1-color;
+        font-size: var(--text-h1);
     }
 
     h2 {
-        font-size: fonts.$h2-size;
-        font-weight: fonts.$h2-weight;
-        color: fonts.$h2-color;
+        font-size: var(--text-h2);
+
+        @include r.mq('mobile', max) {
+            font-size: 1.2rem;
+        }
     }
 
     h3 {
-        font-size: fonts.$h3-size;
-        font-weight: fonts.$h3-weight;
-        color: fonts.$h3-color;
-    }
-
-    h4 {
-        font-size: fonts.$h4-size;
-        font-weight: fonts.$h4-weight;
-        color: fonts.$h4-color;
-    }
-
-    h5 {
-        font-size: fonts.$h5-size;
-        font-weight: fonts.$h5-weight;
-        color: fonts.$h5-color;
+        font-size: var(--text-h3);
+        
+        @include r.mq('mobile', max) {
+            font-size: 1.1rem;
+        }
     }
 
     .page-title {

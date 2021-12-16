@@ -1,5 +1,5 @@
 <template lang="html">
-    <Section>
+    <Section class="contact-box">
         <Box title="Otevírací doba" class="box--hours w-50 ml-a mr-a" titleCenter> 
             <div class="hours jc-c mt-md">
                 <span class="text--bold">po:</span>
@@ -47,10 +47,8 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-    .box--hours {
-    }
-
-    .hours {
+@import "@/styles/Base/Mixins/responsive";
+     .hours {
         display: grid;
         grid-template-columns: auto auto;
         gap: var(--gap-md)
@@ -63,6 +61,24 @@ export default {
 
         &__info {
             text-align: center;
+        }
+
+        @include mq('mobile', max) {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+            grid-gap: var(--gap-md);
+
+            &__map iframe{
+                max-width: 100%;
+                height: auto;
+                margin-top: var(--gap-lg);
+            }
+        }
+    }
+    
+    @include mq('mobile', max) {
+        .w-50 {
+            width: 100%;
         }
     }
 </style>

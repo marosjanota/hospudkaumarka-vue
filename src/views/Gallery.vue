@@ -38,6 +38,7 @@ export default {
 <style lang="scss" scoped>
     .gallery {
         display: flex;
+        flex-wrap: wrap;
         gap: var(--gap-md);
         margin-top: var(--gap-md);
 

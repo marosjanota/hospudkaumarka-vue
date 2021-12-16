@@ -33,11 +33,17 @@ export default {
 
 <style lang="scss">
 @import "@/styles/style.scss";
+@import "@/styles/Base/Mixins/responsive";
 
 .body-wrapper {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  margin-top: 7rem;
+
+  @include mq('mobile', max) {
+    margin-top: 5rem;
+  }
 }
 
 .route-enter-from {

@@ -35,14 +35,22 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import "@/styles/Base/Mixins/responsive";
+
     .title {
         margin-bottom: var(--gap-md);
+        font-weight: 500;
     }
 
     .menu-item {
         display: grid;
         grid-template-columns: 3rem 1fr auto;
         grid-gap: var(--gap-md);
+        font-weight: 500;
+
+        @include mq('mobile', max) {
+            grid-template-columns: auto 1fr auto;
+        }
         
         &__value {
             grid-column: 1;

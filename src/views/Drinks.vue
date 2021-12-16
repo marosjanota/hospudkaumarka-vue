@@ -128,6 +128,7 @@ export default {
     .drinks-list {
         display: grid;
         grid-template-columns: 3rem 1fr auto;
+        font-weight: 500;
 
         &--alco {
             display: grid;

@@ -24,13 +24,22 @@ export default {
 }
 </script>
 <style lang="scss">
+@import "@/styles/Base/Mixins/responsive";
+
     .section {
         padding: var(--gap-lg) 0;
 
-        &:not(.section--full-width) {
-            .section__content {
-                width: 1150px;
-                margin: 0 auto;
+        @include mq('mobile', max) {
+            padding: var(--gap-lg);
+        }
+
+        
+        @include mq('mobile', min) {
+            &:not(.section--full-width) {
+                .section__content {
+                    width: 1150px;
+                    margin: 0 auto;
+                }
             }
         }
 
