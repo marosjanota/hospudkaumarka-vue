@@ -2,7 +2,11 @@
   <div class="body-wrapper">
     <Navigation/>
     <main>
-      <router-view/>
+      <router-view v-slot="{ Component }">
+        <transition name="route" mode="out-in">
+            <component :is="Component"></component>
+        </transition>
+      </router-view>
     </main>
     <Footer/>
   </div>
@@ -15,6 +19,13 @@ export default {
   components: {
     Footer,
     Navigation
+  },
+  data() {
+    return {
+      menu: [
+        { monday: []}
+      ]
+    }
   }
 }
 
@@ -29,4 +40,21 @@ export default {
   min-height: 100vh;
 }
 
+.route-enter-from {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.route-enter-active {
+  transition: all .3s ease-out
+}
+
+.route-leave-to {
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.route-leave-active {
+  transition: all .3s ease-out
+}
 </style>

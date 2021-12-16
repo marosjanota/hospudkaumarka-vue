@@ -22,7 +22,7 @@ export default {
 <style lang="scss">
     .box {
         position: relative;
-        border: var(--border-width) solid var(--color-border);
+        border: 2px solid var(--color-border);
         margin-top: 2rem;
 
         &__title {
@@ -34,6 +34,7 @@ export default {
             margin: 0;
             background-color: var(--color-background);
             text-transform: uppercase;
+            white-space: nowrap;
         }
 
         &--title-center {
@@ -44,7 +45,7 @@ export default {
         }
 
         &__content {
-            padding: var(--gap-xl) var(--gap-lg) var(--gap-lg) var(--gap-lg);
+            padding: var(--gap-xl) var(--gap-xl) var(--gap-lg) var(--gap-xl);
         }
 
         + .box {
