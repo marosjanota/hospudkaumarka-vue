@@ -9,6 +9,40 @@
 
 
 
+
+
+
+
+
+
+
+{
+    id: 1,
+    day: 'Pondelí',
+    open: true,
+    value01: "0,3l",
+    meal01:  "Pórková polévka",
+    price01: "25,-",
+    value02: "1.",
+    meal02:  "Špagety Carbonára sypané sýrem     ",
+    price02: "100,-",
+    value03: "2.",
+    meal03:  "Vepřový steak, hranolky, grilovací omáčka",
+    price03: "110,-",
+    value04: "3.",
+    meal04:  "Jídlo týdne – ",
+    price04: "115,-",
+    value05: "4.",
+    meal05:  "Salát Caesar s kuřecím masem, krutony a parmazánem",
+    price05: "110,-"
+},
+
+
+
+
+
+
+
             {
                 id: 1,
                 day: 'Pondelí',

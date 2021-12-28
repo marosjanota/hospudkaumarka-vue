@@ -16,8 +16,8 @@
         line-height: 1.5;
         color: var(--color-font);
         background-color: var(--color-background);
-        transition: background-color 0.2s ease-in-out;
         overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     * {

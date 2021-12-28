@@ -14,10 +14,10 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Krémová česneková polévka",
-            "meal02": "Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem",
-            "meal03": "Kung – pao s jasmínovou rýží",
-            "meal04": "Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky",
+            "meal01": "Pórková polévka",
+            "meal02": "Špagety Carbonára sypané sýrem ",
+            "meal03": "Vepřový steak, hranolky, grilovací omáčka",
+            "meal04": "",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
@@ -34,10 +34,10 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Krémová česneková polévka",
-            "meal02": "Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem",
-            "meal03": "Kung – pao s jasmínovou rýží",
-            "meal04": "Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky",
+            "meal01": "Čínská polévka",
+            "meal02": "Domácí sekaná pečeně, bramborová kaše, okurka",
+            "meal03": "Kuřecí medailonky na žampionech, bramborové placky",
+            "meal04": "",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
@@ -54,10 +54,10 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Krémová česneková polévka",
-            "meal02": "Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem",
-            "meal03": "Kung – pao s jasmínovou rýží",
-            "meal04": "Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky",
+            "meal01": "Česneková polévka",
+            "meal02": "Maďarský kuřecí paprikáš, těstoviny",
+            "meal03": "Pastevecký řízek, vařené brambory, okurka",
+            "meal04": "",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
@@ -74,10 +74,10 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Krémová česneková polévka",
-            "meal02": "Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem",
-            "meal03": "Kung – pao s jasmínovou rýží",
-            "meal04": "Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky",
+            "meal01": "Bramborová",
+            "meal02": "Halušky s bryndzou a rozpuštěnou slaninou",
+            "meal03": "Buritos  mexicanos s chilli omáčkou",
+            "meal04": "",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
@@ -94,11 +94,7 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Krémová česneková polévka",
-            "meal02": "Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem",
-            "meal03": "Kung – pao s jasmínovou rýží",
-            "meal04": "Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky",
-            "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+            "meal01": "Zavřeno"
         }
     ]
 }

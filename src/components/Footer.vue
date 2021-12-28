@@ -16,5 +16,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
+    footer {
+        background-color: var(--color-background-sec);
+        padding: var(--gap-md);
+        font-weight: 500;
+    }
 </style>

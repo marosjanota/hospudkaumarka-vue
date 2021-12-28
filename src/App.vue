@@ -13,8 +13,6 @@
 </template>
 
 <script>
-import { onBeforeMount } from 'vue'
-import { useStore } from  'vuex'
 import { Footer, Navigation } from "@/components"
 
 export default {
@@ -22,11 +20,8 @@ export default {
     Footer,
     Navigation
   },
-  setup() {
-    const store = useStore()
-    onBeforeMount(() => {
-      store.dispatch('getMenu')
-    })
+  mounted() {
+    this.$store.dispatch('getMenu')
   }
 }
 
@@ -38,12 +33,12 @@ export default {
 
 .body-wrapper {
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
   min-height: 100vh;
-  margin-top: 7rem;
+  padding-top: 7rem;
 
   @include mq('tablet', max) {
-    margin-top: 5rem;
+    padding-top: 5rem;
   }
 }
 

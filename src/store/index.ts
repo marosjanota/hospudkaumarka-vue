@@ -4,9 +4,13 @@ export default createStore({
     state: {
         currentDay: null,
         currentDayDate: null,
-        dailyMenu: [{
-            id: 1
-        }]
+        dailyMenu: [
+            { id: 1 },
+            { id: 2 },
+            { id: 3 },
+            { id: 4 },
+            { id: 5 }
+        ]
     },
     mutations: {
         SET_MENU(state, menu) {
@@ -22,15 +26,14 @@ export default createStore({
             } else if (curDay.getDay() < 6) {
                 return state.dailyMenu.find(i => i.id == curDay.getDay())
             }
-
             return null
         }
     },
     actions: {
         getMenu({ commit }) {
-            axios.get('http://localhost:3311/dailyMenu')
+            axios.get('./json/menu.json')
                 .then(response => {
-                    commit('SET_MENU', response.data)
+                    commit('SET_MENU', response.data.dailyMenu)
                 })
         },
     }
