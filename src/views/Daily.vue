@@ -1,29 +1,24 @@
-<template lang="html">
+<template>
     <Section>
          <Box title="Polední menu">
-            <div class="menu" v-for="m in menu" :key="m.id" > 
-                <MenuItem :menu="m"/>
+            <div class="menu" v-for="m in getMenu" :key="m.id" > 
+                <MenuItem :menu="m" v-if="m.open"/>
             </div>
         </Box>
     </Section>
 </template>
 <script>
-import { useStore } from  'vuex'
-
 import { Section, MenuItem, Box } from '@/components' 
 
 export default {
     components: {
         Section,
         MenuItem,
-        Box
+        Box,
     },
-    setup () {
-        const store = useStore()
-        const menu = store.state.dailyMenu 
-        
-        return {
-            menu
+    computed: {
+        getMenu() {
+            return this.$store.getters.getMenu
         }
     }
 }

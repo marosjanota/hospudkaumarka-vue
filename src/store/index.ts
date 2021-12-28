@@ -1,108 +1,37 @@
+import axios from 'axios'
 import { createStore } from 'vuex'
 export default createStore({
     state: {
         currentDay: null,
-        dailyMenu: [
-            {
-                id: 0,
-                day: 'Pondelí',
-                value01: '0,3l',
-                value02: '1.',
-                value03: '2.',
-                value04: '3.',
-                value05: '4.',
-                price01: '25,-',
-                price02: '100,-',
-                price03: '110,-',
-                price04: '115,-',
-                price05: '110,-',
-                meal01: 'Krémová česneková polévka',
-                meal02: 'Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem',
-                meal03: 'Kung – pao s jasmínovou rýží',
-                meal04: 'Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky',
-                meal05: 'Salát Caesar s kuřecím masem, krutony a parmazánem',
-            },
-            {
-                id: 1,
-                day: 'Úterý',
-                value01: '0,3l',
-                value02: '1.',
-                value03: '2.',
-                value04: '3.',
-                value05: '4.',
-                price01: '25,-',
-                price02: '100,-',
-                price03: '110,-',
-                price04: '115,-',
-                price05: '110,-',
-                meal01: 'Krémová česneková polévka',
-                meal02: 'Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem',
-                meal03: 'Kung – pao s jasmínovou rýží',
-                meal04: 'Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky',
-                meal05: 'Salát Caesar s kuřecím masem, krutony a parmazánem',
-            },
-            {
-                id: 2,
-                day: 'Středa',
-                value01: '0,3l',
-                value02: '1.',
-                value03: '2.',
-                value04: '3.',
-                value05: '4.',
-                price01: '25,-',
-                price02: '100,-',
-                price03: '110,-',
-                price04: '115,-',
-                price05: '110,-',
-                meal01: 'Krémová česneková polévka',
-                meal02: 'Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem',
-                meal03: 'Kung – pao s jasmínovou rýží',
-                meal04: 'Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky',
-                meal05: 'Salát Caesar s kuřecím masem, krutony a parmazánem',
-            },
-            {
-                id: 3,
-                day: 'Čtvrtek',
-                value01: '0,3l',
-                value02: '1.',
-                value03: '2.',
-                value04: '3.',
-                value05: '4.',
-                price01: '25,-',
-                price02: '100,-',
-                price03: '110,-',
-                price04: '115,-',
-                price05: '110,-',
-                meal01: 'Krémová česneková polévka',
-                meal02: 'Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem',
-                meal03: 'Kung – pao s jasmínovou rýží',
-                meal04: 'Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky',
-                meal05: 'Salát Caesar s kuřecím masem, krutony a parmazánem',
-            },
-            {
-                id: 4,
-                day: 'Pátek',
-                value01: '0,3l',
-                value02: '1.',
-                value03: '2.',
-                value04: '3.',
-                value05: '4.',
-                price01: '25,-',
-                price02: '100,-',
-                price03: '110,-',
-                price04: '115,-',
-                price05: '110,-',
-                meal01: 'Krémová česneková polévka',
-                meal02: 'Zapečené brambory Trautenberk s kuřecím masem, nivou a pórkem',
-                meal03: 'Kung – pao s jasmínovou rýží',
-                meal04: 'Jídlo týdne – Vepřový steak gyros, tzatziki, pita, hranolky',
-                meal05: 'Salát Caesar s kuřecím masem, krutony a parmazánem',
-            }
-        ]
+        currentDayDate: null,
+        dailyMenu: [{
+            id: 1
+        }]
+    },
+    mutations: {
+        SET_MENU(state, menu) {
+            state.dailyMenu = menu
+        }
     },
     getters: {
+        getMenu: state => state.dailyMenu,
         getCurrentDay: state => {
-            return new Date().getDay() < 5 ? state.dailyMenu.find(i => i.id == new Date().getDay()) : null
+            const curDay =  new Date()
+            if(curDay.getDay() === 0) {
+                return state.dailyMenu.find(i => i.id == 1)
+            } else if (curDay.getDay() < 6) {
+                return state.dailyMenu.find(i => i.id == curDay.getDay())
+            }
+
+            return null
         }
+    },
+    actions: {
+        getMenu({ commit }) {
+            axios.get('http://localhost:3311/dailyMenu')
+                .then(response => {
+                    commit('SET_MENU', response.data)
+                })
+        },
     }
 })

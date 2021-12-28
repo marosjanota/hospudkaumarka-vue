@@ -1,75 +1,53 @@
 <template lang="html">
-    <Box title="Fotogalerie">
-        <div class="gallery">
-            <img src="https://via.placeholder.com/1500" class="gallery__item" alt="Photo 01"/>
-            <img src="https://via.placeholder.com/1500" class="gallery__item" alt="Photo 02"/>
-            <img src="https://via.placeholder.com/1500" class="gallery__item" alt="Photo 03"/>
-            <img src="https://via.placeholder.com/1500" class="gallery__item" alt="Photo 03"/>
-            <img src="https://via.placeholder.com/1500" class="gallery__item" alt="Photo 03"/>
-        </div>
+    <Box title="Fotogalerie" class="gallery">
+        <VuePictureSwipe
+            :items="items">
+        </VuePictureSwipe>
     </Box>
-
-    <div class="gallery--opened" v-if="imgSelected">
-        <div class="popup">
-            <div class="popup__close">X</div>
-            <div class="popup__content">
-
-            </div>
-        </div>
-    </div>
 </template>
 <script>
 import { ref } from 'vue'
 import { Box } from '@/components'
 
+import VuePictureSwipe from 'vue3-picture-swipe';
+
 export default {
     components: {
-        Box
+        Box,
+        VuePictureSwipe
     }, 
     setup() {
         const imgSelected = ref(false)
 
+        const items = [{
+            src: 'images/hospoda02_1600.jpg',
+            thumbnail: 'images/hospoda02_300.jpg',
+            w: 1600,
+            h: 1200
+        },{
+            src: 'images/hospoda03_1600.jpg',
+            thumbnail: 'images/hospoda03_300.jpg',
+            w: 1600,
+            h: 1200
+        },{
+            src: 'images/hospoda01_1600.jpg',
+            thumbnail: 'images/hospoda01_300.jpg',
+            w: 1600,
+            h: 1200
+        }]
+
         return {
-            imgSelected
+            imgSelected,
+            items
         }
     }
 }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
     .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: var(--gap-md);
-        margin-top: var(--gap-md);
-
-        &__item {
-            width: 12rem;
-
-        }
-
-        &--opened {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            display: grid;
-            place-items: center;
-        }
-    }
-
-    .popup {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-
-        &__close {
-
-        }
-
-        &__content {
-            max-width: 50rem;
-            max-height: 50rem
+        .gallery-thumbnail img {
+            max-height: 10rem;
+            max-width: 100%;
         }
     }
 </style>

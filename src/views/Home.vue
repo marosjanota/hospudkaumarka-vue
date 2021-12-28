@@ -1,7 +1,7 @@
 <template>
   <Section>
-    <Box title="Dnešní menu" v-if="menu" >
-      <MenuItem :menu="menu"/>       
+    <Box title="Dnešní menu" v-if="getCurrentDay" >
+      <MenuItem :menu="getCurrentDay" v-if="getCurrentDay.open"/>       
     </Box>
     <Gallery/>
     <Contact/>
@@ -9,28 +9,23 @@
 
 </template>
 
-<script lang="ts">
-import { useStore } from  'vuex'
-
+<script>
 import { Section, Box, MenuItem } from "@/components"
 import Contact from "@/views/Contact.vue"
 import Gallery from "@/views/Gallery.vue"
 
 export default {
   components: {
-    Section,
-    Box,
-    Contact,
-    MenuItem,
-    Gallery
+      Section,
+      Box,
+      Contact,
+      MenuItem,
+      Gallery
   },
-  setup () {
-        const store = useStore()
-        const menu = store.getters.getCurrentDay 
-        
-        return {
-            menu
-        }
-    }
+  computed: {
+      getCurrentDay () {
+          return this.$store.getters.getCurrentDay
+      }
+  }
 }
 </script>

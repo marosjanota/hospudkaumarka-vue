@@ -13,6 +13,8 @@
 </template>
 
 <script>
+import { onBeforeMount } from 'vue'
+import { useStore } from  'vuex'
 import { Footer, Navigation } from "@/components"
 
 export default {
@@ -20,12 +22,11 @@ export default {
     Footer,
     Navigation
   },
-  data() {
-    return {
-      menu: [
-        { monday: []}
-      ]
-    }
+  setup() {
+    const store = useStore()
+    onBeforeMount(() => {
+      store.dispatch('getMenu')
+    })
   }
 }
 

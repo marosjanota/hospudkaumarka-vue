@@ -2,7 +2,7 @@
     <footer>
         <Section secondary>
             <div class="d-f jc-c">
-                &copy; {{ new Date().getFullYear() }} | Maroš Janota 
+                &copy; Hospůdka u Marka {{ new Date().getFullYear() }} | Vytvořil: <a href="https://marosjanota.cz" target="_blank" class="ml-md">Maroš Janota </a>
             </div>
          </Section>
     </footer>

@@ -34,12 +34,11 @@ export default {
         function openBurger() {
             burgerCheck.value = !burgerCheck.value
         }
-
         
         watch(route, () => {
-                burgerCheck.value = false
-            }
-        )
+            window.scrollTo({top: 0})
+            burgerCheck.value = false
+        })
 
         return {
             burgerCheck,
@@ -89,15 +88,11 @@ $hamburger-size: calc(var(--gap-lg) * 2 + #{$hamburger-item-width});
             font-weight: 600;
             letter-spacing: 1px;
 
-            &.active {
-                color: var(--color-primary)
-            }
-
             &:before, &:after {
                 position: absolute;
                 width: 35px;
                 height: 2px;
-                background: var(--color-font);
+                background: var(--color-primary);
                 content: '';
                 opacity: 0.2;
                 transition: all 0.3s;

@@ -56,14 +56,14 @@ export default {
     data() {
         return {
             beer: [
-                { name: 'Březňák ležák 11°', price: '28,-', unit: '0,5l' },
-                { name: 'Březňák ležák 11°', price: '19,-', unit: '0,3l' },
-                { name: 'Nealkoholické pivo', price: '25,-', unit: '0,5l' }
+                { name: 'Březňák ležák 11°', price: '30,-', unit: '0,5l' },
+                { name: 'Březňák ležák 11°', price: '20,-', unit: '0,3l' },
+                { name: 'Nealkoholické pivo', price: '30,-', unit: '0,5l' }
             ],
             wine: [
                 { name: 'Vino bíle rozlévané – dle denní nabídky', price: '35,-', unit: '0,2l' },
                 { name: 'Vino červené rozlévané – dle denní nabídky', price: '35,-', unit: '0,2l' },
-                { name: 'Láhev vína – dle nabídky', price: 'od 190,-', unit: '0,75l' },
+                { name: 'Láhev vína – dle nabídky', price: '', unit: '0,75l' },
                 { name: 'Sekt', price: '230,-', unit: '0,75l' }
             ],
             nonalkoholic: [
@@ -74,37 +74,28 @@ export default {
                 { name: 'Voda – perlivá', price:'20,-', unit: '0,33l' },
                 { name: 'RC Cola', price:'30,-', unit: '0,25l' },
                 { name: 'Vinea', price:'30,-', unit: '0,25l' },
-                { name: 'Semtex', price:'50,-', unit: '0,5l' },
                 { name: 'Juice', price:'30,-', unit: '0,5l' },
-                { name: 'Tonic – zázvor', price:'25,-', unit: '0,25l' },
-                { name: 'Voda s citronem', price:'20,-', unit: '1l' },
+                { name: 'Tonic – zázvor', price:'30,-', unit: '0,25l' },
             ],
             warm: [
-                { name: 'Turecká káva', price:'20,-'},
-                { name: 'Vídeňská káva', price:'30,-'},
-                { name: 'Espresso', price:'25,-'},
-                { name: 'Cappuccino', price:'30,-'},
-                { name: 'Latte Macchiato', price:'30,-'},
+                { name: 'Turecká káva', price:'25,-'},
+                { name: 'Espresso', price:'30,-'},
                 { name: 'Čaj dle nabídky', price:'25,-'},
-                { name: 'Smetana do kávy', price:'3,-'},
                 { name: 'Svařáček 0,2l', price:'40,-'},
                 { name: 'Groček 0,2l', price:'35,-'},
-                { name: 'Horká hruška / brusinka', price:'35,-'}
             ],
             alkohol: [
                 { name: 'Rum', price02: '12,-', price04: '24,-' },
                 { name: 'Vodka', price02: '12,-', price04: '24,-' },
                 { name: 'Zelená', price02: '12,-', price04: '24,-' },
-                { name: 'Švestka 40%', price02: '15,-', price04: '30,-' },
+                { name: 'Destilát dle nabídky', price02: '15,-', price04: '30,-' },
                 { name: 'Božkov Jablko', price02: '12,-', price04: '24,-' },
                 { name: 'Božkov Švestka', price02: '12,-', price04: '24,-' },
                 { name: 'Fernet Stock', price02: '15,-', price04: '30,-' },
                 { name: 'Becherovka', price02: '15,-', price04: '30,-' },
                 { name: 'Jägermeister', price02: '20,-', price04: '40,-' },
-                { name: 'Tullamore Dew', price02: '25,-', price04: '50,-' },
-                { name: 'Finská vodka', price02: '20,-', price04: '40,-' },
-                { name: 'Hruškovice 40%', price02: '15,-', price04: '30,-' },
-                { name: 'Gin', price02: '15,-', price04: '30,-' },
+                { name: 'Amundsen vodka', price02: '20,-', price04: '40,-' },
+                { name: 'Stará myslivecká', price02: '20,-', price04: '40,-' },
             ]
 
         }
