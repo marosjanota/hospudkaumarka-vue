@@ -1,8 +1,8 @@
 <template lang="html">
     <footer>
         <Section secondary>
-            <div class="d-f jc-c">
-                &copy; Hospůdka u Marka {{ new Date().getFullYear() }} | Vytvořil: <a href="https://marosjanota.cz" target="_blank" class="ml-md">Maroš Janota </a>
+            <div class="ta-c">
+                &copy; Hospůdka u Marka {{ new Date().getFullYear() }} <span class="divider">|</span> Vytvořil: <a href="https://marosjanota.cz" target="_blank" class="ml-md">Maroš Janota </a>
             </div>
          </Section>
     </footer>
@@ -16,9 +16,18 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-    footer {
-        background-color: var(--color-background-sec);
-        padding: var(--gap-md);
-        font-weight: 500;
+@import "@/styles/Base/Mixins/responsive";
+footer {
+    background-color: var(--color-background-sec);
+    padding: var(--gap-md);
+    font-weight: 500;
+}
+    
+@include mq('mobile', max) {
+    .divider {
+        display: block;
+        opacity: 0;
+        height: 2px
     }
+}
 </style>

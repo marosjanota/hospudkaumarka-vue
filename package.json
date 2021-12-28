@@ -5,7 +5,7 @@
   "scripts": {
     "db:serve": "json-server --watch src/store/menu.json --port=3311",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --dest hospudkaumarka-vue"
   },
   "dependencies": {
     "axios": "^0.24.0",

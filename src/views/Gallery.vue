@@ -44,6 +44,10 @@ export default {
 }
 </script>
 <style lang="scss">
+    .my-gallery {
+        text-align: center;
+    }
+    
     .gallery {
         .gallery-thumbnail img {
             max-height: 10rem;
