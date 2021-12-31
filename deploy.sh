@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # navigate into the build output directory
-cd hospudkaumarka-vue
+cd dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
