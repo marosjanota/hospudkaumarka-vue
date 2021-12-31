@@ -1,6 +1,6 @@
 <template lang="html">
     <h3 class="title">{{menu.day}}</h3>
-    <div class="menu-item">
+    <div class="menu-item" v-if="menu.open">
         <span class="menu-item__value">{{menu.value01}}</span>
         <span class="menu-item__meal">{{menu.meal01}}</span>
         <span class="menu-item__price">{{menu.price01}}</span>
@@ -20,6 +20,9 @@
         <span class="menu-item__value">{{menu.value05}}</span>
         <span class="menu-item__meal">{{menu.meal05}}</span>
         <span class="menu-item__price">{{menu.price05}}</span>
+    </div>
+    <div v-else>
+        <p>Zavřeno</p>
     </div>
 </template>
 <script>

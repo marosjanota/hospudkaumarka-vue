@@ -1,7 +1,7 @@
 <template lang="html">
     <Section>
         <Box title="Pronájem prostoru">
-            <p>Možnost pořádání akcí v Hospodě:</p>
+            <p>Možnost pořádání akcí v Hospůdce:</p>
             <ul>
                 <li>narozeninové oslavy</li>
                 <li>firemní večírky</li>
@@ -9,13 +9,16 @@
                 <li>svatby</li>
             </ul>
 
-            <p>Pro viac info nás kontaktujte na Telefon: +420 606 917 959</p>
+            <p>Kapacita hospody je max 40 osob. </p>
             
             <div class="d-f jc-c mb-mb mt-xxl">
                     <img :src="require('@/assets/WorldCoffeeLogo.png')" alt="logo WorldCoffe" class="logo-wc"/>
             </div>
-            <p>Ve spolupráci s kavárnou World Coffee Medlešice, která sa nachádzi ve stejné budově, ponúkame pronájom priestorov....</p>
-            <p>Cena priestorov je 4000kč. Nelze pronajat iba prostor, je nutný aj catering z Hospody</p>
+            <p>V případě zájmu o uspořádání akcí pro větší počet osob, nabízíme ve spolupráci s kavárnou World Coffee Medlešice, která se nachází ve stejné budově, pronájem prostor kavárny. Kapacita kavárny je max. 100 osob.</p>
+            <p>Cena pronájmu prostor kavárny je 4000kč.</p>
+
+            <p>Pro více informací nás kontaktujte na telefonu +420 606 917 959.</p>
+            <br/>
 
             <div class="mt-xl">
                 <VuePictureSwipe

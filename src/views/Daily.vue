@@ -2,7 +2,7 @@
     <Section>
          <Box title="Polední menu">
             <div class="menu" v-for="m in getMenu" :key="m.id" > 
-                <MenuItem :menu="m" v-if="m.open"/>
+                <MenuItem :menu="m"/>
             </div>
         </Box>
     </Section>
