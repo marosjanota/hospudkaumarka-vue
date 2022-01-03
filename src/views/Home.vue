@@ -1,7 +1,7 @@
 <template>
   <Section>
     <Box title="Dnešní menu" v-if="getCurrentDay" >
-      <MenuItem :menu="getCurrentDay" v-if="getCurrentDay.open"/>       
+      <MenuItem :menu="getCurrentDay" v-if="getCurrentDay"/>
     </Box>
     <Gallery/>
     <Contact/>
@@ -24,6 +24,8 @@ export default {
   },
   computed: {
       getCurrentDay () {
+        console.log('asd')
+          console.log(this.$store.getters.getCurrentDay.open)
           return this.$store.getters.getCurrentDay
       }
   }

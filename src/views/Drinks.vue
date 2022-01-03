@@ -56,8 +56,8 @@ export default {
     data() {
         return {
             beer: [
-                { name: 'Březňák ležák 11°', price: '30,-', unit: '0,5l' },
-                { name: 'Březňák ležák 11°', price: '20,-', unit: '0,3l' },
+                { name: 'Dle aktuální nabídky', price: '30,-', unit: '0,5l' },
+                { name: 'Dle aktuální nabídky', price: '20,-', unit: '0,3l' },
                 { name: 'Nealkoholické pivo', price: '30,-', unit: '0,5l' }
             ],
             wine: [

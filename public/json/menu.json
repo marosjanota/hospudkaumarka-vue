@@ -14,10 +14,10 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Pórková polévka",
-            "meal02": "Špagety Carbonára sypané sýrem ",
-            "meal03": "Vepřový steak, hranolky, grilovací omáčka",
-            "meal04": "",
+            "meal01": "Čočková polévka",
+            "meal02": "Pečené kuře s nádivkou, vařené brambory",
+            "meal03": "Guláš kata Mydláře, knedlíky",
+            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
@@ -34,10 +34,10 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Čínská polévka",
-            "meal02": "Domácí sekaná pečeně, bramborová kaše, okurka",
-            "meal03": "Kuřecí medailonky na žampionech, bramborové placky",
-            "meal04": "",
+            "meal01": "Drůbeží krémová polévka",
+            "meal02": "Masové kuličky se smetanovo  - žampionovou omáčkou, rýže",
+            "meal03": "Kuřecí steak Caprese, pečené brambory",
+            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
@@ -54,10 +54,10 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Česneková polévka",
-            "meal02": "Maďarský kuřecí paprikáš, těstoviny",
-            "meal03": "Pastevecký řízek, vařené brambory, okurka",
-            "meal04": "",
+            "meal01": "Gulášová polévka",
+            "meal02": "Boloňské lasagne zapečené se sýrem gouda",
+            "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, čínské nudle",
+            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
@@ -74,16 +74,16 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Bramborová",
-            "meal02": "Halušky s bryndzou a rozpuštěnou slaninou",
-            "meal03": "Buritos  mexicanos s chilli omáčkou",
-            "meal04": "",
+            "meal01": "Hovězí vývar s těstovinou",
+            "meal02": "Vepřový steak, tortilla se sýrem a rukolou, salát s cherry rajčátky ",
+            "meal03": "Tataráček s topinkami a česnekem",
+            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
             "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         },
         {
             "id": 5,
             "day": "Pátek",
-            "open": false,
+            "open": true,
             "value01": "0,3l",
             "value02": "1.",
             "value03": "2.",
@@ -94,7 +94,11 @@
             "price03": "110,-",
             "price04": "115,-",
             "price05": "110,-",
-            "meal01": "Zavřeno"
+            "meal01": "Boršč",
+            "meal02": "Moravský vrabec, halušky, zelí",
+            "meal03": "Tagliatelle s pestem a grilovaným lasosem",
+            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
+            "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
         }
     ]
 }

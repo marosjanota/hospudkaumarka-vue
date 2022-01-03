@@ -8,7 +8,7 @@
                 </div>
             </router-link>
             <div class="nav__items">
-                <router-link to="/denni-nabidka" class="nav__items--item">Denní nabídka</router-link>
+                <router-link to="/poledni-menu" class="nav__items--item">Denní nabídka</router-link>
                 <router-link to="/napojovy-lister" class="nav__items--item">Nápojový lístek</router-link>
                 <router-link to="/pronajem" class="nav__items--item">Pronájem </router-link>
                 <router-link to="/kontakt" class="nav__items--item">Kontakt</router-link>

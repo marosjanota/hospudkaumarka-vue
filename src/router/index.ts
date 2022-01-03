@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     component: Home
   },
   {
-    path: '/denni-nabidka',
+    path: '/poledni-menu',
     name: 'Daily',
     component: () => import(/* webpackChunkName: "Daily" */ '../views/Daily.vue')
   },
@@ -26,6 +26,14 @@ const routes: Array<RouteRecordRaw> = [
     path: '/kontakt',
     name: 'Contact',
     component: () => import(/* webpackChunkName: "Contact" */ '../views/Contact.vue')
+  },
+  { 
+    path: '/:pathMatch(.*)*', 
+    component: Home 
+  },
+  {
+    path: '/poledni-menu',
+    component: () => import(/* webpackChunkName: "Daily" */ '../views/Daily.vue')
   }
 ]
 
