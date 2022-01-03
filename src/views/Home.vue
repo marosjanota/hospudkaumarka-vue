@@ -1,7 +1,7 @@
 <template>
   <Section>
     <Box title="Dnešní menu" v-if="getCurrentDay" >
-      <MenuItem :menu="getCurrentDay" v-if="getCurrentDay"/>
+      <MenuItem :menu="getCurrentDay" :repeated="getRepeated" v-if="getCurrentDay"/>
     </Box>
     <Gallery/>
     <Contact/>
@@ -24,9 +24,10 @@ export default {
   },
   computed: {
       getCurrentDay () {
-        console.log('asd')
-          console.log(this.$store.getters.getCurrentDay.open)
           return this.$store.getters.getCurrentDay
+      },
+      getRepeated () {
+        return this.$store.getters.getRepeated
       }
   }
 }

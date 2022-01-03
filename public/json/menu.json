@@ -1,104 +1,48 @@
 {
+    "dailyRepeat": {
+        "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
+        "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+    },
     "dailyMenu": [
         {
             "id": 1,
             "day": "Pondelí",
             "open": true,
-            "value01": "0,3l",
-            "value02": "1.",
-            "value03": "2.",
-            "value04": "3.",
-            "value05": "4.",
-            "price01": "25,-",
-            "price02": "100,-",
-            "price03": "110,-",
-            "price04": "115,-",
-            "price05": "110,-",
             "meal01": "Čočková polévka",
             "meal02": "Pečené kuře s nádivkou, vařené brambory",
-            "meal03": "Guláš kata Mydláře, knedlíky",
-            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
-            "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+            "meal03": "Guláš kata Mydláře, knedlíky"
         },
         {
             "id": 2,
             "day": "Úterý",
             "open": true,
-            "value01": "0,3l",
-            "value02": "1.",
-            "value03": "2.",
-            "value04": "3.",
-            "value05": "4.",
-            "price01": "25,-",
-            "price02": "100,-",
-            "price03": "110,-",
-            "price04": "115,-",
-            "price05": "110,-",
             "meal01": "Drůbeží krémová polévka",
             "meal02": "Masové kuličky se smetanovo  - žampionovou omáčkou, rýže",
-            "meal03": "Kuřecí steak Caprese, pečené brambory",
-            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
-            "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+            "meal03": "Kuřecí steak Caprese, pečené brambory"
         },
         {
             "id": 3,
             "day": "Středa",
             "open": true,
-            "value01": "0,3l",
-            "value02": "1.",
-            "value03": "2.",
-            "value04": "3.",
-            "value05": "4.",
-            "price01": "25,-",
-            "price02": "100,-",
-            "price03": "110,-",
-            "price04": "115,-",
-            "price05": "110,-",
             "meal01": "Gulášová polévka",
             "meal02": "Boloňské lasagne zapečené se sýrem gouda",
-            "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, čínské nudle",
-            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
-            "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+            "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, čínské nudle"
         },
         {
             "id": 4,
             "day": "Čtvrtek",
             "open": true,
-            "value01": "0,3l",
-            "value02": "1.",
-            "value03": "2.",
-            "value04": "3.",
-            "value05": "4.",
-            "price01": "25,-",
-            "price02": "100,-",
-            "price03": "110,-",
-            "price04": "115,-",
-            "price05": "110,-",
             "meal01": "Hovězí vývar s těstovinou",
             "meal02": "Vepřový steak, tortilla se sýrem a rukolou, salát s cherry rajčátky ",
-            "meal03": "Tataráček s topinkami a česnekem",
-            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
-            "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+            "meal03": "Tataráček s topinkami a česnekem"
         },
         {
             "id": 5,
             "day": "Pátek",
             "open": true,
-            "value01": "0,3l",
-            "value02": "1.",
-            "value03": "2.",
-            "value04": "3.",
-            "value05": "4.",
-            "price01": "25,-",
-            "price02": "100,-",
-            "price03": "110,-",
-            "price04": "115,-",
-            "price05": "110,-",
             "meal01": "Boršč",
             "meal02": "Moravský vrabec, halušky, zelí",
-            "meal03": "Tagliatelle s pestem a grilovaným lasosem",
-            "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
-            "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+            "meal03": "Tagliatelle s pestem a grilovaným lasosem"
         }
     ]
 }

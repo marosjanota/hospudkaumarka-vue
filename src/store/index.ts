@@ -10,15 +10,20 @@ export default createStore({
             { id: 3 },
             { id: 4 },
             { id: 5 }
-        ]
+        ],
+        repeatedMenu: null
     },
     mutations: {
         SET_MENU(state, menu) {
             state.dailyMenu = menu
+        },
+        SET_REPEATED(state, menu) {
+            state.repeatedMenu = menu
         }
     },
     getters: {
         getMenu: state => state.dailyMenu,
+        getRepeated: state => state.repeatedMenu,
         getCurrentDay: state => {
             const curDay =  new Date()
             if(curDay.getDay() === 0) {
@@ -34,6 +39,7 @@ export default createStore({
             axios.get('./json/menu.json')
                 .then(response => {
                     commit('SET_MENU', response.data.dailyMenu)
+                    commit('SET_REPEATED', response.data.dailyRepeat)
                 })
         },
     }
