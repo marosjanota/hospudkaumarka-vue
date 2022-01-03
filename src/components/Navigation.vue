@@ -2,7 +2,6 @@
     <nav class="nav" :class="{'opened': burgerCheck}" >
         <div class="nav__body">
             <router-link to="/" class="logo">
-                <!-- <img :src="require('@/assets/logo.svg')" class="logo"/> -->
                 <div class="box ta-c" >
                     Hospůdka<br/> u Marka
                 </div>

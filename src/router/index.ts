@@ -30,10 +30,6 @@ const routes: Array<RouteRecordRaw> = [
   { 
     path: '/:pathMatch(.*)*', 
     component: Home 
-  },
-  {
-    path: '/poledni-menu',
-    component: () => import(/* webpackChunkName: "Daily" */ '../views/Daily.vue')
   }
 ]
 
