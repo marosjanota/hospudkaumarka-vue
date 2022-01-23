@@ -4,14 +4,23 @@
             <div class="hours jc-c mt-md">
                 <span class="text--bold">po:</span>
                 <span>10:30 - 13:00</span>
+                <span></span>
+
                 <span class="text--bold">út:</span>
                 <span>10:30 - 13:00</span>
+                <span></span>
+
                 <span class="text--bold">st:</span>
                 <span>10:30 - 13:00</span>
+                <span class="ml-lg">18:00 - 22:00</span>
+
                 <span class="text--bold">čt:</span>
                 <span>10:30 - 13:00</span>
+                <span></span>
+
                 <span class="text--bold">pá:</span>
                 <span>10:30 - 13:00</span>
+                <span class="ml-lg">18:00 - 23:00</span>
             </div>
         </Box>
         <Box title="Kontakt">
@@ -50,7 +59,7 @@ export default {
 @import "@/styles/Base/Mixins/responsive";
      .hours {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         gap: var(--gap-md)
     }
     
