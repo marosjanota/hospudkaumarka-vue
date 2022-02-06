@@ -1,5 +1,5 @@
 <template lang="html">
-    <h3 class="title">{{menu.day}}</h3>
+    <h3 class="menu-title">{{menu.day}}</h3>
     <div class="menu-item" v-if="menu.open">
         <span class="menu-item__value">0,3l</span>
         <span class="menu-item__meal">{{menu.meal01}}</span>
@@ -38,10 +38,10 @@ export default {
     }    
 }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 @import "@/styles/Base/Mixins/responsive";
 
-    .title {
+    .menu-title {
         margin-bottom: var(--gap-md);
         font-weight: 500;
     }

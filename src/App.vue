@@ -20,9 +20,9 @@ export default {
     Footer,
     Navigation
   },
-  mounted() {
+ /*  mounted() {
     this.$store.dispatch('getMenu')
-  }
+  } */
 }
 
 </script>

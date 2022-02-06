@@ -1,9 +1,9 @@
 {
   "name": "hospudkaumarka",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
-    "db:serve": "json-server --watch src/store/menu.json --port=3311",
+    "db:serve": "json-server --watch public/json/menu.json --port=3311",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },

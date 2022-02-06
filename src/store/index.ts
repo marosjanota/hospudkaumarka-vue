@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { createStore } from 'vuex'
+
 export default createStore({
     state: {
         currentDay: null,
@@ -36,7 +37,7 @@ export default createStore({
     },
     actions: {
         getMenu({ commit }) {
-            axios.get('./json/menu.json')
+            axios.get('./json/menu.json?v01')
                 .then(response => {
                     commit('SET_MENU', response.data.dailyMenu)
                     commit('SET_REPEATED', response.data.dailyRepeat)

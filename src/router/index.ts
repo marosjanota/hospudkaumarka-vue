@@ -27,6 +27,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Contact',
     component: () => import(/* webpackChunkName: "Contact" */ '../views/Contact.vue')
   },
+  {
+    path: '/uprav-menu',
+    name: 'UpravMenu',
+    component: () => import(/* webpackChunkName: "EditMenu" */ '../views/EditMenu.vue')
+  },
   { 
     path: '/:pathMatch(.*)*', 
     component: Home 

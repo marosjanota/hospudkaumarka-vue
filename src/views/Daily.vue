@@ -21,6 +21,7 @@ export default {
     },
     computed: {
         getMenu() {
+            console.log(this.$store.getters.getMenu)
             return this.$store.getters.getMenu
         },
         getRepeated() {
