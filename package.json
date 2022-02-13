@@ -1,6 +1,6 @@
 {
   "name": "hospudkaumarka",
-  "version": "0.1.0",
+  "version": "0.2.13",
   "private": true,
   "scripts": {
     "db:serve": "json-server --watch src/store/menu.json --port=3311",
