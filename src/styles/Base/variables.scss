@@ -1,0 +1,13 @@
+﻿@use "Configs/colors";
+@use "Configs/fonts";
+@use "Configs/helpers";
+@use "Configs/sizes";
+
+@mixin generate {
+    :root {
+        @include colors.generate;
+        @include fonts.generate;
+        @include sizes.generate;
+        @include helpers.generate;
+    }
+}

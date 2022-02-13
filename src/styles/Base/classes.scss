@@ -1,0 +1,370 @@
+﻿@use "./Imports/mixins.scss" as mixin;
+
+$alignTypes: (
+    "sb": space-between, 
+    "sa": space-around, 
+    "c": center, 
+    "fe": flex-end, 
+    "fs": flex-start
+);
+
+$directions: (
+    "b": margin-bottom,
+    "t": margin-top,
+    "l": margin-left,
+    "r": margin-right,
+    "a": margin
+);
+
+$directions-padding: (
+    "b": padding-bottom,
+    "t": padding-top,
+    "l": padding-left,
+    "r": padding-right,
+    "a": padding
+);
+
+$sizes: (
+  "0" : 0,
+  "xs": var(--gap-xs),  
+  "sm": var(--gap-sm),  
+  "md": var(--gap-md),  
+  "lg": var(--gap-lg),  
+  "xl": var(--gap-xl),  
+  "xxl": var(--gap-xxl)  
+);
+
+$text-sizes: (
+  "xs": var(--text-xs),  
+  "sm": var(--text-sm),  
+  "md": var(--text-md),  
+  "lg": var(--text-lg),  
+  "xl": var(--text-xl),  
+  "xxl": var(--text-xxl),  
+  "h1": var(--text-h1),  
+  "h2": var(--text-h2),  
+  "h3": var(--text-h3),  
+);
+
+@mixin generate {
+    .grid {
+        &-columns {
+            &-2 {
+                @include mixin.grid-create(2);
+            }
+
+            &-3 {
+                @include mixin.grid-create(3);
+            }
+
+            &-4 {
+                @include mixin.grid-create(4);
+            }
+        }
+
+        &-col {
+            &-1 {
+                grid-column: 1;
+            }
+
+            &-2 {
+                grid-column: 2;
+            }
+
+            &-3 {
+                grid-column: 3;
+            }
+
+            &-4 {
+                grid-column: 4;
+            }
+        }
+
+        &-gap {
+            &-col {
+                &-lg {
+                    grid-column-gap: var(--gap-lg)
+                }
+
+                &-xl {
+                    grid-column-gap: var(--gap-xl)
+                }
+
+                &-xxl {
+                    grid-column-gap: var(--gap-xl)
+                }
+            }
+
+            &-row {
+                &-lg {
+                    grid-row-gap: var(--gap-lg)
+                }
+
+                &-xl {
+                    grid-row-gap: var(--gap-xl)
+                }
+
+                &-xxl {
+                    grid-row-gap: var(--gap-xl)
+                }
+            }
+        }
+    }
+    // display
+    .d {
+        &-b {
+            display: block;
+        }
+
+        &-ib {
+            display: inline-block;
+        }
+
+        &-f {
+            display: flex;
+        }
+
+        &-if {
+            display: inline-flex;
+        }
+
+        &-c {
+            display: contents;
+        }
+
+        &-n {
+            display: none;
+        }
+    }
+    // flex direction
+    .fd {
+        &-r {
+            flex-direction: row;
+        }
+
+        &-c {
+            flex-direction: column;
+        }
+    }
+
+    .fw {
+        &-w {
+            flex-wrap: wrap;
+        }
+
+        &-nw {
+            flex-wrap: nowrap;
+        }
+    }
+    // justifi content
+    .jc {
+        @each $type, $val in $alignTypes {
+            &-#{$type} {
+                justify-content: $val;
+            }
+        }
+    }
+    // align items
+    .ai {
+        @each $type, $val in $alignTypes {
+            &-#{$type} {
+                align-items: $val;
+            }
+        }
+    }
+
+    .as {
+        @each $type, $val in $alignTypes {
+            &-#{$type} {
+                align-self: $val;
+            }
+        }
+    }
+
+    // margin
+    .m {
+        &l-a {
+            margin-left: auto;
+        }
+
+        &r-a {
+            margin-right: auto;
+        }
+
+        &-a {
+            margin: auto
+        }
+
+        @each $dir, $val in $directions {
+            @each $size, $val2 in $sizes {
+                &#{$dir}-#{$size} {
+                    #{$val}: #{$val2};
+                }
+            }
+        }
+    }
+
+    .p {
+        @each $dir, $val in $directions-padding {
+            @each $size, $val2 in $sizes {
+                &#{$dir}-#{$size} {
+                    #{$val}: #{$val2};
+                }
+            }
+        }
+    }
+
+    .ta {
+        &-c {
+            text-align: center;
+        }
+
+        &-l {
+            text-align: left;
+        }
+
+        &-r {
+            text-align: right;
+        }
+    }
+
+    .va {
+        &-m {
+            vertical-align: middle;
+        }
+    }
+
+    .td {
+        &-n {
+            text-decoration: none;
+        }
+
+        &-u {
+            text-decoration: underline
+        }
+    }
+
+    .text {
+        @each $type, $val in $text-sizes {
+            &-#{$type} {
+                font-size: $val;
+            }
+        }
+
+        &--bold {
+            font-weight: 600;
+        }
+    }
+
+
+    .w {
+        &-100 {
+            width: 100%;
+        }
+
+        &-50 {
+            width: 50%;
+        }
+
+        &-a {
+            width: auto;
+        }
+    }
+
+    .p {
+        &-a {
+            position: absolute;
+        }
+
+        &-r {
+            position: relative;
+        }
+    }
+
+    .c-p {
+        cursor: pointer;
+    }
+
+    .text {
+        @each $type, $val in $text-sizes {
+            &-#{$type} {
+                font-size: $val;
+            }
+        }
+
+        &--bold {
+            font-weight: 700;
+        }
+    }
+
+    .icon {
+        &-sm {
+            font-size: 0.875em;
+        }
+
+        &-md {
+            font-size: var(--text);
+        }
+
+        &-lg {
+            font-size: 1.33em;
+        }
+
+        &-2x {
+            font-size: 2em;
+        }
+
+        &-3x {
+            font-size: 3em;
+        }
+    }
+
+    .color {
+        &-error {
+            color: var(--color-error)
+        }
+
+        &-success {
+            color: var(--color-success)
+        }
+
+        &-info {
+            color: var(--color-info)
+        }
+
+        &-warning {
+            color: var(--color-warning)
+        }
+
+        &-accent {
+            color: var(--color-accent)
+        }
+
+        &-primary {
+            color: var(--color-primary)
+        }
+    }
+
+    .max-height-col {
+        max-height: 50rem;
+        overflow: auto;
+    }
+
+    .hidden {
+        display: none;
+
+        &-important {
+            display: none !important;
+        }
+    }
+
+    .bg {
+        &--sec {
+            background-color: var(--color-background-sec);
+        }
+
+        &--transparent {
+            @include mixin.transbg-generate;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+﻿@mixin themeContent($theme: dark, $class, $classList: null) {
+    @at-root {
+
+        @if $classList == null {
+            @each $c in $class {
+                .theme-#{$theme} #{$c} {
+                    @content;
+                }
+            }
+        }
+        @else {
+            .theme-#{$theme} #{$class} {
+            }
+        }
+    }
+}
