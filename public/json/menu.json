@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky, salát Coleslaw, tortilla plněná sýrem a rukolou",
+    "meal04": "Jídlo týdne - Vepřové medailonky, tortilla plněná sýrem a rukolou, salát Coleslaw",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
   },
   "dailyMenu": [
@@ -8,41 +8,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Mleté biftečky se sázeným vajíčkem, bramborová kaše, okurka",
-      "meal03": "Kuřecí po indicku s jasmínovou rýží"
+      "meal01": "Zelná polévka s párkem",
+      "meal02": "Vepřové na paprice, těstoviny",
+      "meal03": "Masové nudličky po sečuánsku s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Bačovo rizoto s hříbkovou omáčkou a uzeným sýrem",
-      "meal03": "Řízek Cordon bleu, mačkané brambory s cibulkou"
+      "meal01": "Hovězí vývar s těstovinou",
+      "meal02": "Sekaná svíčková, knedlíky",
+      "meal03": "Doudlebská směs s bramborákem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hovězí vývar s nočky",
-      "meal02": "Smažený camembert, hranolky, tatarská omáčka",
-      "meal03": "Masové kuličky po pekingsku, čínké nudle"
+      "meal01": "Čínská pikántní polévka",
+      "meal02": "Pyrohy plněné brindzou, přelité rozpuštěnou slaninou",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kuřecí kari polévka",
-      "meal02": "Bramborové knedlíky plněné uzeným masem, zelí, cibulka",
-      "meal03": "Topinka s pikantním trhaným masem, sypaná sýrem, salát s cherri rajčaty"
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Kure a la kachna, bramborové knedlíky, zelí"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Palačinky s čokoládou a zavařeninou, lesní ovoce šlehačka",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Boršč",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Tuplovaný řízek, vařené brambory, okurka"
     }
   ]
 }
