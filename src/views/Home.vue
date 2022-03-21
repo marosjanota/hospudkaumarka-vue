@@ -6,8 +6,8 @@
         :repeated="getRepeated"
         v-if="getCurrentDay"
       />
-      <div class="d-f jc-c mt-xl" date="20.03.2022">
-        <p class="text--bold mt-lôg">Polévka k menu malá 15Kč, velká 20kč</p>
+      <div class="d-f jc-c mt-xl ta-c" date="20.03.2022">
+        <p class="text--bold mt-lg">Polévka k menu malá 15Kč, velká 20kč</p>
       </div>
       <!-- <h3>28.2. - 4.3.2022 &nbsp;&nbsp; Zavřeno</h3> -->
     </Box>
