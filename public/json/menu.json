@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky, tortilla plněná sýrem a rukolou, salát Coleslaw",
+    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí, tortilla plněná sýrem",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
   },
   "dailyMenu": [
@@ -8,41 +8,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Zelná polévka s párkem",
-      "meal02": "Vepřové na paprice, těstoviny",
-      "meal03": "Masové nudličky po sečuánsku s rýží"
+      "meal01": "Žampionová krémová polévka",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Čevabčičí, vařené brambory, hořčice, cibule"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hovězí vývar s těstovinou",
-      "meal02": "Sekaná svíčková, knedlíky",
-      "meal03": "Doudlebská směs s bramborákem"
+      "meal01": "Hrachová polévka",
+      "meal02": "Kuřecí ve sladké chilli omáčce, čínské nudle",
+      "meal03": "Kančí guláš hubert, knedlíky"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čínská pikántní polévka",
-      "meal02": "Pyrohy plněné brindzou, přelité rozpuštěnou slaninou",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Špekové knedlíky se zelím a cibulkou",
+      "meal03": "Vepřová panenka se smetanovo, žampionovou omáčkou, bramborové placky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Luhačovický špaček s bramborovou kaší",
-      "meal03": "Kure a la kachna, bramborové knedlíky, zelí"
+      "meal01": "Bramborová polévka",
+      "meal02": "Smažené sýrové duo, vařené brambory tatarská omáčka",
+      "meal03": "Kančí na smetaně, brusinky, knedlíky"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
-      "meal01": "Boršč",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Tuplovaný řízek, vařené brambory, okurka"
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": ""
     }
   ]
 }

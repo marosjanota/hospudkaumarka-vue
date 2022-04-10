@@ -5,7 +5,9 @@
         <MenuItem :menu="m" :repeated="getRepeated" />
       </div>
       <div class="d-f jc-c mt-xl">
-        <p class="text--bold mt-lôg">Polévka k menu malá 15Kč, velká 20kč</p>
+        <p class="text--bold mt-lg ta-c">
+          Polévka k menu malá 15Kč, velká 20kč
+        </p>
       </div>
       <!-- <h3>28.2. - 4.3.2022 &nbsp;&nbsp; Zavřeno</h3> -->
     </Box>
