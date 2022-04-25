@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí, tortilla plněná sýrem",
+    "meal04": "Jídlo týdne - Smažený sýr Gouda, vařené brambory, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
   },
   "dailyMenu": [
@@ -8,41 +8,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Žampionová krémová polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Čevabčičí, vařené brambory, hořčice, cibule"
+      "meal01": "Česneková polévka",
+      "meal02": "Pečené kuře se smetanovo – česnekovou omáčkou, rýže",
+      "meal03": "Vepřová krkovička v BBQ marinádě, bramborové placky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Kuřecí ve sladké chilli omáčce, čínské nudle",
-      "meal03": "Kančí guláš hubert, knedlíky"
+      "meal01": "Kulajda z vysočiny",
+      "meal02": "Čočka na kyselo s opékanou klobásou, okurka",
+      "meal03": "Moravský vrabec, bramborové spalíčky, zelí"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Špekové knedlíky se zelím a cibulkou",
-      "meal03": "Vepřová panenka se smetanovo, žampionovou omáčkou, bramborové placky"
+      "meal01": "Drůbeží krémová polévka",
+      "meal02": "Zapečené brambory s uzeninou, okurka",
+      "meal03": "Kuřecí medailonky, těstoviny s pestem, sušenými rajčaty a rukolou"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Smažené sýrové duo, vařené brambory tatarská omáčka",
-      "meal03": "Kančí na smetaně, brusinky, knedlíky"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Zapečené boloňské lasagně se sýrem čedar",
+      "meal03": "Vepřový steak , sázené vajíčko se šunkou, americké brambory"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": ""
+      "open": true,
+      "meal01": "Čočková polévka",
+      "meal02": "Vepřové s křenovou omáčkou, houskové knedlíky",
+      "meal03": "Hovězí burger, salát, omáčka z modrého sýra, cibulové kroužky"
     }
   ]
 }
