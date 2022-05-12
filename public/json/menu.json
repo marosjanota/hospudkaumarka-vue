@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr Gouda, vařené brambory, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
   },
   "dailyMenu": [
@@ -8,41 +8,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Pečené kuře se smetanovo – česnekovou omáčkou, rýže",
-      "meal03": "Vepřová krkovička v BBQ marinádě, bramborové placky"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Námořnické maso, těstoviny",
+      "meal03": "Moravský vrabec, zelí, bramborové špalíčky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda z vysočiny",
-      "meal02": "Čočka na kyselo s opékanou klobásou, okurka",
-      "meal03": "Moravský vrabec, bramborové spalíčky, zelí"
+      "meal01": "Fazolačka",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Gnocchi s kuřecím masem, listovým špenátem, metanou a parmazánem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Drůbeží krémová polévka",
-      "meal02": "Zapečené brambory s uzeninou, okurka",
-      "meal03": "Kuřecí medailonky, těstoviny s pestem, sušenými rajčaty a rukolou"
+      "meal01": "Uzená kroupová polévka",
+      "meal02": "Smažené rančerská kuře, šťouchané brambory",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Zapečené boloňské lasagně se sýrem čedar",
-      "meal03": "Vepřový steak , sázené vajíčko se šunkou, americké brambory"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Vepřová játra na cibulce, kolínka",
+      "meal03": "Smažený řízek Cordon bleu s bramborovou kaší"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Vepřové s křenovou omáčkou, houskové knedlíky",
-      "meal03": "Hovězí burger, salát, omáčka z modrého sýra, cibulové kroužky"
+      "meal01": "Květáková s vejci",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Špíz z mletého hovězího masa, steakové hranolky, česnekový dip"
     }
   ]
 }

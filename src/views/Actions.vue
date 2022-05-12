@@ -1,5 +1,5 @@
 <template>
-  <Box title="Akce" class="gallery__action">
+  <Box title="Akce" class="gallery__action" v-if="visible">
     <VuePictureSwipe :items="items"> </VuePictureSwipe>
   </Box>
 </template>
@@ -11,6 +11,12 @@ import { Box } from "@/components";
 import VuePictureSwipe from "vue3-picture-swipe";
 
 export default {
+  props: {
+    visible: {
+      type: Boolean,
+      default: false,
+    },
+  },
   components: {
     Box,
     VuePictureSwipe,
