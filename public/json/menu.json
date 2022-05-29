@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, hranolky, dressing",
+    "meal04": "Jídlo týdne - Vepřový steak, rosti, salát s rajčaty, dressing ",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
   },
   "dailyMenu": [
@@ -8,41 +8,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Námořnické maso, těstoviny",
-      "meal03": "Moravský vrabec, zelí, bramborové špalíčky"
+      "meal01": "Boršč",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
+      "meal03": "Hovězí flank steak s pepřovou omáčkou, bramborové placky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Fazolačka",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Gnocchi s kuřecím masem, listovým špenátem, metanou a parmazánem"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Francouzské brambory, okurka",
+      "meal03": "Záhorácký závitek s rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Uzená kroupová polévka",
-      "meal02": "Smažené rančerská kuře, šťouchané brambory",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Francouzská cibulačka s krutony",
+      "meal02": "Pikantní čočka po maďarsku",
+      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Vepřová játra na cibulce, kolínka",
-      "meal03": "Smažený řízek Cordon bleu s bramborovou kaší"
+      "meal01": "Drůbeží vývar s masem a těstovinou",
+      "meal02": "Debrecínský guláš, houskové knedlíky",
+      "meal03": "Gnocchi s kuřecím mase, slaninou, žampiony a smetanovou omáčkou"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Květáková s vejci",
-      "meal02": "Segedínský guláš speciál, knedlíky",
-      "meal03": "Špíz z mletého hovězího masa, steakové hranolky, česnekový dip"
+      "meal01": "Pikantní paprikášová polévka",
+      "meal02": "Špagety Carbonára s parmazánem ",
+      "meal03": "Smažený vepřový řízek s bramborovým salátem"
     }
   ]
 }
