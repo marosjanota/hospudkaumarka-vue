@@ -1,48 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, rosti, salát s rajčaty, dressing ",
-    "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem"
+    "meal04": "Jídlo týdne - Grill mix, hranolky, česnekový dip",
+    "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
+    "mondayDate": "2022-06-20"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
-      "meal03": "Hovězí flank steak s pepřovou omáčkou, bramborové placky"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Vepřové na žampionech s rýží",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Francouzské brambory, okurka",
-      "meal03": "Záhorácký závitek s rýží"
+      "meal01": "Fazolačka",
+      "meal02": "Kuře a – la kachna, knedlíky, červené zelí",
+      "meal03": "Lasagně s masem a houbovou omáčkou, zapečené sýrem gouda"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Francouzská cibulačka s krutony",
-      "meal02": "Pikantní čočka po maďarsku",
-      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Plněný paprikový lusk v rajské omáčce, kolínka",
+      "meal03": "Vepřový steak pečený v listovém těstě se slaninou, grilovaná zelenina"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar s masem a těstovinou",
-      "meal02": "Debrecínský guláš, houskové knedlíky",
-      "meal03": "Gnocchi s kuřecím mase, slaninou, žampiony a smetanovou omáčkou"
+      "meal01": "Italská polévka",
+      "meal02": "Halušky s uzeným masem, zelí cibulka",
+      "meal03": "Vepřová krkovička na šlehačce, šťouchané brambory"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Pikantní paprikášová polévka",
-      "meal02": "Špagety Carbonára s parmazánem ",
-      "meal03": "Smažený vepřový řízek s bramborovým salátem"
+      "meal01": "Boršč",
+      "meal02": "Kuřecí na medu s jasmínovou rýží",
+      "meal03": "Ďábelský sekaný řízek, vařené brambory"
     }
   ]
 }

@@ -1,5 +1,7 @@
 <template lang="html">
-  <h3 class="title">{{ menu.day }}</h3>
+  <h3 class="title">
+    {{ menu.day }} {{ format_date(repeated.mondayDate, menu.id - 1) }}
+  </h3>
   <div class="menu-item" v-if="menu.open">
     <span class="menu-item__value">0,3l</span>
     <span class="menu-item__meal">{{ menu.meal01 }}</span>
@@ -37,6 +39,7 @@
 </template>
 <script>
 import { Box } from "@/components";
+import moment from "moment";
 
 export default {
   props: {
@@ -45,6 +48,16 @@ export default {
   },
   components: {
     Box,
+  },
+  methods: {
+    format_date(value, day) {
+      if (value) {
+        return moment(String(value))
+          .locale("cs")
+          .add(day, "days")
+          .format("DD. MMMM");
+      }
+    },
   },
 };
 </script>
