@@ -1,0 +1,49 @@
+{
+  "dailyRepeat": {
+    "meal04": "Jídlo týdne - Vepřová krkovička na šlehačce, bramborové placky",
+    "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
+    "mondayDate": "2022-07-18"
+  },
+  "dailyMenu": [
+    {
+      "id": 1,
+      "day": "Pondelí",
+      "open": true,
+      "meal01": "Hovězí vývar se smaženýn hráškem",
+      "meal02": "Masové koule v rajské omáčce",
+      "meal03": "Moravský vrabec, houskové knedlíky, zelí"
+    },
+    {
+      "id": 2,
+      "day": "Úterý",
+      "open": true,
+      "meal01": "Italská polévka",
+      "meal02": "Maďarský guláš, houskové knedlíky",
+      "meal03": "Kuřecí rarášci Sezam s bramborovou kaší"
+    },
+    {
+      "id": 3,
+      "day": "Středa",
+      "open": true,
+      "meal01": "Zelňačka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Husarská šavle, hranolky, česnekový dip"
+    },
+    {
+      "id": 4,
+      "day": "Čtvrtek",
+      "open": true,
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Pečené kuře na másle s rýží",
+      "meal03": "Hovězí burger s cibulovou marmeládou, salátem a dressingem, steakové bram."
+    },
+    {
+      "id": 5,
+      "day": "Pátek",
+      "open": true,
+      "meal01": "Drůbeží krémová polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+    }
+  ]
+}
