@@ -26,8 +26,8 @@ export default {
 
     const items = [
       {
-        src: "akce/kukoptik_chrudim.svg",
-        thumbnail: "akce/kukoptik_chrudim.svg",
+        src: "akce/kukoptik_chrudim.png",
+        thumbnail: "akce/kukoptik_chrudim.png",
         w: 900,
         h: 1273,
       },
