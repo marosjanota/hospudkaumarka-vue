@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Grill mix, hranolky, česnekový dip",
+    "meal04": "Jídlo týdne - Grill mix, hranolky, brusinková omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-06-20"
+    "mondayDate": "2022-08-15"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Vepřové na žampionech s rýží",
-      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
+      "meal01": "Drůbeží krémová polévka",
+      "meal02": "Vepřové po Dijónsku s rýží",
+      "meal03": "Ďábelský sekaný řízek, vařené brambory"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Fazolačka",
-      "meal02": "Kuře a – la kachna, knedlíky, červené zelí",
-      "meal03": "Lasagně s masem a houbovou omáčkou, zapečené sýrem gouda"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Špagety aglio olio e peperonchino s parmazánem",
+      "meal03": "Staročeský guláš s cibulí a bramborákem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, kolínka",
-      "meal03": "Vepřový steak pečený v listovém těstě se slaninou, grilovaná zelenina"
+      "meal01": "Čočková polévka",
+      "meal02": "Vepřová pečeně na zázvoru, kysané zelí, knedlíky",
+      "meal03": "Kebab po tunisku, pita, tzaziky, steak hranolky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Italská polévka",
-      "meal02": "Halušky s uzeným masem, zelí cibulka",
-      "meal03": "Vepřová krkovička na šlehačce, šťouchané brambory"
+      "meal01": "Couračka",
+      "meal02": "Kuře na tondoori masala s rýží",
+      "meal03": "Vepřový steak, grilovaná zelenina, tortilla plněná sýrem, sladká chilli omáčka"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
       "meal01": "Boršč",
-      "meal02": "Kuřecí na medu s jasmínovou rýží",
-      "meal03": "Ďábelský sekaný řízek, vařené brambory"
+      "meal02": "Tagliatelle s kuřecím masem, pestem,rukolou a sušenými rajčaty",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }

@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="box" :class="{ 'box--title-center': titleCenter }">
-        <h2 class="box__title">{{ title }}</h2>
+        <h2 class="box__title" v-if="title">{{ title }}</h2>
         <div class="box__content">
             <slot></slot>
         </div>

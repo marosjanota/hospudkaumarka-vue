@@ -1,5 +1,5 @@
 <template>
-  <Box title="Akce" class="gallery__action" v-if="visible">
+  <Box title="" class="gallery__action" v-if="visible">
     <VuePictureSwipe :items="items"> </VuePictureSwipe>
   </Box>
 </template>
@@ -14,7 +14,7 @@ export default {
   props: {
     visible: {
       type: Boolean,
-      default: false,
+      default: true,
     },
   },
   components: {
@@ -26,10 +26,10 @@ export default {
 
     const items = [
       {
-        src: "akce/carodky_plakat.jpg",
-        thumbnail: "akce/carodky_plakat.jpg",
-        w: 2481,
-        h: 3508,
+        src: "akce/kukoptik_chrudim.svg",
+        thumbnail: "akce/kukoptik_chrudim.svg",
+        w: 900,
+        h: 1273,
       },
     ];
 

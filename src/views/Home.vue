@@ -13,7 +13,7 @@
       </div>
       <!-- <h3>28.2. - 4.3.2022 &nbsp;&nbsp; Zavřeno</h3> -->
     </Box>
-    <Actions :visible="false" />
+    <Actions :visible="true" />
     <Gallery />
     <Contact />
   </Section>
