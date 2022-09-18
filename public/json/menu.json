@@ -1,8 +1,8 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Grill mix, hranolky, brusinková omáčka",
+    "meal04": "Jídlo týdne - Vepřový steak, sázené vajíčko se šunkou, hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-08-15"
+    "mondayDate": "2022-09-19"
   },
   "dailyMenu": [
     {
@@ -10,40 +10,40 @@
       "day": "Pondelí",
       "open": true,
       "meal01": "Drůbeží krémová polévka",
-      "meal02": "Vepřové po Dijónsku s rýží",
-      "meal03": "Ďábelský sekaný řízek, vařené brambory"
+      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
+      "meal03": "Kuřecí nudličky po Dijónsku s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Špagety aglio olio e peperonchino s parmazánem",
-      "meal03": "Staročeský guláš s cibulí a bramborákem"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Srbské rizoto sypané sýrem, okukra",
+      "meal03": "Tataráček s topinkami a česnekem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Vepřová pečeně na zázvoru, kysané zelí, knedlíky",
-      "meal03": "Kebab po tunisku, pita, tzaziky, steak hranolky"
+      "meal01": "Skleněná polévka",
+      "meal02": "Vepřové výpečky, bramborové špalíčky, špenát",
+      "meal03": "Kuřecí medailonky, tortilla plněná sýrem a rukolou, máslová kukuřice"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Couračka",
-      "meal02": "Kuře na tondoori masala s rýží",
-      "meal03": "Vepřový steak, grilovaná zelenina, tortilla plněná sýrem, sladká chilli omáčka"
+      "meal01": "Hrachová polévka",
+      "meal02": "Kuře a la kachna, knedlíky, zelí",
+      "meal03": "Vepřová krkovička na šlehačce, mačkané brambory"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
       "meal01": "Boršč",
-      "meal02": "Tagliatelle s kuřecím masem, pestem,rukolou a sušenými rajčaty",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal02": "Debrecínský guláš, knedlíky, těstoviny",
+      "meal03": "Hovězí burger po mexicku s pikantní salsou s koriandrem, steakové hranolky"
     }
   ]
 }
