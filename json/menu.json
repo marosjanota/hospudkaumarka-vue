@@ -1,0 +1,49 @@
+{
+  "dailyRepeat": {
+    "meal04": "Jídlo týdne - Smažený hermelín, hranolky, tatarská omáčka",
+    "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
+    "mondayDate": "2022-10-17"
+  },
+  "dailyMenu": [
+    {
+      "id": 1,
+      "day": "Pondelí",
+      "open": true,
+      "meal01": "Bramborová polévka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Bramborové nočky s kuřecím masem, zeleninou a trhanou mozzarellou"
+    },
+    {
+      "id": 2,
+      "day": "Úterý",
+      "open": true,
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Pečené kuře po tunisku s rýží",
+      "meal03": "Masové nudlič Stroganov, bramborové placky"
+    },
+    {
+      "id": 3,
+      "day": "Středa",
+      "open": true,
+      "meal01": "Čočková polévka",
+      "meal02": "Guláš flamendr, houskové knedlíky",
+      "meal03": "ČSouvlaky – řecký špíz, pita, tzatziky, pečené brambory"
+    },
+    {
+      "id": 4,
+      "day": "Čtvrtek",
+      "open": true,
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
+      "meal03": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka"
+    },
+    {
+      "id": 5,
+      "day": "Pátek",
+      "open": true,
+      "meal01": "Polský boršč se smetanou",
+      "meal02": "Řecká musaka – zapečené brambory s masem, lilkem a sýrem",
+      "meal03": "Svíčková na smetaně s brusinkovým terčem, houskové knedlíky"
+    }
+  ]
+}
