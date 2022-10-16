@@ -12,25 +12,25 @@
     <span class="menu-item__value">1.</span>
     <span class="menu-item__meal">{{ menu.meal02 }}</span>
     <span class="menu-item__price">{{
-      menu.price02 != null ? menu.price02 : "110,-"
+      menu.price02 != null ? menu.price02 : "120,-"
     }}</span>
 
     <span class="menu-item__value">2.</span>
     <span class="menu-item__meal">{{ menu.meal03 }}</span>
     <span class="menu-item__price">{{
-      menu.price03 != null ? menu.price03 : "120,-"
+      menu.price03 != null ? menu.price03 : "130,-"
     }}</span>
 
     <span class="menu-item__value">3.</span>
     <span class="menu-item__meal">{{ repeated.meal04 }}</span>
     <span class="menu-item__price">{{
-      repeated.price04 != null ? repeated.price04 : "125,-"
+      repeated.price04 != null ? repeated.price04 : "135,-"
     }}</span>
 
     <span class="menu-item__value">4.</span>
     <span class="menu-item__meal">{{ repeated.meal05 }}</span>
     <span class="menu-item__price">{{
-      repeated.price05 != null ? repeated.price05 : "120,-"
+      repeated.price05 != null ? repeated.price05 : "130,-"
     }}</span>
   </div>
   <div v-else>
