@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, sázené vajíčko se slaninou, hranolky",
+    "meal04": "Jídlo týdne - Vepřová krkovička na šlehačce, bramborové krokety",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-10-31"
+    "mondayDate": "2022-11-06"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Hovězí vývar s nočky",
-      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
-      "meal03": "Thajské nudle na červeném kari s masem, bambusovými výhonky"
+      "meal01": "Pikantní čočková polévka",
+      "meal02": "Pečené koleno, bramborové nočky, špenát,
+      "meal03": "Kuřecí řízek Ondráš, zelný salát s křenem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Vepřové po dijónsku s rýží",
-      "meal03": "Smažené sýrové duo, vařené brambory, tatarská omáčka"
+      "meal01": "Česneková polévka",
+      "meal02": "Námořnické maso, těstoviny",
+      "meal03": "Parmazánové rizoto se žampiony a zeleninou, kuřecí steak"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Zelňačka s klobásou",
-      "meal02": "Ďábelská topinka sypaná sýrem",
-      "meal03": "Vepřová panenka se švestkovou omáčkou, bramborové placky"
+      "meal01": "Květáková s vejci",
+      "meal02": "Přírodní sekaný řízek s balkánským sýrem, bramborová kaše",
+      "meal03": "Kung – pao s jasmínovou rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Pštrosí vejce s bramborovou kaší, okurka",
-      "meal03": "Kuřecí rolka plněná mozzarellou a sušenými rajčaty, nočky"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Hamburská kýta, knedlíky",
+      "meal03": "Grill mix, restované fazolky, bramborové rosti"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Guláš kata Mydláře, knedlíky",
-      "meal03": "Pečené hovězí, salát s balsamicem, tortilla s nivou a sušenými rajčaty"
+      "meal01": "Boršč",
+      "meal02": "Kapucínský guláš, knedlíky, těstoviny",
+      "meal03": "Pečená kachna ¼, bramborové knedlíky, červené zelí"
     }
   ]
 }
