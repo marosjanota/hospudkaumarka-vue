@@ -1,38 +1,38 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřová krkovička na šlehačce, bramborové krokety",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-11-06"
+    "mondayDate": "2022-11-14"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Pikantní čočková polévka",
-      "meal02": "Pečené koleno, bramborové nočky, špenát",
-      "meal03": "Kuřecí řízek Ondráš, zelný salát s křenem"
+      "meal01": "Krámová česneková polévka",
+      "meal02": "Kovbojské fazole, chléb",
+      "meal03": "Kuřecí rarášci v parmazánovém těstíčku, bramborová kaše"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Námořnické maso, těstoviny",
-      "meal03": "Parmazánové rizoto se žampiony a zeleninou, kuřecí steak"
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Vepřové na pepři, knedlíky",
+      "meal03": "Gnocchi Pomodori s kuřecím masem a mozzarellou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Květáková s vejci",
-      "meal02": "Přírodní sekaný řízek s balkánským sýrem, bramborová kaše",
-      "meal03": "Kung – pao s jasmínovou rýží"
+      "meal01": "Hovězí vývar s kapáním",
+      "meal02": "Halušky s uzeným masem, zelí, cibulka",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Frankfurtská polévka",
       "meal02": "Hamburská kýta, knedlíky",
       "meal03": "Grill mix, restované fazolky, bramborové rosti"
@@ -41,10 +41,9 @@
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Kapucínský guláš, knedlíky, těstoviny",
-      "meal03": "Pečená kachna ¼, bramborové knedlíky, červené zelí",
-      "price03": "195,-"
+      "meal01": "Pórková s vejci",
+      "meal02": "Masové koule v rajské omáčce, těstoviny",
+      "meal03": "Smažený sýr gouda, hranolky, tatarská omáčka"
     }
   ]
 }
