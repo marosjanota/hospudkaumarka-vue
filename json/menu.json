@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Tortilla s trhaným masem a sýrem, salát, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-11-14"
+    "mondayDate": "2022-11-21"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Krámová česneková polévka",
-      "meal02": "Kovbojské fazole, chléb",
-      "meal03": "Kuřecí rarášci v parmazánovém těstíčku, bramborová kaše"
+      "meal01": "Hovězí vývar s masovou rýží",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Thajské nudle s masem, bambusovými výhonky a kokosovým mlékem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Vepřové na pepři, knedlíky",
-      "meal03": "Gnocchi Pomodori s kuřecím masem a mozzarellou"
+      "meal01": "Italská polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hovězí vývar s kapáním",
-      "meal02": "Halušky s uzeným masem, zelí, cibulka",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Čočková polévka",
+      "meal02": "Boloňské lasagně zapečené mozzarellou",
+      "meal03": "Mleté biftečky s bramborovou kaší, sázené vajíčko"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": false,
       "meal01": "Frankfurtská polévka",
-      "meal02": "Hamburská kýta, knedlíky",
-      "meal03": "Grill mix, restované fazolky, bramborové rosti"
+      "meal02": "Pečené kuře s nádivkou, vařené brambory",
+      "meal03": "Moravský vrabec, špenát, bramborové nočky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Pórková s vejci",
-      "meal02": "Masové koule v rajské omáčce, těstoviny",
-      "meal03": "Vepřová panenka s hříbkovou omáčkou, bramborové placky"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Drůbeží rizoto se zeleninou a žampiony, sýr, okurka",
+      "meal03": "Hovězí burger s salátem a karamelizovanou cibulkou, steakové hranolky"
     }
   ]
 }
