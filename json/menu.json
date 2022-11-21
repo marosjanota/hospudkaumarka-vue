@@ -32,7 +32,7 @@
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
+      "open": true,
       "meal01": "Frankfurtská polévka",
       "meal02": "Pečené kuře s nádivkou, vařené brambory",
       "meal03": "Moravský vrabec, špenát, bramborové nočky"
