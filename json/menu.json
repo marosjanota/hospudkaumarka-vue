@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí a pečenou tortillou",
+    "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-11-28"
+    "mondayDate": "2022-12-05"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Smažené kuře v těstíčku Diablito s bramborovou kaší",
-      "meal03": "Grilovaný losos, penne se smetanovou omáčkou s koprem"
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Záhorácký zavitek s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Vepřové na česneku se smetanou, knedlíky",
-      "meal03": "Tataráček s topinkami a česnekem"
+      "meal01": "Mexická fazolačka",
+      "meal02": "Selský buřt guláš s chlebem",
+      "meal03": "Kuřecí se sladkou chilli omáčkou, čínské nudle"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Brindzové halušky s rozpuštěnou slaninou",
-      "meal03": "Vepřová panenka se šípkovou omáčkou, bramborové placky"
+      "meal01": "Česneková polévka",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Masová směs s křenem, bramborové placky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kuřecí krémová polévka",
-      "meal02": "Pikantní fazole Colorádo s masem a klobásou, chléb",
-      "meal03": "Svíčková na smetaně s brusinkovým terčem, knedlíky"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Kuře a la kachna, bramborové knedlíky, zelí"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Luhačovický špaček s bramborovou kaší",
-      "meal03": "Guláš flamendr s bramborákem"
+      "meal01": "Zelňačka",
+      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
+      "meal03": "Řecký gyros, tzatziky, pita, steakové hranolky"
     }
   ]
 }
