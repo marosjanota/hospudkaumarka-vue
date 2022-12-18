@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Panenka se švestkovou omáčkou, bramborové rosti",
+    "meal04": "Jídlo týdne - Tortilla s masem gyros a sýrem, tzatziky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
     "mondayDate": "2022-12-12"
   },
@@ -9,41 +9,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Italská polévka",
-      "meal02": "Ďábelská topinka sypaná sýrem",
-      "meal03": "Kuřecí řízek sezam s bramborovou kaší"
+      "meal01": "Ragú polévka",
+      "meal02": "Guláš kata Mydláře, knedlíky",
+      "meal03": "Pomerančové kuře s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Zapečené brambory s uzeným masem, okurka",
-      "meal03": "Thajské masové kuličky s jasmínovou rýží"
+      "meal01": "Fazolačka",
+      "meal02": "Špagety Carbonára sypané sýrem",
+      "meal03": "Moravský vrabec, variace knedlíků, zelí"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Drůbeží kari polévka",
-      "meal02": "Špekové knedlíky se zelím a cibulkou",
-      "meal03": "Grilovaný hermelín s brusinkovou omáčkou, hranolky, salát"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
+      "meal03": "Kuřecí rarášci v parmazánovém těstíčku, bramborová kaše"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Čevabčičí, vařené brambory, hoččice, cibule",
-      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem"
+      "meal01": "Drůbeží vývar se smaženým hráškem",
+      "meal02": "Vepřové s křenová omáčkou, knedlíky",
+      "meal03": "Zapečený kuřecí steak se slaninou a sýrem, hranolky, tatarská omáčka"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Hovězí vývar s nudlemi",
-      "meal02": "Plzeňský guláš s knedlíkem",
-      "meal03": "Smažený vepřový řízek s bramborovým salátem"
+      "meal01": "Boršč",
+      "meal02": "Mleté biftečky se sázeným vajíčkem, bramborová kaše",
+      "meal03": "Hovězí na česneku se šumavským knedlíkem"
     }
   ]
 }
