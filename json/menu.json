@@ -8,7 +8,7 @@
     {
       "id": 1,
       "day": "Pondelí",
-      "open": true,
+      "open": false,
       "meal01": "Ragú polévka",
       "meal02": "Guláš kata Mydláře, knedlíky",
       "meal03": "Pomerančové kuře s rýží"
@@ -17,33 +17,33 @@
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Fazolačka",
-      "meal02": "Špagety Carbonára sypané sýrem",
-      "meal03": "Moravský vrabec, variace knedlíků, zelí"
+      "meal01": "Gulášová polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
+      "meal03": "Kuřecí nudličky na smetaně s rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
-      "meal03": "Kuřecí rarášci v parmazánovém těstíčku, bramborová kaše"
+      "meal01": "Česneková polévka",
+      "meal02": "Bramborové nočky s kuřecím masem, rukolou a žampiony",
+      "meal03": "Doudlebská směs s bramborákem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar se smaženým hráškem",
-      "meal02": "Vepřové s křenová omáčkou, knedlíky",
-      "meal03": "Zapečený kuřecí steak se slaninou a sýrem, hranolky, tatarská omáčka"
+      "meal01": "Zelná polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Smažený sýr, hranolky, tatarská omáčka"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Mleté biftečky se sázeným vajíčkem, bramborová kaše",
-      "meal03": "Hovězí na česneku se šumavským knedlíkem"
+      "meal01": "Hovězí vývar se smaženým hráškem",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Buritos mexicanos s pikantní omáčkou"
     }
   ]
 }
