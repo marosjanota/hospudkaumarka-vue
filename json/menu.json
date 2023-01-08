@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak 200g, hranolky, grilovací omáčka",
+    "meal04": "Jídlo týdne - Medailonky z vepřové panenky, česnekový dip",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-01-02"
+    "mondayDate": "2023-01-09"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Smažený karbanátek s bramborovou kaší, okurka",
-      "meal03": "Kuřecí po dijónsku s jasmínovou rýží"
+      "meal01": "Bramboračka",
+      "meal02": "Srbské rizoto sypané sýrem",
+      "meal03": "Ovarový talíř s křenem a hořčicí, chléb"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Staročeský guláš s knedlíkem",
-      "meal03": "Kuřecí medailonky, salát Coleslaw, tortilla plněná sýrem"
+      "meal01": "Květáková polévka",
+      "meal02": "Segedínský guláš speciál s knedlíkem",
+      "meal03": "Thajské nudle s masem a zeleninou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Pečené kuře na žampionech, těstoviny",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Hrachová polévka",
+      "meal02": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem",
+      "meal03": "Smažený hermelín, vařené brambory, tatarská omáčka"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar se smaženým hráškem",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Moravský vrabec, halušky, špenát"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Ďábelský sekaný řízek, vařené brambory",
+      "meal03": "Plec po selsku, knedlíky, zelí"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Burger s trhaným masem, |BBQ omáčka, salát, cibulové kroužky"
+      "meal01": "Zelňačka",
+      "meal02": "Kovbojské fazole s rozpečenou tortillou",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
