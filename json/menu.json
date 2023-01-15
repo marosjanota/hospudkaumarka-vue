@@ -1,38 +1,38 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Medailonky z vepřové panenky, česnekový dip, hranolky",
+    "meal04": "Jídlo týdne - Burritos mexcanos s pikantní omáčkou",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-01-09"
+    "mondayDate": "2023-01-16"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Bramboračka",
-      "meal02": "Srbské rizoto sypané sýrem",
-      "meal03": "Ovarový talíř s křenem a hořčicí, chléb"
+      "meal01": "Česneková polévka",
+      "meal02": "Hamburská kýta, knedlíky",
+      "meal03": "Přírodní sekaný řízek s bramborovou kaší"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Segedínský guláš speciál s knedlíkem",
-      "meal03": "Thajské nudle s masem a zeleninou"
+      "meal01": "Mexická fazolačka",
+      "meal02": "Vepřové výpečky, bramborové knedlíky, špenát",
+      "meal03": "Grilovaná panenka, restované fazolky, steakové hranolky, dressing"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem",
-      "meal03": "Smažený hermelín, vařené brambory, tatarská omáčka"
+      "meal01": "Boršč",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Guláš katy Mydláře, knedlíky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Frankfurtská polévka",
       "meal02": "Ďábelský sekaný řízek, vařené brambory",
       "meal03": "Plec po selsku, knedlíky, zelí"
@@ -40,7 +40,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Zelňačka",
       "meal02": "Kovbojské fazole s rozpečenou tortillou",
       "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
