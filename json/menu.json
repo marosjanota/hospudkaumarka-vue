@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burritos mexcanos s pikantní omáčkou",
+    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-01-16"
+    "mondayDate": "2023-01-23"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Hamburská kýta, knedlíky",
-      "meal03": "Přírodní sekaný řízek s bramborovou kaší"
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Rizoto s masem a zeleninou,sypané sýrem, okurka",
+      "meal03": "Smažený sýr gouda, vařené brambory, tatarská omáčka"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Vepřové výpečky, bramborové knedlíky, špenát",
-      "meal03": "Grilovaná panenka, restované fazolky, steakové hranolky, dressing"
+      "meal01": "Kulajda z vysočiny",
+      "meal02": "Boloňské špagety se sýrem",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Guláš katy Mydláře, knedlíky"
+      "meal01": "Hrachová s krutony",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Ďábelský sekaný řízek, vařené brambory",
-      "meal03": "Plec po selsku, knedlíky, zelí"
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
+      "meal03": "Bryndzové halušky s rozpuštěnou slaninou"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "Zelňačka",
-      "meal02": "Kovbojské fazole s rozpečenou tortillou",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "open": true,
+      "meal01": "Hovězí vývar s masovou rýží",
+      "meal02": "Gnocchi s kuřecím masem, sýrovou omáčkou a rukolou",
+      "meal03": "Rajská hovězí pečeně, těstoviny"
     }
   ]
 }
