@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, hranolky",
+    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí, tortilla plněná sýrem, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-01-23"
+    "mondayDate": "2023-01-30"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Rizoto s masem a zeleninou,sypané sýrem, okurka",
-      "meal03": "Smažený sýr gouda, vařené brambory, tatarská omáčka"
+      "meal01": "Ragů polévka",
+      "meal02": "Selský buřt gulaš s chlebem",
+      "meal03": "Panenka pečená v listovém těstě s anglickou slaninou, steakové hranolky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda z vysočiny",
-      "meal02": "Boloňské špagety se sýrem",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Italská polévka",
+      "meal02": "Mexické fazole s grilovanou klobásou",
+      "meal03": "Pečené kuře na parmazánovém rizotu"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hrachová s krutony",
-      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
-      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Uzená krkovíčka, bramborové nočky, špenát",
+      "meal03": "Grilovaný kebab, pita, steakové hranolky, kari omáčka"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
-      "meal03": "Bryndzové halušky s rozpuštěnou slaninou"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Znojemská hovězí pečeně s rýží"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Hovězí vývar s masovou rýží",
-      "meal02": "Gnocchi s kuřecím masem, sýrovou omáčkou a rukolou",
-      "meal03": "Rajská hovězí pečeně, těstoviny"
+      "meal01": "Hovězí vývar s nočky",
+      "meal02": "Boloňské lasasgně zapečené s mozzarellou",
+      "meal03": "Pastevecký řízek, vařené brambory, okurka"
     }
   ]
 }
