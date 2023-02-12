@@ -1,49 +1,48 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tataráček s topinkami a česnekem",
+    "meal04": "Jídlo týdne - Vepřový steak pražského uzenáře, rösti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-02-06"
+    "mondayDate": "2023-02-13"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Zahradnicá polévka",
-      "meal02": "Moravský vrabec, knedlíky, zelí",
-      "meal03": "Řecká musak – zapečené brambory s masem, lilkem a sýrem"
+      "meal01": "Srbská čorba",
+      "meal02": "Čevabčičí, varené brambory, hořčice, cibule",
+      "meal03": "Švej – ču – žou s jasmínovou rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Pečené kuře na česneku, vařené brambory",
-      "meal03": "Chilli con carne s rozpečenou tortilou"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Bačovo rizoto s hříbkovou omáčkou a uzeným sýrem",
+      "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Uzená kroupová polévka",
-      "meal02": "Tagliatelle s kuřecím masem, sušenými rajčaty, rukolou a parmazánem",
-      "meal03": "Smažený camembert v bramboráku, zelný salát s koprem"
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Zapečené brambory Trautenberk s kuřecím masem, pórkem a nivou",
+      "meal03": "Kuře a la kachna, knedlíky, červené zelí"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Thajské nudle s bambusovými výhonky, kuřecím masem a zeleninou",
-      "meal03": "Tuplovaný řízek s bramborovou kaší, okurka"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Pštrosí vejce s bramborovou kaší, okurka",
+      "meal03": "Burger s trhaným masem, karamelizovaná cibulka, salát, hranolky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Segedínský guláš speciál, houskové knedlíky",
-      "meal03": "Grill Mix, hranolky, salát Coleslaw, dressing"
-    }
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Kuřecí rolka se šunkou a listovým špenátem, těstoviny",
+      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka
   ]
 }
