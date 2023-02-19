@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak pražského uzenáře, rösti",
+    "meal04": "Jídlo týdne - Burritos mexicanos s pikantní salsou",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-02-13"
+    "mondayDate": "2023-02-20"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Čevabčičí, varené brambory, hořčice, cibule",
-      "meal03": "Švej – ču – žou s jasmínovou rýží"
+      "meal01": "Špenátová polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší, červená řepa",
+      "meal03": "Kapucínský guláš, knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Francouzská cibulačka",
-      "meal02": "Bačovo rizoto s hříbkovou omáčkou a uzeným sýrem",
-      "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka"
+      "meal01": "Kukuřičná krémová polévka",
+      "meal02": "Bramborové knedlíky plněné uzeným masem, zelí, cibulka",
+      "meal03": "Vepřový steak, grilované fazolky, americké brambory"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Zapečené brambory Trautenberk s kuřecím masem, pórkem a nivou",
-      "meal03": "Kuře a la kachna, knedlíky, červené zelí"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Klatovský závitek s rýží",
+      "meal03": "Grilovaný hermelín s brusinkovou omáčkou, salát, bagetka"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Pštrosí vejce s bramborovou kaší, okurka",
-      "meal03": "Burger s trhaným masem, karamelizovaná cibulka, salát, hranolky"
+      "meal01": "Česneková polévka",
+      "meal02": "Jugoslávská pljaskavica, steakové hranolky, pita, ajvar",
+      "meal03": "Svíčková na smetaně, knedlíky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Kuřecí rolka se šunkou a listovým špenátem, těstoviny",
-      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka"
+      "meal01": "Drůbeží kari polévka",
+      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
+      "meal03": "Kuřecí stripsy a la KFC, hranolky, tatarská omáčka
     }
   ]
 }
