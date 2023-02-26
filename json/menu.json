@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burritos mexicanos s pikantní salsou",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-02-20"
+    "mondayDate": "2023-02-27"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Špenátová polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší, červená řepa",
-      "meal03": "Kapucínský guláš, knedlíky"
+      "meal01": "Veselská zelnice",
+      "meal02": "Kovbojské fazole, chléb",
+      "meal03": "Hovězí flank steak se švestkovou omáčkou, rosti"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kukuřičná krémová polévka",
-      "meal02": "Bramborové knedlíky plněné uzeným masem, zelí, cibulka",
-      "meal03": "Vepřový steak, grilované fazolky, americké brambory"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Moravský vrabec, knedlíky, zelí",
+      "meal03": "Zapečená kuřecí prsa s camembertem a slaninou, bramborové placky"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Klatovský závitek s rýží",
-      "meal03": "Grilovaný hermelín s brusinkovou omáčkou, salát, bagetka"
+      "meal01": "Kulajda",
+      "meal02": "Boloňské špagety se sýrem",
+      "meal03": "Vepřová panenka s pepřovou omáčkou a bramborákem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Jugoslávská pljaskavica, steakové hranolky, pita, ajvar",
-      "meal03": "Svíčková na smetaně, knedlíky"
+      "meal01": "Mexická fazolačka",
+      "meal02": "Pečené kuře s nádivkou, vařené brambory",
+      "meal03": "Hovězí guláš, knedlíky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Drůbeží kari polévka",
-      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
-      "meal03": "Kuřecí stripsy a la KFC, hranolky, tatarská omáčka"
+      "meal01": "Gulášová polévka",
+      "meal02": "Kung Pao s jasmínovou rýží",
+      "meal03": "Vepřový steak, tortilla plněná sýrem, salát s chrri rajčaty, dressing"
     }
   ]
 }
