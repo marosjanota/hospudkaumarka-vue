@@ -2,13 +2,13 @@
   "dailyRepeat": {
     "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-02-27"
+    "mondayDate": "2023-03-06"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": true,
+      "open": false,
       "meal01": "Veselská zelnice",
       "meal02": "Kovbojské fazole, chléb",
       "meal03": "Hovězí flank steak se švestkovou omáčkou, rosti"
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "Knedlíčková polévka",
       "meal02": "Moravský vrabec, knedlíky, zelí",
       "meal03": "Zapečená kuřecí prsa s camembertem a slaninou, bramborové placky"
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Kulajda",
       "meal02": "Boloňské špagety se sýrem",
       "meal03": "Vepřová panenka s pepřovou omáčkou a bramborákem"
@@ -32,7 +32,7 @@
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Mexická fazolačka",
       "meal02": "Pečené kuře s nádivkou, vařené brambory",
       "meal03": "Hovězí guláš, knedlíky"
@@ -40,7 +40,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Gulášová polévka",
       "meal02": "Kung Pao s jasmínovou rýží",
       "meal03": "Vepřový steak, tortilla plněná sýrem, salát s chrri rajčaty, dressing"
