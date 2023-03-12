@@ -11,9 +11,10 @@
           Polévka k menu malá 15Kč, velká 20kč
         </p>
       </div>
-      <!-- <h3>28.2. - 4.3.2022 &nbsp;&nbsp; Zavřeno</h3> -->
+      <!-- <hr/>
+      <h3 class="ta-c">6. 3. - 10. 3. 2023 &nbsp;&nbsp; Zavřeno - dovolená</h3> -->
     </Box>
-    <Actions :visible="true" />
+    <Actions :visible="false" />
     <Gallery />
     <Contact />
   </Section>
@@ -32,7 +33,7 @@ export default {
     Actions,
     Contact,
     MenuItem,
-    Gallery,
+    Gallery
   },
   computed: {
     getCurrentDay() {
