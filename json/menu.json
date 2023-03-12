@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Řecký gyros, pita chléb, tzaziky, hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-03-06"
+    "mondayDate": "2023-03-13"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": false,
-      "meal01": "Veselská zelnice",
-      "meal02": "Kovbojské fazole, chléb",
-      "meal03": "Hovězí flank steak se švestkovou omáčkou, rosti"
+      "open": true,
+      "meal01": "Sýrová cibulačka",
+      "meal02": "Guláš kata Mydláře s knedlíkem",
+      "meal03": "Luhačovický špaček s bramborovou kaší"
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Moravský vrabec, knedlíky, zelí",
-      "meal03": "Zapečená kuřecí prsa s camembertem a slaninou, bramborové placky"
+      "open": true,
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Ďábelská topinka s masovou směsí, sypaná sýrem",
+      "meal03": "Plec pečená na česneku, halušky, zelí"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "Kulajda",
-      "meal02": "Boloňské špagety se sýrem",
-      "meal03": "Vepřová panenka s pepřovou omáčkou a bramborákem"
+      "open": true,
+      "meal01": "Dýňová polévka",
+      "meal02": "Bramborové nočky s kuřecím masem, žampiony, rukolou a parmazánem",
+      "meal03": "Mleté biftečky se sázeným vajíčkem a sťouchané brambory"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Pečené kuře s nádivkou, vařené brambory",
-      "meal03": "Hovězí guláš, knedlíky"
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Kuřecí medailonky, rozpečená bagetka, salát s cherri rajčaty, dressing"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "Gulášová polévka",
-      "meal02": "Kung Pao s jasmínovou rýží",
-      "meal03": "Vepřový steak, tortilla plněná sýrem, salát s chrri rajčaty, dressing"
+      "open": true,
+      "meal01": "Kuřecí vývar s nočky",
+      "meal02": "Vepřové s křenovou omáčkou, knedlíky",
+      "meal03": "Smažený řízek s domácím bramborovým salátem"
     }
   ]
 }
