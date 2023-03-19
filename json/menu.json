@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, pita chléb, tzaziky, hranolky",
+    "meal04": "Jídlo týdne - Vepřový steak, sázené vajíčko se šunkou, hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-03-13"
+    "mondayDate": "2023-03-20"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Sýrová cibulačka",
-      "meal02": "Guláš kata Mydláře s knedlíkem",
-      "meal03": "Luhačovický špaček s bramborovou kaší"
+      "meal01": "Hrachová",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Kančí na smetaně, knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Ďábelská topinka s masovou směsí, sypaná sýrem",
-      "meal03": "Plec pečená na česneku, halušky, zelí"
+      "meal01": "Bramboračka",
+      "meal02": "Masové koule v rajské omáčce, kolínka",
+      "meal03": "Smažené rančerské kuře s bramborovou kaší"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Dýňová polévka",
-      "meal02": "Bramborové nočky s kuřecím masem, žampiony, rukolou a parmazánem",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a sťouchané brambory"
+      "meal01": "Hovězí vývar s masovou rýží",
+      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
+      "meal03": "Kančí guláš Hubert, knedlíky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
-      "meal03": "Kuřecí medailonky, rozpečená bagetka, salát s cherri rajčaty, dressing"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Kuřecí po indicku s jasmínovou rýží"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Kuřecí vývar s nočky",
-      "meal02": "Vepřové s křenovou omáčkou, knedlíky",
-      "meal03": "Smažený řízek s domácím bramborovým salátem"
+      "meal01": "Boršč",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Hovězí na česneku, bramborové knedlíky, špenát"
     }
   ]
 }
