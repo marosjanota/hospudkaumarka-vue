@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, sázené vajíčko se šunkou, hranolky",
+    "meal04": "Jídlo týdne - Kuřecí steak, salát, pečená tortilla, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-03-20"
+    "mondayDate": "2023-03-27"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Hrachová",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Kančí na smetaně, knedlíky"
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Hamburská vepřová kýta, knedlíky",
+      "meal03": "Sekaný řízek Diablito s bramborovou kaší"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramboračka",
-      "meal02": "Masové koule v rajské omáčce, kolínka",
-      "meal03": "Smažené rančerské kuře s bramborovou kaší"
+      "meal01": "Srbská čorba",
+      "meal02": "Kuřecí křidélka v medové chilli marinádě, steakové hranolky",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hovězí vývar s masovou rýží",
-      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
-      "meal03": "Kančí guláš Hubert, knedlíky"
+      "meal01": "Cibulačka s masem a bramborami",
+      "meal02": "Kančí ragů na víně, knedlíky",
+      "meal03": "Bramborové nočky s kachním masem a listovým špenátem, cibulka"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
-      "meal03": "Kuřecí po indicku s jasmínovou rýží"
+      "meal01": "Drůbeží vývar s masem a nudlemi",
+      "meal02": "Kuře a la kachna, knedlíky, zelí",
+      "meal03": "Pastevecký řízek s bramborovou kaší, okurka"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Hovězí na česneku, bramborové knedlíky, špenát"
+      "meal01": "Čočková polévka",
+      "meal02": "Thajské nudle s masem, bombusovými výhonky a kokosovým mlékem",
+      "meal03": "Řecké mleté biftečky s fetou, tzatziky, pita, hranolky"
     }
   ]
 }
