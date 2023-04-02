@@ -1,46 +1,46 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, salát, pečená tortilla, dressing",
+    "meal04": "Jídlo týdne - Tortilla s trhaným mase a sýrem, pikantní omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-03-27"
+    "mondayDate": "2023-04-03"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Hamburská vepřová kýta, knedlíky",
-      "meal03": "Sekaný řízek Diablito s bramborovou kaší"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
+      "meal03": "Myslivecká hovězí pečeně, knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Kuřecí křidélka v medové chilli marinádě, steakové hranolky",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Kuřecí krémová polévka",
+      "meal02": "Bramborový guláš s masem a klobásou, chléb",
+      "meal03": "Kuřecí rolka s balkánským sýrema a slaninou, hranolky"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Cibulačka s masem a bramborami",
-      "meal02": "Kančí ragů na víně, knedlíky",
-      "meal03": "Bramborové nočky s kachním masem a listovým špenátem, cibulka"
+      "meal01": "Zelňačka",
+      "meal02": "Ďábelské masové koule, těstoviny",
+      "meal03": "Smažený camembert v bramboráku, zelný salát s křenem, dressing"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar s masem a nudlemi",
-      "meal02": "Kuře a la kachna, knedlíky, zelí",
-      "meal03": "Pastevecký řízek s bramborovou kaší, okurka"
+      "meal01": "Gulášová polévka",
+      "meal02": "Kuřecí se sladkou chilli omáčkou, jasmínová rýže",
+      "meal03": "Smažený sýr Gouda, vařené brambory, tatarská omáčka"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Čočková polévka",
       "meal02": "Thajské nudle s masem, bombusovými výhonky a kokosovým mlékem",
       "meal03": "Řecké mleté biftečky s fetou, tzatziky, pita, hranolky"
