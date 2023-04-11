@@ -40,7 +40,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
+      "open": true,
       "meal01": "Kulajda",
       "meal02": "Masové koule po pekingsku s jasmínovou rýží",
       "meal03": "Vepřový steak, salát, tortilla plněná sýrem a rukolou, dressingy"
