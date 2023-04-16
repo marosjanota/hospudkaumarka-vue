@@ -8,7 +8,7 @@
     {
       "id": 1,
       "day": "Pondelí",
-      "open": trur,
+      "open": true,
       "meal01": "Bramborová polévka",
       "meal02": "Rizoto s masem, zeleninou, žampiony a sýrem, okurka",
       "meal03": "Guláš flamendr s knedlíkem"
