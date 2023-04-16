@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí rarášci, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Řecký gyros, pita, tzatziky, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-04-11"
+    "mondayDate": "2023-04-17"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": false,
-      "meal01": "Drůbeží polévka s kukuřicí",
-      "meal02": "Přírodní sekaný řízek na žampionech s bramborovou kaší",
-      "meal03": "Katův šleh s rýží"
+      "open": trur,
+      "meal01": "Bramborová polévka",
+      "meal02": "Rizoto s masem, zeleninou, žampiony a sýrem, okurka",
+      "meal03": "Guláš flamendr s knedlíkem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Drůbeží polévka s kukuřicí",
-      "meal02": "Přírodní sekaný řízek na žampionech s bramborovou kaší",
-      "meal03": "Katův šleh s rýží"
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Česnekové kuře se sýrem a šlehačkou, vařené brambory",
+      "meal03": "Tatataráček s topinkami a česnekem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Segedínský guláš speciál, knedlíky",
-      "meal03": "Gnocchi s kuřecím masem a rokfórovou omáčkou"
+      "meal01": "Čočková polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Hovězí burger s karamelizovanou cibulkou, salát, steakové hranolky"
+      "meal01": "Drůbeží vývar se smaženým hráškem",
+      "meal02": "Vepřová játra na roštu, hranolky, tatatsrká omáčka",
+      "meal03": "Moravský vrabec, bramborové knedlíky, zelí"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Masové koule po pekingsku s jasmínovou rýží",
-      "meal03": "Vepřový steak, salát, tortilla plněná sýrem a rukolou, dressingy"
+      "meal01": "Boršč",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Smažený vepřový řízek, domácí bramborový salát"
     }
   ]
 }
