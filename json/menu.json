@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, pita, tzatziky, steakové hranolky",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-04-17"
+    "mondayDate": "2023-04-24"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Rizoto s masem, zeleninou, žampiony a sýrem, okurka",
-      "meal03": "Guláš flamendr s knedlíkem"
+      "meal01": "Zelná s klobásou",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
+      "meal03": "Hovězí na česneku, šumavský knedlík"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Česnekové kuře se sýrem a šlehačkou, vařené brambory",
-      "meal03": "Tatataráček s topinkami a česnekem"
+      "meal01": "Srbská čorba",
+      "meal02": "Plněný paprikový lusk v rajské omáčce, kolínka",
+      "meal03": "Vepřová krkovička na šlehačce, mačkané brambory s cibulkou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Kuřecí kari polévka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Vepřový steak, salát s chrri rajčaty, pita, dressing"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
       "meal01": "Drůbeží vývar se smaženým hráškem",
-      "meal02": "Vepřová játra na roštu, hranolky, tatatsrká omáčka",
-      "meal03": "Moravský vrabec, bramborové knedlíky, zelí"
+      "meal02": "Hamburská kýta, houskové knedlíky",
+      "meal03": "Burger strhaným masem, salát, BBQ omáčka, cibulové kroužky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
-      "meal03": "Smažený vepřový řízek, domácí bramborový salát"
+      "meal01": "Gulášová polévka",
+      "meal02": "Vepřové na žampionech s rýží",
+      "meal03": "Buritos mexicanos, tři druhy pikantních omáček"
     }
   ]
 }
