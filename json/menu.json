@@ -1,14 +1,14 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřové medailonky z panenky, salát s cherri rajčaty a pečenou tortillou",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-04-24"
+    "mondayDate": "2023-05-02"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": true,
+      "open": false,
       "meal01": "Zelná s klobásou",
       "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
       "meal03": "Hovězí na česneku, šumavský knedlík"
@@ -17,33 +17,33 @@
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, kolínka",
-      "meal03": "Vepřová krkovička na šlehačce, mačkané brambory s cibulkou"
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Guláš palivec, knedlíky",
+      "meal03": "Kuřecí na medu s jasmínovou rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kuřecí kari polévka",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Vepřový steak, salát s chrri rajčaty, pita, dressing"
+      "meal01": "Hovězí vývar s nočky",
+      "meal02": "Lasagně s masem, listovým špenátem a sýrem",
+      "meal03": "Pečené kuře a la bažant, bramborové knedlíky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar se smaženým hráškem",
-      "meal02": "Hamburská kýta, houskové knedlíky",
-      "meal03": "Burger strhaným masem, salát, BBQ omáčka, cibulové kroužky"
+      "meal01": "Česneková polévka",
+      "meal02": "Klopsy v koprové omáčce, knedlíky",
+      "meal03": "Kuřecí cordon bleu s bramborovou kaší a okurkou"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Vepřové na žampionech s rýží",
-      "meal03": "Buritos mexicanos, tři druhy pikantních omáček"
+      "meal01": "Frankofurtská polévka",
+      "meal02": "Halušky se zelím, uzeným masem a cibukou",
+      "meal03": "České ražničí, hranolky, tatarská omáčka"
     }
   ]
 }
