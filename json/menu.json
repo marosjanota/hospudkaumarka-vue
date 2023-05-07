@@ -1,8 +1,8 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky z panenky, salát s cherri rajčaty a pečenou tortillou",
+    "meal04": "Jídlo týdne - FISH a CHIPS, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-05-02"
+    "mondayDate": "2023-05-08"
   },
   "dailyMenu": [
     {
@@ -17,33 +17,33 @@
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Guláš palivec, knedlíky",
-      "meal03": "Kuřecí na medu s jasmínovou rýží"
+      "meal01": "Hovězí vývar se smaženým hráškem",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Thajské nudle s masem, bambusovými výhonky a  kokosovým mlékem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hovězí vývar s nočky",
-      "meal02": "Lasagně s masem, listovým špenátem a sýrem",
-      "meal03": "Pečené kuře a la bažant, bramborové knedlíky"
+      "meal01": "Šumavská zelňačka s klobásou
+      "meal02": "Čufty po valašsku, těstoviny",
+      "meal03": "Moravský vrabec, halušky se slaninou a cibulkou, špenát"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Klopsy v koprové omáčce, knedlíky",
-      "meal03": "Kuřecí cordon bleu s bramborovou kaší a okurkou"
+      "meal01": "Kulajda",
+      "meal02": "Rizoto s kuřecím masem, žampiony a zeleninou, okurka",
+      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankofurtská polévka",
-      "meal02": "Halušky se zelím, uzeným masem a cibukou",
-      "meal03": "České ražničí, hranolky, tatarská omáčka"
+      "meal01": "Boršč",
+      "meal02": "Špagety Carbonára se slaninou, česnekem a smetanou",
+      "meal03": "Smažený vepřový řízek, domácí bramborový salát"
     }
   ]
 }
