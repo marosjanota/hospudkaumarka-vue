@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Panenka s pepřovou omáčkou, hranolky, salát, dressing",
+    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
     "mondayDate": "2023-05-15"
   },
@@ -9,41 +9,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Pikantní čočka po maďarsku s kovářskou klobásou",
-      "meal03": "Kuřecí nudličky po indicku s jasmínovou rýží"
+      "meal01": "Pikantní čočková polévka",
+      "meal02": "Hamburská kýta, houskové knedlíky",
+      "meal03": "Smažený sýr, hranolky, tatarská omáčka"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Čevabčičí, vařené brambory, hořčice,cibule",
-      "meal03": "Masová směs trikolora, bramboráčky"
+      "meal01": "Krkonošská cibulačka",
+      "meal02": "Soukenický sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Brynzové halušky s rozpuštěnou slaninou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Debrecínský guláš, houskové knedlíky",
-      "meal03": "Smažené filé v sýrovém těstíčku, bramborová kaše"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Vepřová plec na česneku, bramborové špalíčky, zelí"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Buritos mexicanos s pikantní omáčkou"
+      "meal01": "Drůbeží vývar s fritátovými nudlemi",
+      "meal02": "Vepřové na pepři, těstoviny",
+      "meal03": "Gnocchi s kuřecím mase, rukollou, sušenými rajčaty a parmazánem"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Pečené kuře na houbách s rýží",
-      "meal03": "Svíčková na smetaně s brusinkovým terčem, knedlíky"
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Pastevecký řízek s bramborovu kaší a okurkou"
     }
   ]
 }
