@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí, tortilla plněná sýrem a rukolou",
+    "meal04": "Jídlo týdne - Tortilla plněná trhaným masem a sýrem, tři druhy pikantních omáček",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
     "mondayDate": "2023-05-29"
   },
@@ -9,41 +9,41 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Zelná polévka s klobásou",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": " Kančí guláš Hubert, houskové knedlíky"
+      "meal01": "Ovarová polévka",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Hovězí stroganoff s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Ovarový talíř s křenem a hořčicí, chléb"
+      "meal01": "Srbská čorba",
+      "meal02": "Hamburská kýta, knedlíky",
+      "meal03": "Kuřecí rolka s anglickou slaninou a nivou, hranolky"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kulajda z vysočiny",
-      "meal02": "Španělský ptáček s rýží",
-      "meal03": "Pečené kuře s nádivkou, vařené brambory"
+      "meal01": "Gulášová polévka",
+      "meal02": "Kuřecí po sečuánsku, čínské nudle",
+      "meal03": "Panenka pečená v listovém těstě, grilovaná zelenina, steakové hranolky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Polský boršč se smetanou",
-      "meal02": "Řecká musaka s masem a lilkem",
-      "meal03": "Kančí kýta na smetaně, houskové knedlíky"
+      "meal01": "Špenátová polévka s vejci",
+      "meal02": "Bačovo rizoto s hříbkovou omáčkou a uzeným sýrem",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Francouzská cibulačka",
-      "meal02": "Vepřové výpečky, bramborové nočky, špenát",
-      "meal03": "Hovězí burger, salát, dressing, sázené vajíčko, hranolky"
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Grilovaný hermelín, salát s cherri rajčaty, brusinková omáčka, bagetka"
     }
   ]
 }
