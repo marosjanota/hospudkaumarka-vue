@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tortilla plněná trhaným masem a sýrem, tři druhy pikantních omáček",
+    "meal04": "Jídlo týdne - Vepřové medailonky se švestkovou omáčkou, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-05-29"
+    "mondayDate": "2023-06-12"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Ovarová polévka",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Hovězí stroganoff s rýží"
+      "meal01": "Bramborová polévka",
+      "meal02": "Chilli fazole Colorado s chlebem",
+      "meal03": "Rajská hovězí pečeně, těstoviny"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Hamburská kýta, knedlíky",
-      "meal03": "Kuřecí rolka s anglickou slaninou a nivou, hranolky"
+      "meal01": "Hovězí vývar s masovou rýží",
+      "meal02": "Kuře a la kachna, knedlíky, zelí",
+      "meal03": "Gnocchi se sýrovou omáčkou, kuřecím masem a rukolou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Kuřecí po sečuánsku, čínské nudle",
-      "meal03": "Panenka pečená v listovém těstě, grilovaná zelenina, steakové hranolky"
+      "meal01": "Zelňačka",
+      "meal02": "Vepřová játra na cibulce, kolínka",
+      "meal03": "Kuřecí řízečky Sezam s bramborovou kaší a okurkou"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Špenátová polévka s vejci",
-      "meal02": "Bačovo rizoto s hříbkovou omáčkou a uzeným sýrem",
-      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Závitek s mletým masem, rýže"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Luhačovický špaček s bramborovou kaší",
-      "meal03": "Grilovaný hermelín, salát s cherri rajčaty, brusinková omáčka, bagetka"
+      "meal01": "Mexická fazolačka",
+      "meal02": "Kuřecí paprikáš s knedlíkem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
