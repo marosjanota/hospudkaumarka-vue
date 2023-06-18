@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky se švestkovou omáčkou, bramborové placky",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-06-12"
+    "mondayDate": "2023-06-19"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Chilli fazole Colorado s chlebem",
-      "meal03": "Rajská hovězí pečeně, těstoviny"
+      "meal01": "Maďarská paprikášová polévka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hovězí vývar s masovou rýží",
-      "meal02": "Kuře a la kachna, knedlíky, zelí",
-      "meal03": "Gnocchi se sýrovou omáčkou, kuřecím masem a rukolou"
+      "meal01": "Drůbeží kari polévka",
+      "meal02": "Bramborové knedlíky plněné uzeným masem, zelí, cibulka",
+      "meal03": "Vepřová panenka, salát s cherry rajčaty, pečená tortilla, dressing"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Vepřová játra na cibulce, kolínka",
-      "meal03": "Kuřecí řízečky Sezam s bramborovou kaší a okurkou"
+      "meal01": "Hovězí vývar s vaječným svítkem",
+      "meal02": "Sikulský závitek s knedlíkem",
+      "meal03": "Italské rizoto s chřestem, zapečená kuřecí prsa s hermelínem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
-      "meal03": "Závitek s mletým masem, rýže"
+      "meal01": "Gulášová polévka",
+      "meal02": "Špagety carbonára s parmazánem",
+      "meal03": "Husarská šavle, bramborové placky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Kuřecí paprikáš s knedlíkem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Boršč",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Burger s karamelizovanou cibulkou, salát, BBQ omáčka, steak. hranolky"
     }
   ]
 }
