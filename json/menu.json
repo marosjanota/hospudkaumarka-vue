@@ -2,48 +2,48 @@
   "dailyRepeat": {
     "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-06-19"
+    "mondayDate": "2023-06-26"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Maďarská paprikášová polévka",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší"
+      "meal01": "Čočková polévka",
+      "meal02": "Guláš kata Mydláře, houskové knedlíky",
+      "meal03": "Domácí sekaná pečeně s bramborovou kaší, okurka"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Drůbeží kari polévka",
-      "meal02": "Bramborové knedlíky plněné uzeným masem, zelí, cibulka",
-      "meal03": "Vepřová panenka, salát s cherry rajčaty, pečená tortilla, dressing"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Kuře na tondoori masala s jasmínovou rýží",
+      "meal03": "Hovězí po anglicku, hranolky, tatarská omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hovězí vývar s vaječným svítkem",
-      "meal02": "Sikulský závitek s knedlíkem",
-      "meal03": "Italské rizoto s chřestem, zapečená kuřecí prsa s hermelínem"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Moravské uzené, halušky s cibulkou, špenát",
+      "meal03": "Kebab po tunisku, pita, tzatziky, steakové hranolky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Špagety carbonára s parmazánem",
-      "meal03": "Husarská šavle, bramborové placky"
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Srbské ražničí s rýží",
+      "meal03": "Těstoviny s pestem, kuřecím masem, sušenými rajčaty a parmazánem"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
-      "meal03": "Burger s karamelizovanou cibulkou, salát, BBQ omáčka, steak. hranolky"
+      "meal01": "Kulajda",
+      "meal02": "Špekové knedlíky se zelím a cibulkou",
+      "meal03": "Pastevecký řízek s bramborovou kaší a okurkou"
     }
   ]
 }
