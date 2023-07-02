@@ -1,8 +1,8 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, míchaný salát, tortilla se sýrem a rukolou, dressing",
+    "meal04": "Jídlo týdne - Tortilla s trhaným masem a sýrem, tří druhy pikantních omáček",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-06-26"
+    "mondayDate": "2023-07-03"
   },
   "dailyMenu": [
     {
@@ -17,14 +17,14 @@
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Francouzská cibulačka",
-      "meal02": "Kuře na tondoori masala s jasmínovou rýží",
-      "meal03": "Hovězí po anglicku, hranolky, tatarská omáčka"
+      "meal01": "Čočková polévka s uzeným masem",
+      "meal02": "Sekaná svíčková s knedlíkem",
+      "meal03": "Žampionové rizoto s masem a zeleninou sypané sýrem"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Paprikášová polévka",
       "meal02": "Moravské uzené, halušky s cibulkou, špenát",
       "meal03": "Kebab po tunisku, pita, tzatziky, steakové hranolky"
@@ -32,7 +32,7 @@
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Thajská pikantní polévka",
       "meal02": "Srbské ražničí s rýží",
       "meal03": "Těstoviny s pestem, kuřecím masem, sušenými rajčaty a parmazánem"
@@ -41,9 +41,9 @@
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Špekové knedlíky se zelím a cibulkou",
-      "meal03": "Pastevecký řízek s bramborovou kaší a okurkou"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Masová směs, bramborové placky",
+      "meal03": "Smažený sýr, hranolky, tatarská omáčka"
     }
   ]
 }
