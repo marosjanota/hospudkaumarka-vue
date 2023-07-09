@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tortilla s trhaným masem a sýrem, tří druhy pikantních omáček",
+    "meal04": "Jídlo týdne - Vepřový steak, salát z pečených brambor s rukolou, kapari a suš. rajčaty",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-07-03"
+    "mondayDate": "2023-07-10"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
-      "meal03": "Vepřový guláš s feferonkou, houskové knedlíky"
+      "meal01": "Fazolová polévka",
+      "meal02": "Bramborové nočky s uzeným masem, zelí, cibulka",
+      "meal03": "Kung pao s jasmínovou rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čočková polévka s uzeným masem",
-      "meal02": "Sekaná svíčková s knedlíkem",
-      "meal03": "Žampionové rizoto s masem a zeleninou sypané sýrem"
+      "meal01": "Srbská čorba",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Pečená krkovička na šlehačce, bramboráčky"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Moravské uzené, halušky s cibulkou, špenát",
-      "meal03": "Kebab po tunisku, pita, tzatziky, steakové hranolky"
+      "open": true,
+      "meal01": "Zelňačka",
+      "meal02": "Ďábelský sekaný řízek, vařené brambory",
+      "meal03": "Těstovinový salát se zeleninou a kousky lososa"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Srbské ražničí s rýží",
-      "meal03": "Těstoviny s pestem, kuřecím masem, sušenými rajčaty a parmazánem"
+      "open": true,
+      "meal01": "Bramborová polévka",
+      "meal02": "Kantonská rýže s masem, zeleninou a vejci",
+      "meal03": "Kuřecí rarášci, tortilla quattro formaggi, salát Coleslaw"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Masová směs, bramborové placky",
-      "meal03": "Smažený sýr, hranolky, tatarská omáčka"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Kapucínský guláš, variace knedlíků",
+      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka"
     }
   ]
 }
