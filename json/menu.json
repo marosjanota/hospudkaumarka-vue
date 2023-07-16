@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, salát z pečených brambor s rukolou, kapari a suš. rajčaty",
+    "meal04": "Jídlo týdne - Tortilla s grilovaným mletým masem, zakysaná smetana s koriandrem",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-07-10"
+    "mondayDate": "2023-07-17"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Fazolová polévka",
-      "meal02": "Bramborové nočky s uzeným masem, zelí, cibulka",
-      "meal03": "Kung pao s jasmínovou rýží"
+      "meal01": "Italská polévka",
+      "meal02": "Špagety Carbonára s parmazánem",
+      "meal03": "Hamburská vepřová kýta s knedlíkem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Pečená krkovička na šlehačce, bramboráčky"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Lasagně s masem a houbovou omáčkou, zapečené uzeným sýrem",
+      "meal03": "Kuřecí stripsy v křupavé krustě s bramborovou kaší"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Ďábelský sekaný řízek, vařené brambory",
-      "meal03": "Těstovinový salát se zeleninou a kousky lososa"
+      "meal01": "Květáková polévka",
+      "meal02": "Pečené kuře a la bažant, vařené brambory",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
-      "id": 4,
+      "id": 4, 
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Kantonská rýže s masem, zeleninou a vejci",
-      "meal03": "Kuřecí rarášci, tortilla quattro formaggi, salát Coleslaw"
+      "meal01": "Hrachová polévka",
+      "meal02": "Masové koule v rajské omáčce, kolínka",
+      "meal03": "Táborská bašta, halušky, zelí"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Kapucínský guláš, variace knedlíků",
-      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka"
+      "meal01": "Gulášová polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
