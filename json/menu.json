@@ -40,7 +40,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Boršč",
       "meal02": "Brynzové halušky s rozpuštěnou slaninou",
       "meal03": "Buritos mexicanos s pikantní omáčkou"
