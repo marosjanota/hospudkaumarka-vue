@@ -2,13 +2,13 @@
   "dailyRepeat": {
     "meal04": "Jídlo týdne - Hovězí po anglicku, pečené brambory, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-07-31"
+    "mondayDate": "2023-08-07"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": true,
+      "open": false,
       "meal01": "Maďarská gulášová polévka",
       "meal02": "Srbské rizoto s drůbežím masem a sýrem",
       "meal03": "Segedínský guláš s houskovým knedlíkem"
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "Čočková polévka",
       "meal02": "Pštrosí vejce s bramborovou kaší a okurkou",
       "meal03": "Pečená žebra v BBQ marinádě, chléb"
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Bramborová polévka",
       "meal02": "Zapečené brambory Trautenberk s kuřecím masem, pórkem a nivou",
       "meal03": "Plněný knedlík trhaným masem s rajskou omáčkou"
@@ -32,7 +32,7 @@
     {
       "id": 4, 
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Drůbeží vývar s masem a nudlemi",
       "meal02": "Kuře a la kachna, knedlíky, zelí",
       "meal03": "Smažený sýr Gouda, hranolky, tatarská omáčka"
