@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Hovězí po anglicku, pečené brambory, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřový steak pražského uzenáře, hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-08-07"
+    "mondayDate": "2023-08-14"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": false,
-      "meal01": "Maďarská gulášová polévka",
-      "meal02": "Srbské rizoto s drůbežím masem a sýrem",
-      "meal03": "Segedínský guláš s houskovým knedlíkem"
+      "open": true,
+      "meal01": "Srbská čorba",
+      "meal02": "Mexický guláš s hráškovou rýží",
+      "meal03": "Sekaný řízek v pikantním těstíčku s bramborovou kaší"
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "Čočková polévka",
-      "meal02": "Pštrosí vejce s bramborovou kaší a okurkou",
-      "meal03": "Pečená žebra v BBQ marinádě, chléb"
+      "open": true,
+      "meal01": "Bramborová polévka",
+      "meal02": "Kuřecí nudličky po Dijónsku s jasmínovou rýží",
+      "meal03": "Moravský vrabec, knedlíky, špenát"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "Bramborová polévka",
-      "meal02": "Zapečené brambory Trautenberk s kuřecím masem, pórkem a nivou",
-      "meal03": "Plněný knedlík trhaným masem s rajskou omáčkou"
+      "open": true,
+      "meal01": "Hrachová polévka",
+      "meal02": "Gnocchi s kuřecím masem, rukolou a parmazánem",
+      "meal03": "Rýžové nudle Panang s masem a kokosovým mlékem"
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "Drůbeží vývar s masem a nudlemi",
-      "meal02": "Kuře a la kachna, knedlíky, zelí",
-      "meal03": "Smažený sýr Gouda, hranolky, tatarská omáčka"
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Kovbojské fazole s arabským chlebem",
+      "meal03": "Marinované kuře s omáčkou hoisin, pečené brambory"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "Boršč",
-      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
-      "meal03": "Buritos mexicanos s pikantní omáčkou"
+      "open": true,
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Dalmátské čufty, kolínka",
+      "meal03": "Kuřecí rarášci Sezam s bramborovou kaší, okurka"
     }
   ]
 }
