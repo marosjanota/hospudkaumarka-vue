@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak pražského uzenáře, hranolky",
+    "meal04": "Jídlo týdne - Vepřové medailonky, salát, pečená tortilla, česnekový dip",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-08-14"
+    "mondayDate": "2023-08-21"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Mexický guláš s hráškovou rýží",
-      "meal03": "Sekaný řízek v pikantním těstíčku s bramborovou kaší"
+      "meal01": "Květáková polévka",
+      "meal02": "Sekaná svíčková, houskové knedlíky",
+      "meal03": "Kuřecí řízek Ondráš, zelný salát s křenenem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Kuřecí nudličky po Dijónsku s jasmínovou rýží",
-      "meal03": "Moravský vrabec, knedlíky, špenát"
+      "meal01": "Mexická fazolačka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Kuřecí steahno smažené v křupavé krustě, bramborová kaše"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Gnocchi s kuřecím masem, rukolou a parmazánem",
-      "meal03": "Rýžové nudle Panang s masem a kokosovým mlékem"
+      "meal01": "Kulajda",
+      "meal02": "Novgorodské pelmeně se zakysanou smetanou a slaninou",
+      "meal03": "Hovězí na česneku, šumavský knedlíky"
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Kovbojské fazole s arabským chlebem",
-      "meal03": "Marinované kuře s omáčkou hoisin, pečené brambory"
+      "meal01": "Hovězí vývar s rýží",
+      "meal02": "Guláš Petra Voka, knedlíky",
+      "meal03": "Burger s trhaným masem, salát Coleslaw, steakové hranolky, dressing"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Dalmátské čufty, kolínka",
-      "meal03": "Kuřecí rarášci Sezam s bramborovou kaší, okurka"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Kuřecí se sladkou chilli omáčkou, jasmínová rýže",
+      "meal03": "Řecký gyros, pita, tzatziky, hranolky"
     }
   ]
 }
