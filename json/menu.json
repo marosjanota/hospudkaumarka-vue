@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky, salát, pečená tortilla, česnekový dip",
+    "meal04": "Jídlo týdne - Kuřecí prsa zapečená se sýrem a broskví, hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-08-21"
+    "mondayDate": "2023-08-28"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Sekaná svíčková, houskové knedlíky",
-      "meal03": "Kuřecí řízek Ondráš, zelný salát s křenenem"
+      "meal01": "Krkonošská cibulačka",
+      "meal02": "Rizoto po indicku, sypané sýrem",
+      "meal03": "Vepřová panenka s hříbkovou omáčkou, bramborové placky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Kuřecí steahno smažené v křupavé krustě, bramborová kaše"
+      "meal01": "Gulášová polévka",
+      "meal02": "Smažený květák, vařené brambory, tatrská omáčka",
+      "meal03": "Halušky se zelím, anglickou slaninou a cibulkou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Novgorodské pelmeně se zakysanou smetanou a slaninou",
-      "meal03": "Hovězí na česneku, šumavský knedlíky"
+      "meal01": "Bramborová polévka",
+      "meal02": "Vepřová játra na cibulce, kolínka",
+      "meal03": "Smažené rančerské kuřecí stripsy, mačkané brambory s cibulkou"
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hovězí vývar s rýží",
-      "meal02": "Guláš Petra Voka, knedlíky",
-      "meal03": "Burger s trhaným masem, salát Coleslaw, steakové hranolky, dressing"
+      "meal01": "Brokolicová polévka",
+      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
+      "meal03": "Klatovský závitek s rýží"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Kuřecí se sladkou chilli omáčkou, jasmínová rýže",
-      "meal03": "Řecký gyros, pita, tzatziky, hranolky"
+      "meal01": "Drúbeží krémová polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Tuplovaný řízek s domácím bramborovým salátem"
     }
   ]
 }
