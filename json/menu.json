@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí prsa zapečená se sýrem a broskví, hranolky",
+    "meal04": "Jídlo týdne - Buritos mexicanos s pikantní omáčkou a koriandrem",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-08-28"
+    "mondayDate": "2023-09-04"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Krkonošská cibulačka",
-      "meal02": "Rizoto po indicku, sypané sýrem",
-      "meal03": "Vepřová panenka s hříbkovou omáčkou, bramborové placky"
+      "meal01": "Česneková polévka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Vepřové medailonky na šlehačce, hranolky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Smažený květák, vařené brambory, tatrská omáčka",
-      "meal03": "Halušky se zelím, anglickou slaninou a cibulkou"
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
+      "meal03": "Holandský sekaný řízek s bramborovou kaší a okurkou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Vepřová játra na cibulce, kolínka",
-      "meal03": "Smažené rančerské kuřecí stripsy, mačkané brambory s cibulkou"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Segedínský guláš speciál s houskovým knedlíkem",
+      "meal03": "Gnocchi se sušenými rajčaty, kuřecím masem, rukolou a parmazánem"
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Brokolicová polévka",
-      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
-      "meal03": "Klatovský závitek s rýží"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Ďábelská topinka s masovou směsí a sýrem",
+      "meal03": "Hovězí na česneku, bramborové špalíčky, špenát"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Drúbeží krémová polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Tuplovaný řízek s domácím bramborovým salátem"
+      "meal01": "Šumavská zelňačka",
+      "meal02": "Čevabčíčí, brambory , hořčice, cibule",
+      "meal03": "Panang Curry s kuřecím masem a jasmínovou rýží"
     }
   ]
 }
