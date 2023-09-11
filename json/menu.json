@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Buritos mexicanos s pikantní omáčkou a koriandrem",
+    "meal04": "Jídlo týdne - Smažený camembert, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-09-04"
+    "mondayDate": "2023-09-11"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Vepřové medailonky na šlehačce, hranolky"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Debrecínský guláš, knedlíky",
+      "meal03": "Řecký gyros pita, tzatziky, steakové hranolky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
-      "meal03": "Holandský sekaný řízek s bramborovou kaší a okurkou"
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
+      "meal03": "Tataráček s topinkami a česnekem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Francouzská cibulačka",
-      "meal02": "Segedínský guláš speciál s houskovým knedlíkem",
-      "meal03": "Gnocchi se sušenými rajčaty, kuřecím masem, rukolou a parmazánem"
+      "meal01": "Čočková polévka",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Kuřecí rarášci v česnekovo – sýrovém těstíčku, bramborová kaše",
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Ďábelská topinka s masovou směsí a sýrem",
-      "meal03": "Hovězí na česneku, bramborové špalíčky, špenát"
+      "meal01": "Drůbeží vývar s masema nudlemi",
+      "meal02": "Klopsy v koprové omáčce, knedlíky",
+      "meal03": "Kuřecí medailonky v sýrové omáčce, bramborové placky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Šumavská zelňačka",
-      "meal02": "Čevabčíčí, brambory , hořčice, cibule",
-      "meal03": "Panang Curry s kuřecím masem a jasmínovou rýží"
+      "meal01": "Kulajda",
+      "meal02": "Pečené kuře na houbách s rýží",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
