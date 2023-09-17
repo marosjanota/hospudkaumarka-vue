@@ -1,48 +1,48 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený camembert, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Kuřecí steak, tortila se sýrem a rukolou, salát, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-09-11"
+    "mondayDate": "2023-09-18"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Debrecínský guláš, knedlíky",
-      "meal03": "Řecký gyros pita, tzatziky, steakové hranolky"
+      "meal01": "Bramborová polévka",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Guláš palivec, houskové knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
-      "meal03": "Tataráček s topinkami a česnekem"
+      "meal01": "Valašská štědračka",
+      "meal02": "Gnocchi s bylinkovým pestem, slaninou, špenátem a parmazánem",
+      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Vepřová rolka se šunkou a nivou, hranolky",
       "meal03": "Kuřecí rarášci v česnekovo – sýrovém těstíčku, bramborová kaše"    
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar s masema nudlemi",
-      "meal02": "Klopsy v koprové omáčce, knedlíky",
-      "meal03": "Kuřecí medailonky v sýrové omáčce, bramborové placky"
+      "meal01": "Gulášová polévka",
+      "meal02": "Sekaná svíčková, houskové knedlíky",
+      "meal03": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka" 
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Pečené kuře na houbách s rýží",
+      "meal01": "Boršč",
+      "meal02": "Dalmátské čufty, těstoviny",
       "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
