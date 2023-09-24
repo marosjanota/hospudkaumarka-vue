@@ -1,38 +1,38 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, tortila se sýrem a rukolou, salát, dressing",
+    "meal04": "Jídlo týdne - Vepřové medailonky se švestkovou omáčkou, bramborové rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-09-18"
+    "mondayDate": "2023-09-25"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Guláš palivec, houskové knedlíky"
+      "meal01": "Fazolačka",
+      "meal02": "Moravský vrabec, knedlíky, špenát",
+      "meal03": "Grilovaný camembert, salát, steakové hranolky, brusinková omáčka"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Valašská štědračka",
-      "meal02": "Gnocchi s bylinkovým pestem, slaninou, špenátem a parmazánem",
-      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Uzené kuřecí steahno s bramborovou kaší a okurkou",
+      "meal03": "Čínské nudle s masem, zeleninou a ústřicovou omáčkou"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Vepřová rolka se šunkou a nivou, hranolky",
-      "meal03": "Kuřecí rarášci v česnekovo – sýrovém těstíčku, bramborová kaše"    
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Námořnické maso s rýží",
+      "meal03": "Hovězí burger se sázeným vajíčkem, salát, dressing, steakové hranolky"    
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Gulášová polévka",
       "meal02": "Sekaná svíčková, houskové knedlíky",
       "meal03": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka" 
@@ -41,9 +41,9 @@
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Dalmátské čufty, těstoviny",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Čočková polévka",
+      "meal02": "Guláš kata Mydláře, knedlíky",
+      "meal03": "Smažený sýr, hranolky, tatarská omáčka"
     }
   ]
 }
