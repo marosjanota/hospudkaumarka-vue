@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak Caprese s rajčaty, mozzarellou a bazalkou, hranolky",
+    "meal04": "Jídlo týdne - Vepřový steak, míchaný salát, tortilla se sýrem, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2023-10-09"
+    "mondayDate": "2023-10-16"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Hrášková polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Guláš flamendr, houskové knedlíky"
+      "meal01": "Brokolicová polévka",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Grilovaný losos s parmazánovým rizotem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Luhačovický špaček s bramborovou kaší",
-      "meal03": "Vepřovy steak pečený v listovém těstě, grilované fazolky, americké brambory"
+      "meal01": "Cibulačka s masem a bramborami",
+      "meal02": "Hamburská kýta, knedlíky",
+      "meal03": "Smažená niva, vařené brambory, tatarská omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hovězí vývar s fritátovými nudlemi",
-      "meal02": "Moravský vrabec, halušky, špenát",
-      "meal03": "Gnocchi se sušenými rajčaty, kuřecím masem, rukolou a parmazánem"    
+      "meal01": "Krémová česneková polévka",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Hovězí po anglicku, steakové hranolky, česnekový dip"    
     },
     {
       "id": 4, 
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Dýňová polévka",
-      "meal02": "Vepřové po sečuánsku s jasmínovou rýží",
-      "meal03": "Chicken burger se sýrem, salát, dressing, cibulové kroužky" 
+      "meal01": "Mexická fazolačka",
+      "meal02": "Špagety Carbonara s parmazánem",
+      "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, jasmínová rýže" 
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Špekové knedlíky sa zelím a cibulkou",
-      "meal03": "Svíčková na smetaně, knedlíky, brusinkový terč"
+      "meal01": "Gulášová polévka'",
+      "meal02": "Kuře a la kachna, variace knedlíkú, červené zelí",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
