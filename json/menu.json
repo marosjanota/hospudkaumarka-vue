@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí stripsy KFC, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Smažený sýr Gouda se šunkou, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-10-23  "
+    "mondayDate": "2022-10-29"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Vepřový steak, salát z pečených brambor s rukolou, kapary a suš.rajčaty"
+      "meal01": "Krémová bramborová polévka",
+      "meal02": "Ďábelské masové koule, těstoviny",
+      "meal03": "Táborská bašta, bramborové špalíčky, zelí"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
-      "meal03": "Kebab po tunisku, tzatziky, pita, salsa s rajčaty a koriandrem"
+      "meal01": "Srbská čorba",
+      "meal02": "Penne s kuřecím masem v chedarové omáčce",
+      "meal03": "Vepřové medailonky se švestkovou omáčkou, bramborové placky"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Masové koule po thajsku, nudle",
-      "meal03": "Jitrnicový prejt, vařené brambory, kysané zelí"
+      "meal01": "Dýňová polévka s krutony",
+      "meal02": "Rančerské smažené kuře, šťouchané brambory",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Čočka po Maďarsku s grilovanou klobásou a cibulkou",
-      "meal03": "Kuřecí rolka se šunkou, sýrem a špenátem, salát Coleslaw, peč.tortilla"
+      "meal01": "Zelňačka s klobásou",
+      "meal02": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
+      "meal03": "Srnčí na smetaně, knedlíky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Rajská hovězí pečeně, kolínka",
-      "meal03": "Pavlišovský řízek, knedlíky, zelí"
+      "meal01": "Fazolová polévka",
+      "meal02": "Bramborové šišky s mákem a máslem",
+      "meal03": "Wrap se smaženým kuřecím mase, čerstvou zeleninou a mexickou om."
     }
   ]
 }
