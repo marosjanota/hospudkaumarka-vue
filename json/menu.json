@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr Gouda se šunkou, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřová krkovička na šlehačce, bramborové rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
     "mondayDate": "2022-10-29"
   },
@@ -9,41 +9,42 @@
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Krémová bramborová polévka",
-      "meal02": "Ďábelské masové koule, těstoviny",
-      "meal03": "Táborská bašta, bramborové špalíčky, zelí"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Masová směs s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Penne s kuřecím masem v chedarové omáčce",
-      "meal03": "Vepřové medailonky se švestkovou omáčkou, bramborové placky"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Tagliatelle se šunkou a smetanovou omáčkou, parmazán",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Dýňová polévka s krutony",
-      "meal02": "Rančerské smažené kuře, šťouchané brambory",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Květáková s vejci",
+      "meal02": "Halušky se zelím, uzeným masem a cibulkou",
+      "meal03": "Kuřecí po indicku s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Zelňačka s klobásou",
-      "meal02": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
-      "meal03": "Srnčí na smetaně, knedlíky"
+      "meal01": "Kozí brada",
+      "meal02": "Guláš flamendr s bramborákem",
+      "meal03": "Burger s karamelizovanou cibulkou, salát, dressing, hranolky"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Fazolová polévka",
-      "meal02": "Bramborové šišky s mákem a máslem",
-      "meal03": "Wrap se smaženým kuřecím mase, čerstvou zeleninou a mexickou om."
+      "meal01": "Gulášová polévka",
+      "meal02": "Plněná tortilla smaženým kuřecím masem a zeleninou, pikantni omáčka",
+      "meal03": "Pečená kachna, bramborové a houskové knedlíky, červené a bílé zelí",
+      "price03": "220,-"
     }
   ]
 }
