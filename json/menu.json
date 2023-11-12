@@ -1,46 +1,46 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřová krkovička na šlehačce, bramborové rosti",
+    "meal04": "Jídlo týdne - Vepřový steak se sázeným vajíčkem, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-11-06"
+    "mondayDate": "2022-11-12"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": "Masová směs s rýží"
+      "meal01": "Kuřecí kari polévka",
+      "meal02": "DomáKuřecí na medu s jasmínovou rýží",
+      "meal03": "Bramborové nočky s kachním a uzeným masem, zelí,cibulka"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Francouzská cibulačka",
-      "meal02": "Tagliatelle se šunkou a smetanovou omáčkou, parmazán",
-      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
+      "meal01": "Kulajda",
+      "meal02": "Kapucínský guláš, houskové knedlíky",
+      "meal03": "Grilovaný camembert, salát, steakové hranolky, brusinková omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Květáková s vejci",
-      "meal02": "Halušky se zelím, uzeným masem a cibulkou",
-      "meal03": "Kuřecí po indicku s rýží"
+      "meal01": "Hrachová polévka",
+      "meal02": "Chilli con carne s pečenou tortillou",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kozí brada",
-      "meal02": "Guláš flamendr s bramborákem",
-      "meal03": "Burger s karamelizovanou cibulkou, salát, dressing, hranolky"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Kuřecí rolka s bazalkovou omáčkou a rýží"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Gulášová polévka",
       "meal02": "Plněná tortilla smaženým kuřecím masem a zeleninou, pikantni omáčka",
       "meal03": "Pečená kachna, bramborové a houskové knedlíky, červené a bílé zelí",
