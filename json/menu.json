@@ -1,50 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak se sázeným vajíčkem, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Tortilla s trhaným masem a sýrem, chilli omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-11-13"
+    "mondayDate": "2022-11-20"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Kuřecí kari polévka",
-      "meal02": "DomáKuřecí na medu s jasmínovou rýží",
-      "meal03": "Bramborové nočky s kachním a uzeným masem, zelí,cibulka"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Rizoto s masem a žampiony, sypané sýrem, okurka",
+      "meal03": "Luhačovický špaček s bramborovou kaší"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Kapucínský guláš, houskové knedlíky",
-      "meal03": "Grilovaný camembert, salát, steakové hranolky, brusinková omáčka"
+      "meal01": "Čočková s párkem",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Fish a chips, hranolky, tatarská omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Chilli con carne s pečenou tortillou",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Zelňačka",
+      "meal02": "Šunkové fleky, okurka",
+      "meal03": "Plněný paprikový lusk v rajské omáčce, těstoviny"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
-      "meal03": "Kuřecí rolka s bazalkovou omáčkou a rýží"
+      "meal01": "Hovězí vývar s masovou rýží",
+      "meal02": "Pečené kuře s nádivkou, vařené brambory",
+      "meal03": "Vepřové nudličky na zeleném pepři, jasmínová rýže"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "Gulášová polévka",
-      "meal02": "Plněná tortilla smaženým kuřecím masem a zeleninou, pikantni omáčka",
-      "meal03": "Pečená kachna, bramborové a houskové knedlíky, červené a bílé zelí",
-      "price03": "220,-"
+      "open": true,
+      "meal01": "Boršč",
+      "meal02": "Řecká musaka s lilkem a sýrem",
+      "meal03": "Moravský vrabec, bramborové knedlíky, špenát"
     }
   ]
 }
