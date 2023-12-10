@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, tortilla se sýrem a rukolou, salát, dressing",
+    "meal04": "Jídlo týdne - Vepřový steak s houbovou omáčkou, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-12-04"
+    "mondayDate": "2022-12-11"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Kuřecí krémová polévka s bazalkou",
-      "meal02": "Guláš kata Mydláře, knedlíky",
-      "meal03": "Smažený květák, vařené brambory, tatarská omáčka"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Sekaná svíčková, knedlíky",
+      "meal03": "Doudlebská směs s bramborákem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Thajské nudle s masem, zeleninou a bambusovými výhonky",
-      "meal03": "Tataráček s topinkami a česnekekm"
+      "meal01": "Česneková polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Maminčino kuře, těstoviny"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Krkonošská cibulačka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, jasmínová rýže"
+      "meal01": "Bílá zelňačka s bramborem",
+      "meal02": "Gnocchi s kuřecím masem, suš.rajčaty, rukolou a mozzarellou",
+      "meal03": "Grilovaný hermelín, steakové hranolky, salát, brusinková omáčka"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Srbské rizoto sypané sýrem, červená řepa",
-      "meal03": "Táborská bašta, halušky, špenát"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Videšký guláš, houskové knedlíky",
+      "meal03": "Kuřecí řízek Cordon bleu s bramborovou kaší"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Hamburská kýta, knedlíky",
-      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou"
+      "meal01": "Drůbeží vývar s masem a nudlemi",
+      "meal02": "Hovězí na pepři, kolínka",
+      "meal03": "Smažený sýr gouda, hranolky, tatarská omáčka"
     }
   ]
 }
