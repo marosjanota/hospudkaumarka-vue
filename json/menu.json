@@ -1,14 +1,14 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burritos mexicanos, pikantní omáčky",
+    "meal04": "Jídlo týdne -",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-12-18"
+    "mondayDate": "2022-12-25"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": true,
+      "open": false,
       "meal01": "Boršč",
       "meal02": "Guláš Petra Voka, knedlíky",
       "meal03": "Luhačovický špaček s bramborovou kaší"
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "Čočková polévka",
       "meal02": "Boloňské špagety sypané sýrem",
       "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka"
@@ -25,25 +25,25 @@
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Kovbojské fazole s klobásou, chléb",
-      "meal03": "Kuře a la bažant, červené zelí, bramborové knedlíky"
+      "meal01": "Česneková polévka",
+      "meal02": "Srbské rizoto se sýrem a okurkou",
+      "meal03": "Kuřecí steak, grilované fazolky, hranolky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Topinka s ďábelskou směsí, sypaná sýrem",
-      "meal03": "Zapečené kuřecí prso s camembertem a slaninou, steakové hranolky"
+      "meal01": "Zelňačka",
+      "meal02": "Bramborové nočky se zelím, cibulkou a uzeným masem",
+      "meal03": "Řecký gyros, tzatziky, pita, steakové brambory"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Lasagně s karamelizovanou dýňí, masem, sýrem a rukolou",
-      "meal03": "Čevapčičí, vařené brambory, hořčice, cibule"
+      "meal01": "Čočková polévka",
+      "meal02": "Gulaš kata Mydláře, knedlíky",
+      "meal03": "Vepřový steak s omáčkou z červeného pepře, bramborové placky"
     }
   ]
 }
