@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne -",
+    "meal04": "Jídlo týdne - Smažený camembert, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-12-25"
+    "mondayDate": "2024-01-01"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": false,
-      "meal01": "Boršč",
+      "meal01": "Šumavská zelńačka",
       "meal02": "Guláš Petra Voka, knedlíky",
       "meal03": "Luhačovický špaček s bramborovou kaší"
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "Čočková polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka"
+      "open": true,
+      "meal01": "Šumavská zelńačka",
+      "meal02": "Katův šleh, bramborové placky",
+      "meal03": "Tortilla s masem gyros a sýrem, tzatziky"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Srbské rizoto se sýrem a okurkou",
-      "meal03": "Kuřecí steak, grilované fazolky, hranolky"
+      "meal01": "Čočková s klobásou",
+      "meal02": "Kung pao s jasmínovou rýží",
+      "meal03": "Kuřecí steak, grilovaná zelenina, steakové hranolky, dressing"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Bramborové nočky se zelím, cibulkou a uzeným masem",
-      "meal03": "Řecký gyros, tzatziky, pita, steakové brambory"
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Moravský vrabec, bramborové špalíčky, červené zelí",
+      "meal03": "Rančerská smažené kuře s bramborovou kaší"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Gulaš kata Mydláře, knedlíky",
-      "meal03": "Vepřový steak s omáčkou z červeného pepře, bramborové placky"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Kuřecí paprikáš, těstoviny",
+      "meal03": "Burger s trhaným masem v BBQ marinádě, salát, cibulové kroužky"
     }
   ]
 }
