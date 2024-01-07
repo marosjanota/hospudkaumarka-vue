@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený camembert, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřové medailonky se švestkovou omáčkou, bramborové rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-01-01"
+    "mondayDate": "2024-08-01"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": false,
-      "meal01": "Šumavská zelńačka",
-      "meal02": "Guláš Petra Voka, knedlíky",
-      "meal03": "Luhačovický špaček s bramborovou kaší"
+      "open": true,
+      "meal01": "Paprikášová polévka",
+      "meal02": "Thajské nudle s kokosovým mlékem a bambusovými výhonky",
+      "meal03": "Grilovaný hermelín s brusinkovou omáčkou, steakové hranolky, salát"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Šumavská zelňačka",
-      "meal02": "Katův šleh, bramborové placky",
-      "meal03": "Tortilla s masem gyros a sýrem, tzatziky"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Pečené kuře s nádivkou, vařené brambory",
+      "meal03": "Vepřová pečeně, houskové knedlíky, špenát"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čočková s klobásou",
-      "meal02": "Kung pao s jasmínovou rýží",
-      "meal03": "Kuřecí steak, grilovaná zelenina, steakové hranolky, dressing"
+      "meal01": "Kulajda",
+      "meal02": "Špagety Carbonára sypané parmazánem",
+      "meal03": "Pljaskavica, ajvar, pita, hranolky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Moravský vrabec, bramborové špalíčky, červené zelí",
-      "meal03": "Rančerská smažené kuře s bramborovou kaší"
+      "meal01": "Česneková polévka",
+      "meal02": "Segedínský guláš speciál, houskové knedlíky",
+      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a mozzarellou"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Kuřecí paprikáš, těstoviny",
-      "meal03": "Burger s trhaným masem v BBQ marinádě, salát, cibulové kroužky"
+      "meal01": "Bramborová polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Tuplovaný řízek s bramborovou kaší, okurka"
     }
   ]
 }
