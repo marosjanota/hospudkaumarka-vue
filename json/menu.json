@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí stripsy, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Burritos mexicanos, tři druhy omáček",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-01-15"
+    "mondayDate": "2024-01-22"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Francouzská cibulačka",
-      "meal02": "Guláš kata Mydláře, houskové knedlíky",
-      "meal03": "Grilovaný losos na parmazánovém rizotu"
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Masové nudličky Stroganov s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Drůbeží vývar s masem a nudlemi",
-      "meal02": "Vepřové na žampionech s rýží",
-      "meal03": "Čevabčíčí, vařené brambory, hořčice, cibule"
+      "meal01": "Srbská čorba",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Ovarový talíř s křenem a hořčicí, chléb"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Čočka na kyselo s grilovanou klobásou, cibulka, okurka",
-      "meal03": "Smažený camembert v bramboráku, zelný salát s koprem"
+      "meal01": "Hovězí vývar se smaženým hráškem",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Špekové knedlíky s uzeným masem, cibulkou a zelím",
-      "meal03": "Rajská hovězí pečeně, těstoviny"
+      "meal01": "Drůbeží kari polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
+      "meal03": "Hovězí na česneku, šumavský knedlík"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Kuřecí nudličky s ústřicovou omáčkou, jasmínová rýže",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Pečené kuře na žampionech, těstoviny",
+      "meal03": "Vepřový steak, pečené brambůrky, grilovaná zelenina, dressing"
     }
   ]
 }
