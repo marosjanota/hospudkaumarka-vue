@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burritos mexicanos, tři druhy omáček",
+    "meal04": "Jídlo týdne - Gyros, tzatziky, pita, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-01-22"
+    "mondayDate": "2024-01-29"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Masové nudličky Stroganov s rýží"
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Štěpánská hovězí pečeně, knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
-      "meal03": "Ovarový talíř s křenem a hořčicí, chléb"
+      "meal01": "Kulajda",
+      "meal02": "Smažené květákové řízečky, vařené brambory, tatarská omáčka",
+      "meal03": "Gnocchi Carbonára s parmazánem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hovězí vývar se smaženým hráškem",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Italská polévka",
+      "meal02": "Mexiský guláš s hráškovou rýží",
+      "meal03": "Tataráček s topinkami a česnekem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží kari polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
-      "meal03": "Hovězí na česneku, šumavský knedlík"
+      "meal01": "Bramborová polévka",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Moravský vrabec, variace knedlíků, zelí"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Pečené kuře na žampionech, těstoviny",
-      "meal03": "Vepřový steak, pečené brambůrky, grilovaná zelenina, dressing"
+      "meal01": "Gulášová polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený řízek s domácím bramborovým salátem"
     }
   ]
 }
