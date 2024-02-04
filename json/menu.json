@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Gyros, tzatziky, pita, steakové hranolky",
+    "meal04": "Jídlo týdne - Kuřecí steak, tortilla se sýrema rukolou, salát, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-01-29"
+    "mondayDate": "2024-02-04"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Štěpánská hovězí pečeně, knedlíky"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
+      "meal03": "Vepřová krkovička na šlehačce s rýžíknedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Smažené květákové řízečky, vařené brambory, tatarská omáčka",
-      "meal03": "Gnocchi Carbonára s parmazánem"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Hamburská vepřová kýta, knedlíky",
+      "meal03": "Hovězí flank steak po anglicku, hranolky, tatarská omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Italská polévka",
-      "meal02": "Mexiský guláš s hráškovou rýží",
-      "meal03": "Tataráček s topinkami a česnekem"
+      "meal01": "Zelňačka",
+      "meal02": "Zapečené francouzské brambory, okurka rýží",
+      "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, čínské nudle"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Moravský vrabec, variace knedlíků, zelí"
+      "meal01": "Čočková polévka",
+      "meal02": "Pštrosí vejce s bramborovou kaší",
+      "meal03": "Vepřová pečeně, halušky, špenát"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený řízek s domácím bramborovým salátem"
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Burger s karamelizovanou cibulkou, salát, cibulové kroužky, BBQ omáčka"
     }
   ]
 }
