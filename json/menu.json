@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, tortilla se sýrema rukolou, salát, dressing",
+    "meal04": "Jídlo týdne - Vepřový steak, hranolky, sázené vajíčko, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-02-05"
+    "mondayDate": "2024-02-12"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
-      "meal03": "Vepřová krkovička na šlehačce s rýžíknedlíky"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Guláš Petra Voka, houskové knedlíky",
+      "meal03": "Grilovaný camembert s brusinkovou omáčkou, salát, bagetka"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Hamburská vepřová kýta, knedlíky",
-      "meal03": "Hovězí flank steak po anglicku, hranolky, tatarská omáčka"
+      "meal01": "Gulášová polévka",
+      "meal02": "Cmunda po kaplicku – uzené, bramborák, zelí",
+      "meal03": "Kuřecí na medu s jasmínovou rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Zapečené francouzské brambory, okurka rýží",
-      "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, čínské nudle"
+      "meal01": "Brokolicová krémová polévka s krutony",
+      "meal02": "Pirohy plněné masem se zakysanou smetanou a rozpuštěnou slaninou",
+      "meal03": "Špíz Tandori masala, pečené brambory"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Pštrosí vejce s bramborovou kaší",
-      "meal03": "Vepřová pečeně, halušky, špenát"
+      "meal01": "Fazolačka",
+      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
+      "meal03": "Rančerská kuře, mačkané brambory s cibulkou"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Burger s karamelizovanou cibulkou, salát, cibulové kroužky, BBQ omáčka"
+      "meal01": "Dýňová polévka",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Tortilla plněná pikantním mletým mase a sýrem, salsa s koriandrem"
     }
   ]
 }
