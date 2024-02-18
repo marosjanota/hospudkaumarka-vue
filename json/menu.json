@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, hranolky, sázené vajíčko, tatarská omáčka",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-02-12"
+    "mondayDate": "2024-02-19"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Guláš Petra Voka, houskové knedlíky",
-      "meal03": "Grilovaný camembert s brusinkovou omáčkou, salát, bagetka"
+      "meal01": "Cibulačka s masem a bramborami",
+      "meal02": "Dalmátské čufty, těstoviny",
+      "meal03": "Pečená kachna ¼, zelí, knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Cmunda po kaplicku – uzené, bramborák, zelí",
-      "meal03": "Kuřecí na medu s jasmínovou rýží"
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Hříbkové gnocchi s kuřecím masem a mozzarellou",
+      "meal03": "Vepřová játra na roštu, vařené brambory, ďábelská omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Brokolicová krémová polévka s krutony",
-      "meal02": "Pirohy plněné masem se zakysanou smetanou a rozpuštěnou slaninou",
-      "meal03": "Špíz Tandori masala, pečené brambory"
+      "meal01": "Valašská zelňačka",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Fazolačka",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
-      "meal03": "Rančerská kuře, mačkané brambory s cibulkou"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Čínské nudle s masem, zeleninou a bambusovými výhonky",
+      "meal03": "Kuřecí rolka s listovým špenátem a šunkou, rosti"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Dýňová polévka",
-      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
-      "meal03": "Tortilla plněná pikantním mletým mase a sýrem, salsa s koriandrem"
+      "meal01": "Dýňová s krutony",
+      "meal02": "Guláš kata Mydláře, knedlíky",
+      "meal03": "Burger s trhaným masem, salát Coleslaw, dressing, steakové hranolky"
     }
   ]
 }
