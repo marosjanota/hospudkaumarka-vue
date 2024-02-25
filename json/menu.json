@@ -1,50 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Kuřecí steak, salát s cherri rajčaty, tortilla se sýrem a rukollou",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-02-19"
+    "mondayDate": "2024-02-26"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Cibulačka s masem a bramborami",
-      "meal02": "Dalmátské čufty, těstoviny",
-      "meal03": "Pečená kachna ¼, zelí, knedlíky",
-      "price03": "150,-"
+      "meal01": "Ragů polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Krůtí soté na víně s dušenou rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Hříbkové gnocchi s kuřecím masem a mozzarellou",
-      "meal03": "Vepřová játra na roštu, vařené brambory, ďábelská omáčka"
+      "meal01": "Bramborová poévka",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Katův šleh, bramboráčky"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Valašská zelňačka",
-      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Česneková polévka",
+      "meal02": "Zapečené těstoviny s holandskou omáčkou, šunkou a sýrem",
+      "meal03": "Kuře a la kachna, bramborové špalíčky, červené zelí"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Čínské nudle s masem, zeleninou a bambusovými výhonky",
-      "meal03": "Kuřecí rolka s listovým špenátem a šunkou, rosti"
+      "meal01": "Kulajda z vysočiny",
+      "meal02": "Hovězí guláš flamendr, knedlíky",
+      "meal03": "Kuřecí prsa v sýrovém těstíčku, hranolky, tatarská omáčka"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Dýňová s krutony",
-      "meal02": "Guláš kata Mydláře, knedlíky",
-      "meal03": "Burger s trhaným masem, salát Coleslaw, dressing, steakové hranolky"
+      "meal01": "Gulášová polévka",
+      "meal02": "Kantonská rýže s kuřecím mase a zeleninou",
+      "meal03": "Vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
