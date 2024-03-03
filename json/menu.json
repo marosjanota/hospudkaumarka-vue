@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, salát s cherri rajčaty, tortilla se sýrem a rukollou",
+    "meal04": "Jídlo týdne - Vepřové medailonky s hříbkovou omáčkou, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-02-26"
+    "mondayDate": "2024-03-04"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Ragů polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": "Krůtí soté na víně s dušenou rýží"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Vepřový steak pečený v listovém těstě, rosti, salát, dressing"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramborová poévka",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
-      "meal03": "Katův šleh, bramboráčky"
+      "meal01": "Čočková polévka",
+      "meal02": "Segedínský guláš speciál, houskové knedlíky",
+      "meal03": "Grilovaný hermelín se slaninou, steakové hranolky, brusinková omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Zapečené těstoviny s holandskou omáčkou, šunkou a sýrem",
-      "meal03": "Kuře a la kachna, bramborové špalíčky, červené zelí"
+      "meal01": "Cibulačka",
+      "meal02": "Pečené kuře na másle, vařené brambory",
+      "meal03": "Moravský vrabec, halušky, špenát"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kulajda z vysočiny",
-      "meal02": "Hovězí guláš flamendr, knedlíky",
-      "meal03": "Kuřecí prsa v sýrovém těstíčku, hranolky, tatarská omáčka"
+      "meal01": "Zelňačka",
+      "meal02": "Selský buřt guláš s masem a cibulkou, chléb",
+      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Kantonská rýže s kuřecím mase a zeleninou",
-      "meal03": "Vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Boršč",
+      "meal02": "Masové nudličky Stroganov s rýží",
+      "meal03": "Tortilla plněná kuřecími rarášky a čerstvou zeleninou, dressing"
     }
   ]
 }
