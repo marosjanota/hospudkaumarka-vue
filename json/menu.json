@@ -2,13 +2,13 @@
   "dailyRepeat": {
     "meal04": "Jídlo týdne - Vepřové medailonky s hříbkovou omáčkou, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-03-04"
+    "mondayDate": "2024-03-11"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": true,
+      "open": false,
       "meal01": "Knedlíčková polévka",
       "meal02": "Boloňské špagety sypané sýrem",
       "meal03": "Vepřový steak pečený v listovém těstě, rosti, salát, dressing"
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "Čočková polévka",
       "meal02": "Segedínský guláš speciál, houskové knedlíky",
       "meal03": "Grilovaný hermelín se slaninou, steakové hranolky, brusinková omáčka"
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Cibulačka",
       "meal02": "Pečené kuře na másle, vařené brambory",
       "meal03": "Moravský vrabec, halušky, špenát"
@@ -32,7 +32,7 @@
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Zelňačka",
       "meal02": "Selský buřt guláš s masem a cibulkou, chléb",
       "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
@@ -40,7 +40,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Boršč",
       "meal02": "Masové nudličky Stroganov s rýží",
       "meal03": "Tortilla plněná kuřecími rarášky a čerstvou zeleninou, dressing"
