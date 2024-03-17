@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky s hříbkovou omáčkou, bramborové placky",
+    "meal04": "Jídlo týdne - Grill Mix, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-03-11"
+    "mondayDate": "2024-03-18"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": false,
+      "open": true,
       "meal01": "Knedlíčková polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Vepřový steak pečený v listovém těstě, rosti, salát, dressing"
+      "meal02": "Čočka na kyselo s uzeným mase, a okurkou",
+      "meal03": "Bramborový knedlík plněný trhaným masem, červené zelí, cibulka"
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "Čočková polévka",
-      "meal02": "Segedínský guláš speciál, houskové knedlíky",
-      "meal03": "Grilovaný hermelín se slaninou, steakové hranolky, brusinková omáčka"
+      "open": true,
+      "meal01": "Česneková polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Čínské nudle s ústřícovou omáčkou, zeleninou a kuřecím masem"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "Cibulačka",
-      "meal02": "Pečené kuře na másle, vařené brambory",
-      "meal03": "Moravský vrabec, halušky, špenát"
+      "open": true,
+      "meal01": "Bramborová poévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Hovězí na česneku, halušky, špenát"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "Zelňačka",
-      "meal02": "Selský buřt guláš s masem a cibulkou, chléb",
-      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Španělský ptáček s rýží",
+      "meal03": "Tataráček s topinkami a česnekem"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "Boršč",
-      "meal02": "Masové nudličky Stroganov s rýží",
-      "meal03": "Tortilla plněná kuřecími rarášky a čerstvou zeleninou, dressing"
+      "open": true,
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Kuřecí paprikáš, těstoviny",
+      "meal03": "Buritos mexicanos – tortilla s masem, zeleninou a sýrem, pikantní salsa"
     }
   ]
 }
