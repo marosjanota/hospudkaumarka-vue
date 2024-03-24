@@ -1,46 +1,46 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Grill Mix, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Řecký gyros, pita, tzatziky, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-03-18"
+    "mondayDate": "2024-03-25"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Čočka na kyselo s uzeným mase, a okurkou",
-      "meal03": "Bramborový knedlík plněný trhaným masem, červené zelí, cibulka"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Masové nudličky po indicku s rýží"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
-      "meal03": "Čínské nudle s ústřícovou omáčkou, zeleninou a kuřecím masem"
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Srbské rizoto sypané sýrem",
+      "meal03": "Vepřové výpečky, bramborové špalíčky, zelí"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Bramborová poévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Hovězí na česneku, halušky, špenát"
+      "meal01": "Kari polévka",
+      "meal02": "Kuřecí křidélka v medové chilli marinádě, pečené brambory",
+      "meal03": "Svíčková na smetaně s brusinkami, knedlíky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Španělský ptáček s rýží",
-      "meal03": "Tataráček s topinkami a česnekem"
+      "meal01": "Hrachová polévka",
+      "meal02": "Špagety Carbonára s parmazánem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Čínská pikantní polévka",
       "meal02": "Kuřecí paprikáš, těstoviny",
       "meal03": "Buritos mexicanos – tortilla s masem, zeleninou a sýrem, pikantní salsa"
