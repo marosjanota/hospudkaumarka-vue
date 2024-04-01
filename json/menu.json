@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, pita, tzatziky, steakové hranolky",
+    "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-03-25"
+    "mondayDate": "2024-04-01"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondelí",
-      "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Luhačovický špaček s bramborovou kaší",
-      "meal03": "Masové nudličky po indicku s rýží"
+      "open": false,
+      "meal01": "Čočková polévka",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Srbské rizoto sypané sýrem",
-      "meal03": "Vepřové výpečky, bramborové špalíčky, zelí"
+      "meal01": "Čočková polévka",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kari polévka",
-      "meal02": "Kuřecí křidélka v medové chilli marinádě, pečené brambory",
-      "meal03": "Svíčková na smetaně s brusinkami, knedlíky"
+      "meal01": "Česneková polévka",
+      "meal02": "Karbanátek, bramborová kaše, okurka",
+      "meal03": "Pečená krkovička, šumavský knedlík, zelí"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Špagety Carbonára s parmazánem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Masové nudličky po Dijónsku s rýží",
+      "meal03": "Hovězí flank steak a vepřová panenka, salát s mozzarellou, bagetka"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": false,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Kuřecí paprikáš, těstoviny",
-      "meal03": "Buritos mexicanos – tortilla s masem, zeleninou a sýrem, pikantní salsa"
+      "meal01": "Drůbeží vývar se smaženým hráškem",
+      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
+      "meal03": "Bryndzové halušky s rozpuštěnou slaninou"
     }
   ]
 }
