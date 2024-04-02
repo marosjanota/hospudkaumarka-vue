@@ -40,7 +40,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
+      "open": true,
       "meal01": "Drůbeží vývar se smaženým hráškem",
       "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
       "meal03": "Bryndzové halušky s rozpuštěnou slaninou"
