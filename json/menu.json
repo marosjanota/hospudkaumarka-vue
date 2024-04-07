@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Grilovaný hermelín, steakové hranolky, salát, brusinková omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-04-01"
+    "mondayDate": "2024-04-08"
   },
   "dailyMenu": [
     {
       "id": 1,
-      "day": "Pondelí",
-      "open": false,
-      "meal01": "Čočková polévka",
-      "meal02": "Segedínský guláš speciál, knedlíky",
-      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem"
+      "day": "Pondělí",
+      "open": true,
+      "meal01": "Boršč",
+      "meal02": "Dalmátské čufty, těstoviny",
+      "meal03": "Katův šleh, bramboráčky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Segedínský guláš speciál, knedlíky",
-      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem"
+      "meal01": "Bramborová polévka",
+      "meal02": "Pečené kuře s nádivkou, vařené brambory",
+      "meal03": "Kung – pao s jasmínovou rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Karbanátek, bramborová kaše, okurka",
-      "meal03": "Pečená krkovička, šumavský knedlík, zelí"
+      "meal01": "Italská polévka",
+      "meal02": "Srbské rizoto se sýrem a okurkou",
+      "meal03": "Kuřecí řízek Ondráš, zelný salát s křenem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Masové nudličky po Dijónsku s rýží",
-      "meal03": "Hovězí flank steak a vepřová panenka, salát s mozzarellou, bagetka"
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Debrecínský guláš s knedlíkem",
+      "meal03": "Kuřecí steak s máslovou kukuřicí a tortillou plněnou sýrem"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Drůbeží vývar se smaženým hráškem",
-      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
-      "meal03": "Bryndzové halušky s rozpuštěnou slaninou"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Pastevecký řízek s bramborovou kasí, okurka"
     }
   ]
 }
