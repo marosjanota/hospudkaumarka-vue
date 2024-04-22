@@ -1,50 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, hranolky, dressing",
+    "meal04": "Jídlo týdne - Kuřecí steak, salát, tortilla plněná sýrem, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-04-15"
+    "mondayDate": "2024-04-22"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Kuřecí nudličky na žampionech s rýží",
-      "meal03": "Pečená kachna ¼, zelí, knedlíky",
-      "price03": "180kč"
+      "meal01": "Bramborová polévka",
+      "meal02": "Přírodní sekaný řízek na žampionech s bramborovou kaší",
+      "meal03": "Vepřové nudličky s rokfórovou omáčkou, rýže"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
-      "meal03": "Kuřecí rolka se nivou, šunkou a špenátem, bramborové placky"
+      "meal01": "Hrachová polévka",
+      "meal02": "Halušky se zelím a kachním masem, cibulka",
+      "meal03": "Grill mix, hranolky, tatarská omáčka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kulajda z vysočiny",
-      "meal02": "Pečené kuře ve smetanové omáčce s rýží",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší"
+      "meal01": "Hovězí vývar s nudlemi",
+      "meal02": "Hamburská kýta, knedlíky",
+      "meal03": "Thajské nudle s masem, zeleninou a bambusovými výhonky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hovězí vývar s masovou rýží",
-      "meal02": "Kapucínský guláš, knedlíky",
-      "meal03": "Burger s karamelizovanou cibulkou, salát, dressing, cibulové kroužky"
+      "meal01": "Krémová česneková polévka",
+      "meal02": "Pštrosí vejce s bramborovou kaší",
+      "meal03": "Táborská bašta, bramborové nočky, špenát"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený řízek, domácí bramborový salát"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Vepřové rizoto s hráškem, sypané sýrem, okurka",
+      "meal03": "Kuřecí rarášci v parmazánovém těstíčku, hranolky, česnekový dip"
     }
   ]
 }
