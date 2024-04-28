@@ -1,30 +1,30 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, salát, tortilla plněná sýrem, dressing",
+    "meal04": "Jídlo týdne - Burritos mexicanos, pikantní omáčky ",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-04-22"
+    "mondayDate": "2024-04-29"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Přírodní sekaný řízek na žampionech s bramborovou kaší",
-      "meal03": "Vepřové nudličky s rokfórovou omáčkou, rýže"
+      "meal01": "Bramboračka",
+      "meal02": "Domácí sekaná pačeně s bramborovou kaší a okurkou",
+      "meal03": "Maďarský guláš, houskové knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Halušky se zelím a kachním masem, cibulka",
-      "meal03": "Grill mix, hranolky, tatarská omáčka"
+      "meal01": "Hovězí vývar s kapáním",
+      "meal02": "Kuře a la kachna, bramborové knedlíky, zelí",
+      "meal03": "occhi se slaninou, česnekem, listovým špenátem a parmazánem"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Hovězí vývar s nudlemi",
       "meal02": "Hamburská kýta, knedlíky",
       "meal03": "Thajské nudle s masem, zeleninou a bambusovými výhonky"
@@ -33,17 +33,17 @@
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Krémová česneková polévka",
-      "meal02": "Pštrosí vejce s bramborovou kaší",
-      "meal03": "Táborská bašta, bramborové nočky, špenát"
+      "meal01": "Zelňačka",
+      "meal02": "Špagety aglio olio e peperoncino, sypané parmazánem",
+      "meal03": "Kuřecí Cordon bleu, bramborová kaše"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Vepřové rizoto s hráškem, sypané sýrem, okurka",
-      "meal03": "Kuřecí rarášci v parmazánovém těstíčku, hranolky, česnekový dip"
+      "meal01": "Gulášová polévka",
+      "meal02": "Kuřecí se sladkou chilli omáčkou, jasmínová rýže",
+      "meal03": "Smažený camembert v bramboráku se zelným salátem s koprem"
     }
   ]
 }
