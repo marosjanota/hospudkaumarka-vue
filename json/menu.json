@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky, grilované zelenina, pečená tortilla, dressing",
+    "meal04": "Jídlo týdne - Kuřecí steak, salát Coleslaw, krokety, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-05-13"
+    "mondayDate": "2024-05-20"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Kuřecí řízek sezam s bramborovou kaší, okurka"
+      "meal01": "Zahradnická polévka",
+      "meal02": "Debrecínský guláš, knedlíky",
+      "meal03": "Halušky se zelím, uzeným masem a cibulkou"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Cibulačka s krutony",
-      "meal02": "Špekové knedlíky s uzeným masem a cibulkou, zelí",
-      "meal03": "Kuřecí na medu s jasmínovou rýží"
+      "meal01": "Fazolačka",
+      "meal02": "Pekingské nudličky, čínské nudle",
+      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Čočka na kyselo s grilovanou klobásou, okurka",
-      "meal03": "Hovězí po anglicku, hranolky, tatarská omáčka"
+      "meal01": "Česneková polévka",
+      "meal02": "Zapečené francouzské brambory, okurka",
+      "meal03": "Španělský ptáček s rýží"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Brokolicová krémová polévka",
-      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
-      "meal03": "Tagliatelle s kuřecím masem, sušenými rajčaty, rukolou a mozzarellou"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Kuřecí paprikáš, těstoviny",
+      "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Pečené kuře na česneku se smetanou, rýže",
-      "meal03": "Burger s cibulovou marmeládou, salát, dressing, steakové hranolky"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
