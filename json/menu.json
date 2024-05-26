@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, salát Coleslaw, krokety, dressing",
+    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-05-20"
+    "mondayDate": "2024-05-27"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Debrecínský guláš, knedlíky",
-      "meal03": "Halušky se zelím, uzeným masem a cibulkou"
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Segedínský guláš speciál, houskové knedlíky",
+      "meal03": "Grilovaný hermelín, brusinková omáčka, pečené brambory, salát"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Fazolačka",
-      "meal02": "Pekingské nudličky, čínské nudle",
-      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
+      "meal01": "Bramborová polévka",
+      "meal02": "Kovbojské fazole, chléb",
+      "meal03": "Moravský vrabec, halušky, špenát"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Zapečené francouzské brambory, okurka",
-      "meal03": "Španělský ptáček s rýží"
+      "meal01": "Zelňačka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Vepřová krkovička na šlehačce, šťouchané brambory s cibulkou"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Kuřecí paprikáš, těstoviny",
-      "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka"
+      "meal01": "Drůbeží vývar s masem a těstovinou",
+      "meal02": "Pirohy s kuřecím masem a zakysanou smetanou",
+      "meal03": "Holandský sekaný řízek s bramborovou kaší a okurkou"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Gulášová polévka",
+      "meal02": "Špagety Carbonára s parmazánem",
+      "meal03": "Svíčková na smetaně s brusinkovým terčem, houskové knedlíky"
     }
   ]
 }
