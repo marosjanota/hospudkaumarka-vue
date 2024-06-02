@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
+    "meal04": "Jídlo týdne - Burritos mexicanos s pikantní omáčkou",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-05-27"
+    "mondayDate": "2024-06-02"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Segedínský guláš speciál, houskové knedlíky",
-      "meal03": "Grilovaný hermelín, brusinková omáčka, pečené brambory, salát"
+      "meal01": "Česneková polévka",
+      "meal02": "Guláš Petra Voka, knedlíky",
+      "meal03": "Jugoslávská pljaskavica, ajvar, pita, steakové hranolky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Kovbojské fazole, chléb",
-      "meal03": "Moravský vrabec, halušky, špenát"
+      "meal01": "Mexická fazolačka",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Bramborový knedlík plněný trhaným masem, zelí, cibulka"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Vepřová krkovička na šlehačce, šťouchané brambory s cibulkou"
+      "meal01": "Kozí brada",
+      "meal02": "Asijské nudle s masem, zeleninou a kokosovým mlékem a limetou",
+      "meal03": "Marinovaný špíz s česnekovým dipem a salátem z pečených brambor"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar s masem a těstovinou",
-      "meal02": "Pirohy s kuřecím masem a zakysanou smetanou",
-      "meal03": "Holandský sekaný řízek s bramborovou kaší a okurkou"
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Klatovský závitek s rýží",
+      "meal03": "Kuře a la kachna, bramborové špalíčky, červené zelí"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Špagety Carbonára s parmazánem",
-      "meal03": "Svíčková na smetaně s brusinkovým terčem, houskové knedlíky"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Masové koule v rajské omáčce, těstoviny",
+      "meal03": "Smažený vepřový řízek plněný šunkou a sýrem,bramborová kaše, okurka"
     }
   ]
 }
