@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burritos mexicanos s pikantní omáčkou",
+    "meal04": "Jídlo týdne - Vepřový steak, hranolky, sázené vajíčko, BBQ omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-06-02"
+    "mondayDate": "2024-06-10"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Guláš Petra Voka, knedlíky",
-      "meal03": "Jugoslávská pljaskavica, ajvar, pita, steakové hranolky"
+      "meal01": "Italská polévka",
+      "meal02": "Pikantní rizoto sypané sýrem, okurka",
+      "meal03": "Vepřový guláš s feferonkou, knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Boloňské lasagně zapečené sýrem gouda",
-      "meal03": "Bramborový knedlík plněný trhaným masem, zelí, cibulka"
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Kuřecí nudličky po dijónsku s rýží"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kozí brada",
-      "meal02": "Asijské nudle s masem, zeleninou a kokosovým mlékem a limetou",
-      "meal03": "Marinovaný špíz s česnekovým dipem a salátem z pečených brambor"
+      "meal01": "Kulajda",
+      "meal02": "Pečené kuře s nádivkou, vařené brambory",
+      "meal03": "Ďábelská topinka sypaná sýrem"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Klatovský závitek s rýží",
-      "meal03": "Kuře a la kachna, bramborové špalíčky, červené zelí"
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Masové koule v rajské omáčce, těstoviny",
-      "meal03": "Smažený vepřový řízek plněný šunkou a sýrem,bramborová kaše, okurka"
+      "meal01": "Gulášová polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Pastevecký řízek s bramborovou kaší a okurkou"
     }
   ]
 }
