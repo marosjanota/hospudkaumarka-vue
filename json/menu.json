@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, hranolky, sázené vajíčko, BBQ omáčka",
+    "meal04": "Jídlo týdne - Kuřecí stripsy KFC, hranolky,grilovací omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-06-10"
+    "mondayDate": "2024-06-17"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Italská polévka",
-      "meal02": "Pikantní rizoto sypané sýrem, okurka",
-      "meal03": "Vepřový guláš s feferonkou, knedlíky"
+      "meal01": "Hrachová polévka",
+      "meal02": "Řecká musaka s masem a lilkem, zapečená sýrem gouda",
+      "meal03": "Hamburská vepřová kýta, knedlíky"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Francouzská cibulačka",
-      "meal02": "Luhačovický špaček s bramborovou kaší",
-      "meal03": "Kuřecí nudličky po dijónsku s rýží"
+      "meal01": "Bramborová polévka",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Moravský vrabec, halušky, špenát"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Pečené kuře s nádivkou, vařené brambory",
-      "meal03": "Ďábelská topinka sypaná sýrem"
+      "meal01": "Dýňová polévka",
+      "meal02": "Guláš cibulář, knedlíky",
+      "meal03": "Řecké souvlaky, pita, tzatziky, steakové hranolky"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
-      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem"
+      "meal01": "Květáková polévka",
+      "meal02": "Sekaný řízek v těstíčku Diablito, bramborová kaše, okurka",
+      "meal03": "Hovězí na česneku, šumavský knedlík"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Pastevecký řízek s bramborovou kaší a okurkou"
+      "meal01": "Boršč",
+      "meal02": "Kuře tariyaky s jasmínovou rýží",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
     }
   ]
 }
