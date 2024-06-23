@@ -1,49 +1,49 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí stripsy KFC, hranolky,grilovací omáčka",
+    "meal04": "Jídlo týdne - Tortilla s trhaným masem a sýrem, pikantní omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-06-17"
+    "mondayDate": "2024-06-24"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Řecká musaka s masem a lilkem, zapečená sýrem gouda",
-      "meal03": "Hamburská vepřová kýta, knedlíky"
+      "meal01": "Valašská zelňačka",
+      "meal02": "Vepřové na pepři, knedlíky",
+      "meal03": "Smažený sýr gouda, hranolky, tatarská omáčka"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Moravský vrabec, halušky, špenát"
+      "meal01": "Srbská čorba",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Smažené rančerské kuře, šťouchané brambory"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Dýňová polévka",
-      "meal02": "Guláš cibulář, knedlíky",
-      "meal03": "Řecké souvlaky, pita, tzatziky, steakové hranolky"
+      "meal01": "Italská polévka",
+      "meal02": "Čočka na kyselo s grilovanou klobásou, cibulka, okurka",
+      "meal03": "Přírodní sekaný řízek s bramborovou kaší"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Sekaný řízek v těstíčku Diablito, bramborová kaše, okurka",
-      "meal03": "Hovězí na česneku, šumavský knedlík"
+      "meal01": "Drůbeží vývar s nudlemi",
+      "meal02": "Zapečené francouzské brambory, okurka",
+      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Kuře tariyaky s jasmínovou rýží",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem"
+      "meal01": "Čočková polévka",
+      "meal02": "Kotlíkový guláš s masem, chléb",
+      "meal03": "Domácí sekaná pečeně s bramborovou kaší, okurka"
     }
   ]
 }
