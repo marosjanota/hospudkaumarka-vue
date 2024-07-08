@@ -11,7 +11,8 @@
       "open": true,
       "meal01": "Čočková polévka s klobásou",
       "meal02": "Segedínský guláš speciál, knedlíky",
-      "meal03": "Kuřecí po indicku s jasmínovou rýží"
+      "meal03": "Kuřecí po indicku s jasmínovou rýží",
+      "closedText": ""
     },
     {
       "id": 2,
@@ -19,7 +20,8 @@
       "open": false,
       "meal01": "Krkonošské kyselo",
       "meal02": "Sekaná svíčková, houskové knedlíky",
-      "meal03": "Pekařský pečený závitek, šťouchané brambory se smetanou"
+      "meal03": "Pekařský pečený závitek, šťouchané brambory se smetanou",
+      "closedText": "Z technických důvodů zavřeno – odstávka el. proudu"
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@
       "open": true,
       "meal01": "Paprikášová polévka",
       "meal02": "Kantonská rýže s masem a zeleninou",
-      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše"
+      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše",
+      "closedText": ""
     },
     {
       "id": 4,
@@ -35,7 +38,8 @@
       "open": true,
       "meal01": "Boršč",
       "meal02": "Domažlické vepřové ragů, knedlíky",
-      "meal03": "Kuřecí rolka se šunkou, sýrem a listovým špenátem, rosti"
+      "meal03": "Kuřecí rolka se šunkou, sýrem a listovým špenátem, rosti",
+      "closedText": ""
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "open": true,
       "meal01": "Frankfurtská polévka",
       "meal02": "Zapečené těstoviny s lososem a parmazánem",
-      "meal03": "Katův šleh, bramboráčky"
+      "meal03": "Katův šleh, bramboráčky",
+      "closedText": ""
     }
   ]
 }
