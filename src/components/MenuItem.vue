@@ -34,7 +34,7 @@
     }}</span>
   </div>
   <div v-else>
-    <p>Zavřeno</p>
+    <p>{{ menu.closedText != null ? menu.closedText : "Zavřeno" }}</p>
   </div>
 </template>
 <script>

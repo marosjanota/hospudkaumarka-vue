@@ -1,49 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený hermelín, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Grilovaný camembert, steakové hranolky, salát, brusinková omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2022-10-17"
+    "mondayDate": "2024-07-08"
   },
   "dailyMenu": [
     {
       "id": 1,
-      "day": "Pondelí",
+      "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Bramborové nočky s kuřecím masem, zeleninou a trhanou mozzarellou"
+      "meal01": "Čočková polévka s klobásou",
+      "meal02": "Segedínský guláš speciál, knedlíky",
+      "meal03": "Kuřecí po indicku s jasmínovou rýží",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Pečené kuře po tunisku s rýží",
-      "meal03": "Masové nudlič Stroganov, bramborové placky"
+      "open": false,
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Sekaná svíčková, houskové knedlíky",
+      "meal03": "Pekařský pečený závitek, šťouchané brambory se smetanou",
+      "closedText": "Z technických důvodů zavřeno – odstávka el. proudu"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Guláš flamendr, houskové knedlíky",
-      "meal03": "ČSouvlaky – řecký špíz, pita, tzatziky, pečené brambory"
+      "meal01": "Paprikášová polévka",
+      "meal02": "Kantonská rýže s masem a zeleninou",
+      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše",
+      "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
-      "meal03": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka"
+      "meal01": "Boršč",
+      "meal02": "Domažlické vepřové ragů, knedlíky",
+      "meal03": "Kuřecí rolka se šunkou, sýrem a listovým špenátem, rosti",
+      "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Polský boršč se smetanou",
-      "meal02": "Řecká musaka – zapečené brambory s masem, lilkem a sýrem",
-      "meal03": "Svíčková na smetaně s brusinkovým terčem, houskové knedlíky"
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Zapečené těstoviny s lososem a parmazánem",
+      "meal03": "Katův šleh, bramboráčky",
+      "closedText": ""
     }
   ]
 }

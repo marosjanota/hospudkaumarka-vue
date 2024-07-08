@@ -1,5 +1,10 @@
 <template>
   <Section>
+    <Box title="" v-if="showTopAlert">
+      <h3 class="text--bold ta-c">
+      9. 7. 2024 &nbsp;&nbsp; Z technických důvodů zavřeno – odstávka el. proudu
+    </h3>
+    </Box>
     <Box title="Dnešní menu" v-if="getCurrentDay">
       <MenuItem
         :menu="getCurrentDay"
@@ -11,8 +16,6 @@
           Polévka k menu malá 15Kč, velká 20kč
         </p>
       </div>
-      <!-- <hr/>
-      <h3 class="ta-c">6. 3. - 10. 3. 2023 &nbsp;&nbsp; Zavřeno - dovolená</h3> -->
     </Box>
     <Actions :visible="false" />
     <Gallery />
@@ -33,7 +36,7 @@ export default {
     Actions,
     Contact,
     MenuItem,
-    Gallery
+    Gallery,
   },
   computed: {
     getCurrentDay() {
@@ -43,5 +46,12 @@ export default {
       return this.$store.getters.getRepeated;
     },
   },
+  setup() {
+    const showTopAlert = new Date("08.07.2024") > new Date(); // MM.DD.YYYY
+
+    return {
+      showTopAlert
+    }
+  }
 };
 </script>
