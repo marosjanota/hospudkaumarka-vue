@@ -1,53 +1,53 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Grilovaný camembert, steakové hranolky, salát, brusinková omáčka",
+    "meal04": "Jídlo týdne - Tortilla s grilovaným masem, sýrem a cibulkou, zakysaná smetana",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-07-08"
+    "mondayDate": "2024-07-15"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čočková polévka s klobásou",
-      "meal02": "Segedínský guláš speciál, knedlíky",
-      "meal03": "Kuřecí po indicku s jasmínovou rýží",
+      "meal01": "Čínská polévka",
+      "meal02": "Boloňské špagety sypané sýrem Gouda",
+      "meal03": "Tataráček s topinkami a česnekekm",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Sekaná svíčková, houskové knedlíky",
-      "meal03": "Pekařský pečený závitek, šťouchané brambory se smetanou",
-      "closedText": "Z technických důvodů zavřeno – odstávka el. proudu"
+      "open": true,
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Smažené kuřecí řízečky s bramborovou kaší, okurka",
+      "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Kantonská rýže s masem a zeleninou",
-      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše",
+      "meal01": "Italská polévka",
+      "meal02": "Vepřová játra na roštu, hranolky, tatarská omáčka",
+      "meal03": "Rajská omáčka, maso, těstoviny",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Domažlické vepřové ragů, knedlíky",
-      "meal03": "Kuřecí rolka se šunkou, sýrem a listovým špenátem, rosti",
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Kuřecí nudličky se zeleninou a rýží",
+      "meal03": "Halušky se zelím a kachním masem",
       "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Zapečené těstoviny s lososem a parmazánem",
-      "meal03": "Katův šleh, bramboráčky",
+      "meal01": "Gulášová polévka",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Tuplovaný rízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
