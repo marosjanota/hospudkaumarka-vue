@@ -1,53 +1,53 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tortilla s grilovaným masem, sýrem a cibulkou, zakysaná smetana",
+    "meal04": "Jídlo týdne - Steak pražského uzenáře, americké brambory, česnekový dip",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-07-15"
+    "mondayDate": "2024-07-22"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čínská polévka",
-      "meal02": "Boloňské špagety sypané sýrem Gouda",
-      "meal03": "Tataráček s topinkami a česnekekm",
+      "meal01": "Drůbeží kari polévka",
+      "meal02": "Domácí sekáná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Moravský vrabec, knedlíky, zelí",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Smažené kuřecí řízečky s bramborovou kaší, okurka",
+      "meal01": "Bramborová polévka",
+      "meal02": "Guláš kata Mydláře, knedlíky",
+      "meal03": "Gnocchi quattro formaggi s kuřecím masem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Italská polévka",
-      "meal02": "Vepřová játra na roštu, hranolky, tatarská omáčka",
-      "meal03": "Rajská omáčka, maso, těstoviny",
+      "meal01": "Fazolačka s klobásou",
+      "meal02": "Srbské rizoto sypané sýrem",
+      "meal03": "Grilovaný camembert se slaninou, salát, peč.rortilla, brusinková omáčka",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Kuřecí nudličky se zeleninou a rýží",
-      "meal03": "Halušky se zelím a kachním masem",
+      "meal01": "Kulajda",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Kuřecí rarášci v česnekovém těstíčku, bramborová kaše",
       "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Tuplovaný rízek s domácím bramborovým salátem",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Špagety Carbonára s parmazánem",
+      "meal03": "Burger s karamelizovanou cibulkou, salát, dressing, cibulové kroužky",
       "closedText": ""
     }
   ]
