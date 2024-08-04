@@ -1,53 +1,53 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tortilla plněná smaženým kuřecím masem, sýrem a salátem, drrssing",
+    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-07-29"
+    "mondayDate": "2024-08-04"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Bramborové knedlíky plněné uzeným masem, zelí, cibulka",
-      "meal03": "Hovězí po anglicku, hranolky, tatarská omáčka",
+      "meal01": "Česneková polévka",
+      "meal02": "Chilli fazole Colorado, chléb",
+      "meal03": "Čevabčičí, vařené brambory, cibule, hořčice",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Brokolicová krémová polévka s krutony",
-      "meal02": "Česnekové kuře se šlehačkou, rýže",
-      "meal03": "Vepřová panenka pečená v listovém těstě se slaninou, steakové hranolky",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Vepřové výpečky, bramborové nočky, špenát",
+      "meal03": "Thajské nudle s masem, zeleninou, bambusovými výhonky a kokos ml.",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
-      "meal03": "Kovářský špíz, bramborové placky",
+      "meal01": "Bramborová polévka",
+      "meal02": "Vídeňský guláš z hovězího masa, knedlíky",
+      "meal03": "Řecký gyros, pita, steakové hranolky, tzatziky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kuřecí krémová polévka",
-      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
-      "meal03": "Španělský ptáček s rýží",
+      "meal01": "Květáková polévka",
+      "meal02": "Kuřecí paličky v medové chilli marinádě, pečené brambory",
+      "meal03": "Pavlišovský řízek, houskové knedlíky, zelí",
       "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
-      "meal03": "BurgVepřový steak, sázené vajíčko se šunkou, hranolky, tatarská omáčka",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Kuřecí nudličky se smetanovo žampionovou omáčkou, rýže",
+      "meal03": "Smažený camembert, vařené brambory, tatatrská omáčka",
       "closedText": ""
     }
   ]
