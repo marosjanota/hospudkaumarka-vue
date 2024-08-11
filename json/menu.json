@@ -2,13 +2,13 @@
   "dailyRepeat": {
     "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-08-05"
+    "mondayDate": "2024-08-12"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
+      "open": false,
       "meal01": "Česneková polévka",
       "meal02": "Chilli fazole Colorado, chléb",
       "meal03": "Čevabčičí, vařené brambory, cibule, hořčice",
@@ -17,7 +17,7 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "Knedlíčková polévka",
       "meal02": "Vepřové výpečky, bramborové nočky, špenát",
       "meal03": "Thajské nudle s masem, zeleninou, bambusovými výhonky a kokos ml.",
@@ -26,7 +26,7 @@
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Bramborová polévka",
       "meal02": "Vídeňský guláš z hovězího masa, knedlíky",
       "meal03": "Řecký gyros, pita, steakové hranolky, tzatziky",
@@ -35,7 +35,7 @@
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Květáková polévka",
       "meal02": "Kuřecí paličky v medové chilli marinádě, pečené brambory",
       "meal03": "Pavlišovský řízek, houskové knedlíky, zelí",
@@ -44,7 +44,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Mexická fazolačka",
       "meal02": "Kuřecí nudličky se smetanovo žampionovou omáčkou, rýže",
       "meal03": "Smažený camembert, vařené brambory, tatatrská omáčka",
