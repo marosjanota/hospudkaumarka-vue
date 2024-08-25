@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tortilla s pomulu taženým trhaným masem gyros a tzatziky",
+    "meal04": "Jídlo týdne - Kuřecí steak, salát s cherri rajčaty, tortilla plněná sýrem, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-08-19"
+    "mondayDate": "2024-08-26"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čočková polévka s klobásou",
-      "meal02": "Vepřové výpečky, bramborové špalíčky, špenát",
-      "meal03": "Grilovaný hermelín, steakové hranolky, salát, brusinková omáčka",
+      "meal01": "Boršč",
+      "meal02": "Srbské drůbeží rizoto, okurka",
+      "meal03": "Smažený camembert v bramboráku, zelný salát s křenem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
-      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Boloňské lasagně zapečené sýrem gouda",
+      "meal03": "Hamburská vepřová kýta, knedlíky",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Krkobošská cibulačka",
-      "meal02": "Pečené kuře a la kachna, knedlíky, červené zelí",
-      "meal03": "Vepřové medailonky, salát z pečených brambor, česnekový dip",
+      "meal01": "Brokolicová polévka",
+      "meal02": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
+      "meal03": "Kung pao s jasmínovou rýží",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kozí brada",
-      "meal02": "Debrecínský guláš s knedlíkem",
-      "meal03": "Kuřecí cheesburger, salát, dressing, steakové hranolky",
+      "meal01": "Hovězí vývar s masovou rýží",
+      "meal02": "Čočka na kyselo s grilovanou klobásou",
+      "meal03": "Marinovaný špíz s pepřovou omáčkou, hranolky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Hovězí na žampionech s rýží",
-      "meal03": "Zapečený kuřecí steak Caprece, hranolky",
+      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
