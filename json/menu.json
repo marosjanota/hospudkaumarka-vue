@@ -1,8 +1,8 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak s hříbkovou omáčkou a zakysanou smetanou, rosti",
+    "meal04": "Jídlo týdne - Grill mix s restovanou zeleninou, tortilla se sýrem, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-09-02"
+    "mondayDate": "2024-09-09"
   },
   "dailyMenu": [
     {
@@ -10,35 +10,35 @@
       "day": "Pondělí",
       "open": true,
       "meal01": "Bramborová polévka",
-      "meal02": "Vepřová kýta po myslivecku, knedlíky",
-      "meal03": "Kuřecí v sýrovém těstíčku se sladkou chilli omáčkou, čínské nudle",
+      "meal02": "Ďábelská topinka s masovou směsí a sýrem",
+      "meal03": "Vepřová pečeně, bramborové špalíčky, špenát",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hrachová polévka s klobásou",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Sýrové ražničí, steakové hranolky, tatarská omáčka",
+      "meal01": "Květáková polévka",
+      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
+      "meal03": "Kuřecí rolka s listovým špenátem, nivou a slaninou, bramborové placky",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Španělský ptáček s rýží",
-      "meal03": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Kokosové kuře s rozinkovou říží",
+      "meal03": "Vepřový steak Wellington pečený v listovém těstě, americké brambory",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hovězí vývar s šunkovým svítkem",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka",
+      "meal01": "Čočková polévka s párkem",
+      "meal02": "Guláš flamendr s bramborákem",
+      "meal03": "Vepřová játra na roštu, hranolky, tatatrská omáčka",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Hovězí maso, koprová omáčka, vařené vajíčko, knedlíky",
-      "meal03": "Pastevecký řízek s bramborovou kaší a okurkou",
+      "meal02": "Hovězí s křenovou omáčkou, houskové knedlíky",
+      "meal03": "Plněné rízečky s bramborovou kaší, okurka",
       "closedText": ""
     }
   ]
