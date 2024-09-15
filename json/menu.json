@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Grill mix s restovanou zeleninou, tortilla se sýrem, dressing",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-09-09"
+    "mondayDate": "2024-09-16"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Ďábelská topinka s masovou směsí a sýrem",
-      "meal03": "Vepřová pečeně, bramborové špalíčky, špenát",
+      "meal01": "Cibulačka",
+      "meal02": "Drůbeží rizoto se zelenino a žampiony, sypané sýrem, okurka",
+      "meal03": "Segedínský guláš speciál, houskové knedlíky",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
-      "meal03": "Kuřecí rolka s listovým špenátem, nivou a slaninou, bramborové placky",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Balkánský plamen s rýží",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Kokosové kuře s rozinkovou říží",
-      "meal03": "Vepřový steak Wellington pečený v listovém těstě, americké brambory",
+      "meal01": "Zelňačka",
+      "meal02": "Zapečené francouzské brambory, okurka",
+      "meal03": "Kuřecí a vepřoví špíz, salát Coleslaw, rosti",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čočková polévka s párkem",
-      "meal02": "Guláš flamendr s bramborákem",
-      "meal03": "Vepřová játra na roštu, hranolky, tatatrská omáčka",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Kuře a la bažant, bramborové knedlíky, červené zelí",
+      "meal03": "Burger se sázeným vajíčkem, salát, dressing, steakové hranolky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Hovězí s křenovou omáčkou, houskové knedlíky",
-      "meal03": "Plněné rízečky s bramborovou kaší, okurka",
+      "meal02": "Rajská hovězí pačeně, těstoviny",
+      "meal03": "Smažené řízkové duo s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
