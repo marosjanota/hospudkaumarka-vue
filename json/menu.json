@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burittos mexicanos – tortilla s masem a sýrem, mix pikantních omáček",
+    "meal04": "Jídlo týdne - Vepřový steak, sázené vajíčko se šunkou, hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a parmazánem",
-    "mondayDate": "2024-09-30"
+    "mondayDate": "2024-10-07"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Brokolicová polévka s krutony",
-      "meal02": "Kotlíkový guláš s masem a klobásou, chléb",
-      "meal03": "Kuřecí na medu s jasmínovou rýží",
+      "meal01": "Bramborová krémová polévka",
+      "meal02": "Drůbeží rizoto se žampiony, sypané sýrem, okurka",
+      "meal03": "Moravský vrabec, halušky, špenát",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Sekaný řízek v těstíčku Diablito s bramborovou kaší",
-      "meal03": "Hamburská kýta s houskovým knedlíkem",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Masové kuličky po thajsku s jasmínovou rýží",
+      "meal03": "Gnocchi s kuřecím masem, rukolou, sušenými rajčaty a parmazánem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Špagety Carbonára s parmazánem",
-      "meal03": "Grilovaný hermelín se slaninou, steakové hranolky, salát, brusinková om.",
+      "meal01": "Drůbeží kari polévka",
+      "meal02": "Boloňské lasagně zapečné sýrem gouda",
+      "meal03": "Kuřecí rarášci v sýrovém těstíčku s bramborovou kaší.",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Žampionová polévka",
-      "meal02": "Cmunda po Kaplicku – uzené, bramborák, kysané zelí",
-      "meal03": "Kebab z mletého masa, hranolky, arabský chléb, česnekový dip",
+      "meal01": "Boršč",
+      "meal02": "Kuřecí paprikáš, těstoviny",
+      "meal03": "Hovězí burger se slaninou, chedarová omáčka, salát, steakové hranolky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Pečené kuře s houbovou nádivkou, nočky",
-      "meal03": "Řízek plněný mozzarellou s bramborovu kaší, okurka",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Vepřový řízek plněný camembertem, mačkané brambory se smetanou",
       "closedText": ""
     }
   ]
