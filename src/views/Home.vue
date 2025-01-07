@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <Box title="" v-if="showTopAlert">
+    <Box title="" v-if="false">
       <h3 class="text--bold ta-c">
       9. 7. 2024 &nbsp;&nbsp; Z technických důvodů zavřeno – odstávka el. proudu
     </h3>

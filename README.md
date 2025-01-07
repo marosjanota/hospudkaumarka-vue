@@ -1,4 +1,11 @@
 # hospudkaumarka
+run it with GIT BASH
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+npm run build
+```
+
 
 ## Project setup
 
