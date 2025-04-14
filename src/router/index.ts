@@ -26,6 +26,12 @@ const routes: Array<RouteRecordRaw> = [
       import(/* webpackChunkName: "Contact" */ "../views/Contact.vue"),
   },
   {
+    path: "/update-jidelak",
+    name: "UpdateJidelak",
+    component: () =>
+      import(/* webpackChunkName: "Contact" */ "../views/Updater.vue"),
+  },
+  {
     path: "/:pathMatch(.*)*",
     component: Home,
   },
