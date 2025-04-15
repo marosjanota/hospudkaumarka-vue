@@ -2,7 +2,10 @@
     <footer>
         <Section secondary>
             <div class="ta-c">
-                &copy; Hospůdka u Marka {{ new Date().getFullYear() }} <span class="divider">|</span> Vytvořil: <a href="https://marosjanota.cz" target="_blank" class="ml-md">Maroš Janota </a>
+                &copy; Hospůdka u Marka {{ new Date().getFullYear() }} 
+                <span class="divider">|</span> 
+                Vytvořil: <a href="https://marosjanota.cz" target="_blank" class="ml-md">Maroš Janota</a>
+                <router-link to="/test" class="btn_inv ml-md" >Admin</router-link>
             </div>
          </Section>
     </footer>
@@ -22,12 +25,23 @@ footer {
     padding: var(--gap-md);
     font-weight: 500;
 }
+
+.btn_inv {
+    color: transparent;
+    font-size: 6px;
+    text-decoration: none;
+    cursor: default;
+}
     
 @include mq('mobile', max) {
     .divider {
         display: block;
         opacity: 0;
         height: 2px
+    }
+
+    .btn_inv {
+        display: block;
     }
 }
 </style>

@@ -1,31 +1,33 @@
 <template>
-  <div class="container">
-    <h1>Jedálny lístok (.docx → JSON)</h1>
+  <Section>
+    <Box title="Jedálny lístok (.docx → JSON)">
+      <label>
+        Týždeň od:
+        <input type="date" v-model="mondayDate" />
+      </label>
 
-    <label>
-      Týždeň od:
-      <input type="date" v-model="mondayDate" />
-    </label>
+      <div class="mt-md">
+        <input type="file" accept=".doc,.docx" @change="handleFileChange" />
 
-    <div class="mt-md">
-      <input type="file" accept=".doc,.docx" @change="handleFileChange" />
+        <button :disabled="!file || loading" @click="handleUpload">
+          {{ loading ? 'Spracovávam…' : 'Vygeneruj JSON' }}
+        </button>
+      </div>
 
-      <button :disabled="!file || loading" @click="handleUpload">
-        {{ loading ? 'Spracovávam…' : 'Vygeneruj JSON' }}
-      </button>
-    </div>
-
-    <div v-if="jsonResult">
-      <h2>Výsledok</h2>
-      <pre>{{ jsonResult }}</pre>
-      <button @click="handleGitHubUpload">💾 Uložiť na GitHub</button>
-    </div>
-  </div>
+      <div v-if="jsonResult">
+        <h2>Výsledok</h2>
+        <pre>{{ jsonResult }}</pre>
+        <button @click="handleGitHubUpload">💾 Uložiť na GitHub</button>
+      </div>
+    </Box>
+  </Section>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
 import * as mammoth from 'mammoth';
+
+import { Section, Box } from "@/components";
 
 const file = ref<File | null>(null);
 const jsonResult = ref('');
@@ -195,15 +197,11 @@ function parseMenuLines(lines: string[], mondayDate: string) {
     },
     dailyMenu
   };
-}
+};
 </script>
 
+
 <style scoped>
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
 pre {
   background: #f4f4f4;
   padding: 10px;

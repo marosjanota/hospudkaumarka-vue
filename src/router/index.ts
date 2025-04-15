@@ -27,9 +27,9 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/update-jidelak",
-    name: "UpdateJidelak",
+    name: "UpdateTool",
     component: () =>
-      import(/* webpackChunkName: "Contact" */ "../views/Updater.vue"),
+      import(/* webpackChunkName: "UpdateTool" */ "../views/UpdateTool.vue"),
   },
   {
     path: "/:pathMatch(.*)*",
@@ -38,7 +38,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory('/'),
   routes,
 });
 
