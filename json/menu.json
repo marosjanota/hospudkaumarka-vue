@@ -1,6 +1,6 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí paličky v křupavé krustě, sťouchané brambory, salát Coleslaw",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
     "mondayDate": "2025-04-21"
   },
@@ -8,14 +8,23 @@
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
-      "meal01": "35,-",
-      "meal02": "Salát Caesar s kuřecím masem, krutony a sýrem",
-      "meal03": "Segedínský guláš speciál, houskové knedlíky",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno - státní svátek"
     },
     {
       "id": 2,
+      "day": "Úterý",
+      "open": true,
+      "meal01": "Hrachová polévka",
+      "meal02": "Segedínský guláš speciál, houskové knedlíky",
+      "meal03": "Kuřecí paličky v křupavé krustě, sťouchané brambory, salát Coleslaw",
+      "closedText": ""
+    },
+    {
+      "id": 3,
       "day": "Středa",
       "open": true,
       "meal01": "Bramborová polévka",
@@ -24,7 +33,7 @@
       "closedText": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "day": "Čtvrtek",
       "open": true,
       "meal01": "Hovězí vývar s masovou rýží",
@@ -33,7 +42,7 @@
       "closedText": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
