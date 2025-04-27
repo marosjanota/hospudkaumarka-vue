@@ -1,54 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřový steak 200g s pepřovou omáčkou, bramborové rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-04-21"
+    "mondayDate": "2025-04-28"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno - státní svátek"
+      "open": true,
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Guláš Petra Voka s houskovým knedlíkem",
+      "meal03": "Jugoslávská pljaskavica, pita, steakové hranolky, ajvar, dressing",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Segedínský guláš speciál, houskové knedlíky",
-      "meal03": "Kuřecí paličky v křupavé krustě, sťouchané brambory, salát Coleslaw",
+      "meal01": "Krémová česneková polévka",
+      "meal02": "Zapečené francouzské brambory, okurka",
+      "meal03": "Moravský vrabec, bramborové špalíčky, zelí",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Pikantní čočka po maďarsku s opékanou klobásou",
-      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem",
+      "meal01": "Gulášová polévka",
+      "meal02": "Hamburská kýta s houskovým knedlíkem",
+      "meal03": "Pikantní masova směs, bramboráčky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
-      "meal01": "Hovězí vývar s masovou rýží",
-      "meal02": "Srbské rizoto sypané sýrem, okukra",
-      "meal03": "Grill mix s pečenou zeleninou a grilovanou tortilllou, dressing",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený řízek s domácím bramborovým salátem",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno"
     }
   ]
 }
