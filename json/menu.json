@@ -1,26 +1,26 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak 200g s pepřovou omáčkou, bramborové rosti",
+    "meal04": "Jídlo týdne - Burritos mexicanos – tortilla plněná masem, sýrem a zeleninou, salsa",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-04-28"
+    "mondayDate": "2025-05-05"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Guláš Petra Voka s houskovým knedlíkem",
-      "meal03": "Jugoslávská pljaskavica, pita, steakové hranolky, ajvar, dressing",
+      "meal01": "Bramborová polévka",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Kung pao s jasmínovou rýží",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Krémová česneková polévka",
-      "meal02": "Zapečené francouzské brambory, okurka",
-      "meal03": "Moravský vrabec, bramborové špalíčky, zelí",
+      "meal01": "Zelňačka",
+      "meal02": "Vepřová kýta po myslivecku, houskové knedlíky",
+      "meal03": "Grilovaný hermelín, steakové hranolky, salát, brusinková omáčka",
       "closedText": ""
     },
     {
@@ -28,8 +28,8 @@
       "day": "Středa",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Hamburská kýta s houskovým knedlíkem",
-      "meal03": "Pikantní masova směs, bramboráčky",
+      "meal02": "Čočka na kyselo s grilovanou klobásou, cibulka, okurka",
+      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
       "closedText": ""
     },
     {
