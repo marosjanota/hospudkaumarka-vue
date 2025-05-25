@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, salát s cherri rajčaty, tortilla plněná sýrem, dressing",
+    "meal04": "Jídlo týdne - Kebab z mletého masa, domácí hranolky, pita, česnekový dip",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-05-19"
+    "mondayDate": "2025-05-26"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čočková polévka s klobásou",
-      "meal02": "Segedínský guláš s knedlíkem",
-      "meal03": "Tataráček s topinkami a česnekem",
+      "meal01": "Boršč",
+      "meal02": "Kapucínský guláš s knedlíkem",
+      "meal03": "Bramborové nočky se zelím a uzeným masem, cibulka",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Šumavská zelňačka",
-      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
-      "meal03": "Kuřecí rolka se salátem z pečených brambor",
+      "meal01": "Drůbeží krémová polévka",
+      "meal02": "Tagliatelle s kuřecím masem a sýrovou omáčkou",
+      "meal03": "Grilovaný camembert se slaninou, pečené brambory, brusinková omáčka",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Sekaný řízek v těstíčku diablito, bramborová kaše",
+      "meal01": "Francoiuzská cibulačka",
+      "meal02": "Luhočovický špaček s bramborovou kaší",
+      "meal03": "Kantonská rýže s masem a zeleninou",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Dýňová polévka",
-      "meal02": "Bačovo rizoto s hříbkovou omáčkou a uzeným sýrem",
-      "meal03": "Burger s rokforovou omáčkou, domácí hranolky, dressing",
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Kuřecí paličky v křupavé krustě, mačkané brambory, salát Coleslaw",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Masové koule v rajské omáčce, těstoviny",
-      "meal03": "Kuře a la kachna, variace knedlíků, červené zelí",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řizek  s bramborovým salátem",
       "closedText": ""
     }
   ]
