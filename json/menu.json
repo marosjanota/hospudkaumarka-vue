@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kebab z mletého masa, domácí hranolky, pita, česnekový dip",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-05-26"
+    "mondayDate": "2025-06-02"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Kapucínský guláš s knedlíkem",
-      "meal03": "Bramborové nočky se zelím a uzeným masem, cibulka",
+      "meal01": "Fazolačka se slaninou",
+      "meal02": "Kuře na paprice, knedlíky, těstoviny",
+      "meal03": "Pekingské masové nudličky s jasmínovou rýží",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Drůbeží krémová polévka",
-      "meal02": "Tagliatelle s kuřecím masem a sýrovou omáčkou",
-      "meal03": "Grilovaný camembert se slaninou, pečené brambory, brusinková omáčka",
+      "meal01": "Drůbeží kari polévka",
+      "meal02": "Chilli con carne s rozpečenou tortillou",
+      "meal03": "Moravský vrabec, bramborové špalíčky, zelí",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Francoiuzská cibulačka",
-      "meal02": "Luhočovický špaček s bramborovou kaší",
-      "meal03": "Kantonská rýže s masem a zeleninou",
+      "meal01": "Květáková polévka",
+      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
+      "meal03": "Burger s trhaným masem, salát, BBQ omáčka, domácí hranolky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Kuřecí paličky v křupavé krustě, mačkané brambory, salát Coleslaw",
+      "meal01": "Hovězí vývar s masovou rýží",
+      "meal02": "Špagety Carbonára sypané parmazánem",
+      "meal03": "Svíčková na smetaně s brusinkovým terčem, knedlíky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený vepřový řizek  s bramborovým salátem",
+      "meal02": "Vepřové na pepři s rýží",
+      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
       "closedText": ""
     }
   ]
