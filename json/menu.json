@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřové medailonky s omáčkou z červeného pepře, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-06-02"
+    "mondayDate": "2025-06-09"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Fazolačka se slaninou",
-      "meal02": "Kuře na paprice, knedlíky, těstoviny",
-      "meal03": "Pekingské masové nudličky s jasmínovou rýží",
+      "meal01": "Zelňačka",
+      "meal02": "Pirohy s bryndzou a rozpuštěnou slaninou",
+      "meal03": "Maďarský guláš s houskovým knedlíkem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Drůbeží kari polévka",
-      "meal02": "Chilli con carne s rozpečenou tortillou",
-      "meal03": "Moravský vrabec, bramborové špalíčky, zelí",
+      "meal01": "Čočková polévka",
+      "meal02": "Masové nudličky po dijónsku s rýží",
+      "meal03": "Pečené kuře s nádivkou, vařené brambory",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
-      "meal03": "Burger s trhaným masem, salát, BBQ omáčka, domácí hranolky",
+      "meal01": "Krkonošská cibulačka s krutony",
+      "meal02": "Klatovský závitek, knedlíky",
+      "meal03": "Burritos mexicanos, tři druhy pikantních omáček",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hovězí vývar s masovou rýží",
-      "meal02": "Špagety Carbonára sypané parmazánem",
-      "meal03": "Svíčková na smetaně s brusinkovým terčem, knedlíky",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Uzené maso, halušky s cibulkou, špenát",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Vepřové na pepři s rýží",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
+      "meal02": "Bramborové šulánky s mákem a máslem",
+      "meal03": "Smažené řízkové duo s bramborovým salátem",
       "closedText": ""
     }
   ]
