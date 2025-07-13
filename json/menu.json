@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, naše hranolky, salát s cherri rajčaty, dressing",
+    "meal04": "Jídlo týdne - Grilovaný camemebert, steakové hranolky, salát, brusinková omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-07-07"
+    "mondayDate": "2025-07-14"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": "Gnocchi s kuřecím masem, sušenými rajčaty, rukolou a parmazánem",
+      "meal01": "Kukuřičná polévka",
+      "meal02": "Klopsy v koprové omáčce, houskové knedlíky",
+      "meal03": "Kuřecí nudličky po indicku s jasmínovou rýží",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Panenka pečená s anglickou slaninou v listovém těstě, smetanové bram.",
+      "meal01": "Paprikášová polévka",
+      "meal02": "Thajské rýžové nudle Pad Thai s masem a zeleninou",
+      "meal03": "Smažené kuřecí stehno Diablito s bramborovou kaší",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Dýňová polévka s krutony",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Čevabčičí, vařené brambory, hořčice, cibule",
+      "meal01": "Italská polévka",
+      "meal02": "Segedínský guláš speciál s houskovým knedlíkem",
+      "meal03": "Těstovinový salát s kuřecím steakem se slaninou",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Selský buřt gulaš, chléb",
-      "meal03": "Pečená krkovice na česneku, halušky, špenát",
+      "meal01": "Drůbeží vývar s masem a nudlemi",
+      "meal02": "Restovaná kuřecí jatýrka, vařené brambory, tatarská omáčka",
+      "meal03": "Znojemská hovězí pačeně s rýží",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Kuřecí paprikáš, houskové knedlíky",
-      "meal03": "Smažený vepřový řízek s bramborovým salátem",
+      "meal02": "Halušky se zelím a uzeným masem, cibulka",
+      "meal03": "Řecký gyros, pita, hranolky, tzatziky",
       "closedText": ""
     }
   ]
