@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky s omáčkou z červeného pepře, bramborové placky",
+    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, naše hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-07-21"
+    "mondayDate": "2025-07-28"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Ďábelská topinka s masovou směsí, sypaná sýrem",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
+      "meal01": "Bramborová polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Kung pao s jasmínovou rýží",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Zelná s klobásou",
-      "meal02": "Kuře a la kachna, bramborové nočky, červené zelí",
-      "meal03": "Smažený camembert v bramborákovém těstě, zelný salát s křenem",
+      "meal01": "Květáková polévka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Vepřové medailonky s šípkovou omáčkou, bramborové roosti",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Mexický guláš, houskové knedlíky",
-      "meal03": "Boloňské lasagně zapečené sýrem gouda",
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Smažený camembert, vařené brambory, tatarská omáčka",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Bačovo rizoto s hříbkovou omáčkou, sypané uzeným sýrem",
-      "meal03": "Plněná kuřecí rolka, pečené brambory",
+      "meal01": "Čočková polévka",
+      "meal02": "Plněné bramborové knedlíky, zelí, cibulka",
+      "meal03": "Hovězí guláš, houskové knedlíky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky vanilkovým krémem",
-      "meal03": "Smažený vepřový řízek s bramborovou kaší, okurka",
+      "meal02": "Špagety Carbonára sypané parmazánem",
+      "meal03": "Smažená kuřecí prsa Sezam s bramborovou kaší, okurka",
       "closedText": ""
     }
   ]
