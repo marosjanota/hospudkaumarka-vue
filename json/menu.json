@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, naše hranolky, dressing",
+    "meal04": "Jídlo týdne - Tortilla plněná kuřecími rarášky s čerstvou zeleninou a dressinkem",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-07-28"
+    "mondayDate": "2025-08-04"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
-      "meal03": "Kung pao s jasmínovou rýží",
+      "meal01": "Brokolicová polévka",
+      "meal02": "Guláš flamendr s bramboráčky",
+      "meal03": "Kuřecí paličky v medové chilli marinádě, mačkané brambory",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Vepřové medailonky s šípkovou omáčkou, bramborové roosti",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Moravský vrabec, halušky, špenát",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Smažený camembert, vařené brambory, tatarská omáčka",
+      "meal01": "Drůbeží vývar s masem a nudlemi",
+      "meal02": "Španělský ptáček s rýží",
+      "meal03": "Burger s trhaným masem, salát, BBQ omáčka, steakové hranolky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Plněné bramborové knedlíky, zelí, cibulka",
-      "meal03": "Hovězí guláš, houskové knedlíky",
+      "meal01": "Boršč",
+      "meal02": "Kuřecí v těstíčku se sladkou chilli omáčkou, čínské nudle",
+      "meal03": "Rajská hovězí pečeně, kolínka",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Špagety Carbonára sypané parmazánem",
-      "meal03": "Smažená kuřecí prsa Sezam s bramborovou kaší, okurka",
+      "meal02": "Bramborové šulánky s makem a máslem",
+      "meal03": "Smažený vepřový řízek s bramborovým salátem",
       "closedText": ""
     }
   ]
