@@ -1,54 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tortilla plněná kuřecími rarášky s čerstvou zeleninou a dressinkem",
+    "meal04": "Jídlo týdne - Vepřový steak, sázené vajíčko se šunkou, americké brambory",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-08-04"
+    "mondayDate": "2025-08-11"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
-      "meal01": "Brokolicová polévka",
-      "meal02": "Guláš flamendr s bramboráčky",
-      "meal03": "Kuřecí paličky v medové chilli marinádě, mačkané brambory",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": "Moravský vrabec, halušky, špenát",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
-      "meal01": "Drůbeží vývar s masem a nudlemi",
-      "meal02": "Španělský ptáček s rýží",
-      "meal03": "Burger s trhaným masem, salát, BBQ omáčka, steakové hranolky",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
-      "meal01": "Boršč",
-      "meal02": "Kuřecí v těstíčku se sladkou chilli omáčkou, čínské nudle",
-      "meal03": "Rajská hovězí pečeně, kolínka",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Bramborové šulánky s makem a máslem",
-      "meal03": "Smažený vepřový řízek s bramborovým salátem",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
     }
   ]
 }
