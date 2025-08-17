@@ -1,54 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak, sázené vajíčko se šunkou, americké brambory",
+    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-08-11"
+    "mondayDate": "2025-08-18"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
+      "open": true,
+      "meal01": "Krkonošská cibulačka",
+      "meal02": "Guláš kata Mydláře, houskové knedlíky, bramborové placky",
+      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
+      "open": true,
+      "meal01": "Kulajda z vysočiny",
+      "meal02": "Vepřové výpečky, houskové knedlíky, zelí",
+      "meal03": "Zeleninový salát s kuřecími stripsy a pečeným toustem",
+      "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
+      "open": true,
+      "meal01": "Pikantní kuřecí kari polévka",
+      "meal02": "Smažené rančerské kuře, šťouchané brambory",
+      "meal03": "Hovězí na česneku se šumavským knedlíkem",
+      "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
+      "open": true,
+      "meal01": "Česneková polévka",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Hamburská vepřová kýta, houskové knedlíky",
+      "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno  - dovolená 11.8. - 15.8.2025"
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
+      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
+      "closedText": ""
     }
   ]
 }
