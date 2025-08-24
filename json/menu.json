@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Burritos mexicanos – tortilla s masem, sýrem a zeleninou, pikantní om.",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-08-18"
+    "mondayDate": "2025-08-25"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Krkonošská cibulačka",
-      "meal02": "Guláš kata Mydláře, houskové knedlíky, bramborové placky",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší",
+      "meal01": "Květáková polévka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Vepřová kýta po myslivecku, houskové knedlíky",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda z vysočiny",
-      "meal02": "Vepřové výpečky, houskové knedlíky, zelí",
-      "meal03": "Zeleninový salát s kuřecími stripsy a pečeným toustem",
+      "meal01": "Paprikášová polévka",
+      "meal02": "Kuře a la kachna, bramborové knedlíky, zelí",
+      "meal03": "Tagliatelle s listovým špenátem, smetanou a grilovanou panenkou",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Pikantní kuřecí kari polévka",
-      "meal02": "Smažené rančerské kuře, šťouchané brambory",
-      "meal03": "Hovězí na česneku se šumavským knedlíkem",
+      "meal01": "Bramborovoá polévka se smetanou",
+      "meal02": "Segedínský guláš speciál, houskové knedlíky",
+      "meal03": "Grill mix, salát z pečených brambor, dressing",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Hamburská vepřová kýta, houskové knedlíky",
+      "meal01": "Zelňačka",
+      "meal02": "Pštrosí vejce s bramborovou kaší",
+      "meal03": "Burger s trhaným masem a salátem Coleslaw, hranolky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
-      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Pastevecký řízek, vařené brambory, okurka",
       "closedText": ""
     }
   ]
