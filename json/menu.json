@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burritos mexicanos – tortilla s masem, sýrem a zeleninou, pikantní om.",
+    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-08-25"
+    "mondayDate": "2025-09-01"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Luhačovický špaček s bramborovou kaší",
-      "meal03": "Vepřová kýta po myslivecku, houskové knedlíky",
+      "meal01": "Česneková polévka",
+      "meal02": "Čočka na kyselo s grilovanou klobásou, cibulka,okurka",
+      "meal03": "Plněný paprikový lusk v rajské omáčce, těstoviny",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Kuře a la kachna, bramborové knedlíky, zelí",
-      "meal03": "Tagliatelle s listovým špenátem, smetanou a grilovanou panenkou",
+      "meal01": "Bramborová polévka",
+      "meal02": "Špagety s kuřecím mase a žampiony, sypané nivou",
+      "meal03": "Halušky se zelím a kachním masem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Bramborovoá polévka se smetanou",
-      "meal02": "Segedínský guláš speciál, houskové knedlíky",
-      "meal03": "Grill mix, salát z pečených brambor, dressing",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Řecká musaka s lilkem",
+      "meal03": "Španělský ptáček s rýží",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Pštrosí vejce s bramborovou kaší",
-      "meal03": "Burger s trhaným masem a salátem Coleslaw, hranolky",
+      "meal01": "Boršč",
+      "meal02": "Guláš kata Mydláře, knedlíky",
+      "meal03": "Vepřový steak pečený v listovém těstě, grilované fazolky, rosti",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Pastevecký řízek, vařené brambory, okurka",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Holandský sekaný řízek s uzeným sýrem, bramborová kaše, okurka",
       "closedText": ""
     }
   ]
