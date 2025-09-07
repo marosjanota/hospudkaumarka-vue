@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
+    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí a tortillou plněnou sýrema rukolou",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-09-01"
+    "mondayDate": "2025-09-08"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Čočka na kyselo s grilovanou klobásou, cibulka,okurka",
-      "meal03": "Plněný paprikový lusk v rajské omáčce, těstoviny",
+      "meal01": "Krkonošská cibulačka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Vepřové na pepři s rýží",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Špagety s kuřecím mase a žampiony, sypané nivou",
-      "meal03": "Halušky se zelím a kachním masem",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Moravský vrabec, bramborové špalíčky, zelí",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Řecká musaka s lilkem",
-      "meal03": "Španělský ptáček s rýží",
+      "meal01": "Čočková polévka s parkem",
+      "meal02": "Vepřová krkovička na šlehačce, šťouchané brambory s cibulkou",
+      "meal03": "Těstovinový salát s grilovanou panenkou",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Guláš kata Mydláře, knedlíky",
-      "meal03": "Vepřový steak pečený v listovém těstě, grilované fazolky, rosti",
+      "meal01": "Dýňová polévka s krutony",
+      "meal02": "Pečené kuře na houbách s rýží",
+      "meal03": "Thajské masové kuličky, rýžové nudle",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
-      "meal03": "Holandský sekaný řízek s uzeným sýrem, bramborová kaše, okurka",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
