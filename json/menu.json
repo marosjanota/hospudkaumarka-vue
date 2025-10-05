@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Kuřecí steak, salát s cherri rajčaty, rosti, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-09-29"
+    "mondayDate": "2025-10-06"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Maďarská čočková polévka",
-      "meal02": "Segedínský guláš speciál, knedlíky",
-      "meal03": "Rančerské kuřecí paličky, šťouchané brambory",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Maďarský guláš, houskové knedlíky",
+      "meal03": "Smažený hermelín v bramboráku, zelný salát s křenem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Španělský ptáček s rýží",
-      "meal03": "Bryndzové halušky s rozpuštěnou slaninou",
+      "meal01": "Dršťková polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Rajská hovězí pečeně, těstoviny",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Špagety Carbonára s parmazánem",
-      "meal03": "Vepřové medailonky se švestkovou omáčkou, bramborové placky",
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Vepřové na houbách s rýží",
+      "meal03": "Boloňské lasagně zapečené sýrem gouda",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hrášková krémová polévka s krutony",
-      "meal02": "Asijské masové nudličky, čínské nudle",
-      "meal03": "Bramborový knedlík plněný pečeným trhaným masem, zelí, cibulka",
+      "meal01": "Brokolicová krémová polévka",
+      "meal02": "Čočka na kyselo s grilovanou klobásou, okurka, cibulka",
+      "meal03": "Kuře a la kachna, variace knedlíků, červené zelí",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Tortilla s masem, sýrem a zeleninou, zapečená s anglickou slaninou",
+      "meal02": "Tagliatelle s anglickou slaninou, pestem a mozzarellou",
+      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše, okurka",
       "closedText": ""
     }
   ]
