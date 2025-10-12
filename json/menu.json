@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak, salát s cherri rajčaty, rosti, dressing",
+    "meal04": "Jídlo týdne - Řecký gyros, pita, tzatziky, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-10-06"
+    "mondayDate": "2025-10-13"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Maďarský guláš, houskové knedlíky",
-      "meal03": "Smažený hermelín v bramboráku, zelný salát s křenem",
+      "meal01": "Bramborová polévka",
+      "meal02": "Guláš cibulář s knedlíkem",
+      "meal03": "Kuřecí řízek Cordon bleu s bramborovou kaší",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Dršťková polévka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
-      "meal03": "Rajská hovězí pečeně, těstoviny",
+      "meal01": "Květáková polévka",
+      "meal02": "Bačovo rizoto s hříbkovou omáčkou a uzeným sýrem",
+      "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Vepřové na houbách s rýží",
-      "meal03": "Boloňské lasagně zapečené sýrem gouda",
+      "meal01": "Kulajda",
+      "meal02": "Mleté biftečky na žampionech, sťouchané brambory",
+      "meal03": "Vepřové výpečky, zelí, halušky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Brokolicová krémová polévka",
-      "meal02": "Čočka na kyselo s grilovanou klobásou, okurka, cibulka",
-      "meal03": "Kuře a la kachna, variace knedlíků, červené zelí",
+      "meal01": "Šumavská zelňačka",
+      "meal02": "Pečené kuře na zeleném kari s kokosovým mlékem, rýže basmati",
+      "meal03": "Burger se sýrovou omáčkou, salát, naše hranolky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Tagliatelle s anglickou slaninou, pestem a mozzarellou",
-      "meal03": "Mleté biftečky se sázeným vajíčkem, bramborová kaše, okurka",
+      "meal02": "Hamburská vepřová kýta, houskové knedlíky",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
