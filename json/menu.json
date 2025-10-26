@@ -17,11 +17,11 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "35,-",
-      "meal02": "Zavřeno – státní svátek",
-      "meal03": "Ovarový talíř s křenem a hořčicí, chléb",
-      "closedText": ""
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno – státní svátek"
     },
     {
       "id": 3,
