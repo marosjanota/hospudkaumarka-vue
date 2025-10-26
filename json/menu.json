@@ -1,53 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Burritos mexicanos s pikantní omáčkou",
+    "meal04": "Jídlo týdne - Vepřové medailonky s omáčkou z červeného pepře, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-10-20"
+    "mondayDate": "2025-10-27"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Vepřová kýta po myslivecku, houskové knedlíky",
-      "meal03": "Krkovička pečená na šlehačce, bramborové rosti",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Ďábelská masová směs s rýží",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Sýrová cibulačka",
-      "meal02": "Ďábelský sekaný řízek, vařené brambory",
-      "meal03": "Pečené koleno na černém pivu, bramborové špalíčky, špenát",
+      "meal01": "35,-",
+      "meal02": "Zavřeno – státní svátek",
+      "meal03": "Ovarový talíř s křenem a hořčicí, chléb",
       "closedText": ""
     },
     {
       "id": 3,
-      "day": "Středa",
+      "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kuřecí kari polévka",
-      "meal02": "Guláš katy Mydláře, houskové knedlíky",
-      "meal03": "Kuřecí steak zapečený šunkou a camembertem, steakové hranolky",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Pikantní čočka po maďarsku s grilovanou klobásou",
+      "meal03": "Guláš Petra Voka s knedlíkem",
       "closedText": ""
     },
     {
       "id": 4,
-      "day": "Čtvrtek",
-      "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Vepřové na paprice, těstoviny",
-      "meal03": "Trhané kachní maso, lokše, zelí",
-      "closedText": ""
-    },
-    {
-      "id": 5,
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Kovbojské fazole s klobásou a masem, chléb",
-      "meal03": "Řízečky z vepřové panenky s bramborovou kaší a okurkou",
+      "meal02": "Bramborové nočky se zelím a uzeným masem, cibulka",
+      "meal03": "Smažené kuřecí řízečky v křupavé krustě, bramborová kaše",
       "closedText": ""
     }
   ]
