@@ -18,10 +18,19 @@
       "id": 2,
       "day": "Úterý",
       "open": false,
-      "meal01": "35,-",
+      "meal01": "",
       "meal02": "",
       "meal03": "",
       "closedText": "Zavřeno – státní svátek"
+    },
+    {
+      "id": 2,
+      "day": "Středa",
+      "open": true,
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Ovarový talíř s křenem a hořčicí, chléb",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem",
+      "closedText": ""
     },
     {
       "id": 3,
