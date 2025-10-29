@@ -17,14 +17,14 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "",
       "meal02": "",
       "meal03": "",
       "closedText": "Zavřeno – státní svátek"
     },
     {
-      "id": 2,
+      "id": 3,
       "day": "Středa",
       "open": true,
       "meal01": "Krkonošské kyselo",
@@ -33,7 +33,7 @@
       "closedText": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "day": "Čtvrtek",
       "open": true,
       "meal01": "Knedlíčková polévka",
@@ -42,7 +42,7 @@
       "closedText": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
