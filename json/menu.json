@@ -17,7 +17,7 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
+      "open": true,
       "meal01": "",
       "meal02": "",
       "meal03": "",
