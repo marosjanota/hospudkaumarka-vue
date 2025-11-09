@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřová panenka s omáčkou demi glace, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, steakové hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-11-03"
+    "mondayDate": "2025-11-10"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Pikantní čočková polévka s klobásou",
-      "meal02": "Segedínský guláš speciál, houskové knedlíky",
-      "meal03": "Tataráček s topinkami a česnekem",
+      "meal01": "Polévka kozí brada",
+      "meal02": "Vepřová játra na cibulce, těstoviny",
+      "meal03": "Ďábelská topinka s masovou směsí, sypaná sýrem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Smažené kuřecí stehno Diablito, mačkané brambory smetanou, Coleslaw",
-      "meal03": "Kuřecí nudličky po indicku s rýží",
+      "meal01": "Kulajda",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Pečená kachna ¼, variace knedlíků, dvojí zelí",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Drůbeží vývar s masem a nudlemi",
-      "meal02": "Jaternicový prejt, vařené brambory, kysané zelí",
-      "meal03": "Kuřecí se sladkou chilli omáčkou, čínské nudle",
+      "meal01": "Cibulačka s krutoný",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Čevabčíčí, vařené brambory, hořčice, cibule",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Pekařský řízek s bramborovou kaší",
-      "meal03": "Kančí guláš Hubert, knedlíky",
+      "meal01": "Italská polévka",
+      "meal02": "Vepřové s křenovou omáčkou, knedlíky",
+      "meal03": "Smažený camembert, hranolky, tatarská omáčka",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Bryndzové halušky s rozpuštěnou slaninou",
-      "meal03": "Tortilla s trhaným masem, sýrem, jalapeňos, koriandrem a smetanou",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Tuplovaný řízek, domácí bramborový salát",
       "closedText": ""
     }
   ]
