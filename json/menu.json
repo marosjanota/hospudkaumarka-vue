@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Pečené vepřové maso v teriyaki omáčce, pečené brambory, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-11-17"
+    "mondayDate": "2025-11-24"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno"
+      "open": true,
+      "meal01": "Bramborová polévka",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Kuřecí rarášci v křupavé krustě, bramborová kaše",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": "Pekingské kuřecí nudličky s jasmínovou rýží",
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Koprpvá omáčka s masem, houskové knedlíky",
+      "meal03": "Grilovaný hermelín se slaninou, salát s cherri rajčaty, rozpečená bagetka",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Moravský vrabec, halušky, červené zelí",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Luhačovický špaček s bramborovou kaší",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Vepřový guláš, houskové knedlíky",
-      "meal03": "Burger se slaninou a brusinkovou omáčkou, salát, steakové hranolky",
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Zapečené francouzské brambory, okurka",
+      "meal03": "Španělský ptáček s rýží",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažená kuřecí prsa Sezam, vařené brambory, okurka",
+      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
+      "meal03": "Vepřová krkovička na šlehačce, šťouchané brambory",
       "closedText": ""
     }
   ]
