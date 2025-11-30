@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Pečené vepřové maso v teriyaki omáčce, pečené brambory, dressing",
+    "meal04": "Jídlo týdne - Tortilla s masem gyros, tzatziky, salát s cherri rajčaty",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-11-24"
+    "mondayDate": "2025-12-01"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Kuřecí rarášci v křupavé krustě, bramborová kaše",
+      "meal01": "Paprikášová polévka",
+      "meal02": "Kapucínský guláš s houskovým knedlíkem",
+      "meal03": "Karbanátek s balkánským sýrem, mačkané brambory se smetanou",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Koprová omáčka s masem, houskové knedlíky",
-      "meal03": "Grilovaný hermelín se slaninou, salát s cherri rajčaty, rozpečená bagetka",
+      "meal01": "Čočková polévka",
+      "meal02": "Novgorodské pelmeně se zakysanou smetanou a rozpuštěnou slaninou",
+      "meal03": "Masové nudličky Hoi sin s jasmínovou rýží",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Maminčino kuře, těstoviny",
-      "meal03": "Luhačovický špaček s bramborovou kaší",
+      "meal01": "Francouzská  cibulačka",
+      "meal02": "Dalmátské čufty, těstoviny",
+      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Zapečené francouzské brambory, okurka",
-      "meal03": "Španělský ptáček s rýží",
+      "meal01": "Kulajda z vysočiny",
+      "meal02": "Opékaná jitrnice, vařené brambory, kysané zelí",
+      "meal03": "Hamburská vepřová kýta, houskové knedlíky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
-      "meal03": "Vepřová krkovička na šlehačce, šťouchané brambory",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
