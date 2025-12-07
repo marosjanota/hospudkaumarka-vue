@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Tortilla s masem gyros, tzatziky, salát s cherri rajčaty",
+    "meal04": "Jídlo týdne - Kuřecí špíz teriyaki, steakové hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-12-01"
+    "mondayDate": "2025-12-08"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Kapucínský guláš s houskovým knedlíkem",
-      "meal03": "Karbanátek s balkánským sýrem, mačkané brambory se smetanou",
+      "meal01": "Zelňačka",
+      "meal02": "Přírodní sekaný řízek s bramborovou kaší",
+      "meal03": "Pečené koleno na černem pivu, bramborové nočky, zelí",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Novgorodské pelmeně se zakysanou smetanou a rozpuštěnou slaninou",
-      "meal03": "Masové nudličky Hoi sin s jasmínovou rýží",
+      "meal01": "Česneková polévka",
+      "meal02": "Kuře a la bažant s rýží",
+      "meal03": "Vepřové medailonky gratinované sýrem gouda, těstovinový salát",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Francouzská  cibulačka",
-      "meal02": "Dalmátské čufty, těstoviny",
-      "meal03": "Smažené sýrové duo, hranolky, tatarská omáčka",
+      "meal01": "Bramborová polévka",
+      "meal02": "Špagety Carbonára sypané parmazánem",
+      "meal03": "Zvěřinový guláš, houskové knedlíky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kulajda z vysočiny",
-      "meal02": "Opékaná jitrnice, vařené brambory, kysané zelí",
-      "meal03": "Hamburská vepřová kýta, houskové knedlíky",
+      "meal01": "Boršč",
+      "meal02": "Pikantní rizoto se sýrem o okurkou",
+      "meal03": "Burger s trhaným masem, zelím a koriandrem, cibulové kroužky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "meal02": "Bramborové šulánky s mákem a máslem",
+      "meal03": "Čertovské řízečky s bramborovou kaší",
       "closedText": ""
     }
   ]
