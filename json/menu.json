@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí špíz teriyaki, steakové hranolky, dressing",
+    "meal04": "Jídlo týdne - Vepřové medailonky s hříbkovou omáčkou, rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-12-08"
+    "mondayDate": "2025-12-15"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Přírodní sekaný řízek s bramborovou kaší",
-      "meal03": "Pečené koleno na černem pivu, bramborové nočky, zelí",
+      "meal01": "Zahradnická polévka",
+      "meal02": "Segedínský guláš, houskové knedlíky",
+      "meal03": "Uzené maso, halušky, červené zelí",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Kuře a la bažant s rýží",
-      "meal03": "Vepřové medailonky gratinované sýrem gouda, těstovinový salát",
+      "meal01": "Čínská polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší",
+      "meal03": "Kuřecí roláda s rýží",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Špagety Carbonára sypané parmazánem",
-      "meal03": "Zvěřinový guláš, houskové knedlíky",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Topinka s trhaným masem a sýrem",
+      "meal03": "Thajské pikantní nudle s masem, bambusovými výhonky a zeleninou",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Pikantní rizoto se sýrem o okurkou",
-      "meal03": "Burger s trhaným masem, zelím a koriandrem, cibulové kroužky",
+      "meal01": "Čočková polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Vepřová kýta na paprice, těstoviny",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Bramborové šulánky s mákem a máslem",
-      "meal03": "Čertovské řízečky s bramborovou kaší",
+      "meal02": "Povidlové taštičky s máslem a cukrem",
+      "meal03": "Kuřecí řízečky Sezam s bramborovou kaší",
       "closedText": ""
     }
   ]
