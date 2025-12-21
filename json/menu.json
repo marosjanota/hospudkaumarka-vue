@@ -2,13 +2,13 @@
   "dailyRepeat": {
     "meal04": "Jídlo týdne - Vepřové medailonky s hříbkovou omáčkou, rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-12-15"
+    "mondayDate": "2025-12-22"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
+      "open": false,
       "meal01": "Zahradnická polévka",
       "meal02": "Segedínský guláš, houskové knedlíky",
       "meal03": "Uzené maso, halušky, červené zelí",
@@ -17,7 +17,7 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "Čínská polévka",
       "meal02": "Domácí sekaná pečeně s bramborovou kaší",
       "meal03": "Kuřecí roláda s rýží",
@@ -26,7 +26,7 @@
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Frankfurtská polévka",
       "meal02": "Topinka s trhaným masem a sýrem",
       "meal03": "Thajské pikantní nudle s masem, bambusovými výhonky a zeleninou",
@@ -35,7 +35,7 @@
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Čočková polévka",
       "meal02": "Zapečené šunkové fleky, okurka",
       "meal03": "Vepřová kýta na paprice, těstoviny",
@@ -44,7 +44,7 @@
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Gulášová polévka",
       "meal02": "Povidlové taštičky s máslem a cukrem",
       "meal03": "Kuřecí řízečky Sezam s bramborovou kaší",
