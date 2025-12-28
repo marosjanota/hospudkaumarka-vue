@@ -1,26 +1,26 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřové medailonky s hříbkovou omáčkou, rosti",
+    "meal04": "Jídlo týdne - ",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-12-22"
+    "mondayDate": "2025-12-29"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Segedínský guláš, houskové knedlíky",
-      "meal03": "Uzené maso, halušky, červené zelí",
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Vepřové na pepři s houskovým knedlíkem",
+      "meal03": "Grill mix, steakové hranolky, salít s cherri rajčaty, dressing",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "Čínská polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší",
-      "meal03": "Kuřecí roláda s rýží",
+      "open": true,
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Katův šleh, bramborové placky",
       "closedText": ""
     },
     {
