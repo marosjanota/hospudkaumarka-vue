@@ -1,53 +1,53 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - ",
+    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí, tortilla se sýrem a rukolou",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2025-12-29"
+    "mondayDate": "2026-01-05"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Vepřové na pepři s houskovým knedlíkem",
-      "meal03": "Grill mix, steakové hranolky, salít s cherri rajčaty, dressing",
+      "meal01": "Bramborová polévka",
+      "meal02": "Guláš Petra Voka, houskové knedlíky",
+      "meal03": "Tataráček s topinkami a česnekem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Katův šleh, bramborové placky",
+      "meal01": "Srbská čorba",
+      "meal02": "Pečené kuře po mexicku s rýží",
+      "meal03": "Domácí sekaná pečeně s bramborovou kaší, okurka",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Topinka s trhaným masem a sýrem",
-      "meal03": "Thajské pikantní nudle s masem, bambusovými výhonky a zeleninou",
+      "open": true,
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Zapečené brambory s uzeným masem, červená řepa",
+      "meal03": "Masové nudličky tandoori masala s jasmínovou rýží",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "Čočková polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Vepřová kýta na paprice, těstoviny",
+      "open": true,
+      "meal01": "Kulajda",
+      "meal02": "Vepřová kýta na paprice, těstoviny",
+      "meal03": "Smažený camembert, hranolky, tatarská omáčka",
       "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
+      "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Povidlové taštičky s máslem a cukrem",
-      "meal03": "Kuřecí řízečky Sezam s bramborovou kaší",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Sekané biftečky se sázeným vajíčkem a bramborovou kaší",
       "closedText": ""
     }
   ]
