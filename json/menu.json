@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí, tortilla se sýrem a rukolou",
+    "meal04": "Jídlo týdne - Vepřový steak s omáčkou z červeného pepře, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-01-05"
+    "mondayDate": "2026-01-12"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Guláš Petra Voka, houskové knedlíky",
-      "meal03": "Tataráček s topinkami a česnekem",
+      "meal01": "Valašská štědračka",
+      "meal02": "Halušky se zelím, uzeným masem a cibulkou",
+      "meal03": "Vepřová kýta na smetaně, houskové knedlíky",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Pečené kuře po mexicku s rýží",
-      "meal03": "Domácí sekaná pečeně s bramborovou kaší, okurka",
+      "meal01": "Česneková krémová polévka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Smažené kuřecí paličky, šťouchané brambory, Coleslaw",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Zapečené brambory s uzeným masem, červená řepa",
-      "meal03": "Masové nudličky tandoori masala s jasmínovou rýží",
+      "meal01": "Krkonošské kyselo",
+      "meal02": "Ovarový talíř s křenem a hořčicí, chléb",
+      "meal03": "Moravský vrabec, bramborové nočky, špenát",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Vepřová kýta na paprice, těstoviny",
-      "meal03": "Smažený camembert, hranolky, tatarská omáčka",
+      "meal01": "Drůbeží vývar s masem a nudlemi",
+      "meal02": "Čočka na kyselo s grilovanou klobásou, okurka",
+      "meal03": "Španělský ptáček s rýží",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Sekané biftečky se sázeným vajíčkem a bramborovou kaší",
+      "meal02": "Bramborové šulánky s mákem  a máslem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
