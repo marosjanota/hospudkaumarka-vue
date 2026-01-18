@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak s omáčkou z červeného pepře, bramborové placky",
+    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-01-12"
+    "mondayDate": "2026-01-19"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Valašská štědračka",
-      "meal02": "Halušky se zelím, uzeným masem a cibulkou",
-      "meal03": "Vepřová kýta na smetaně, houskové knedlíky",
+      "meal01": "Zelňačka",
+      "meal02": "Hamburská vepřová kýta, houskové knedlíky",
+      "meal03": "Topinka s pečeným trhaným masem, sypaná sýrem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková krémová polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Smažené kuřecí paličky, šťouchané brambory, Coleslaw",
+      "meal01": "Sýrová cibulačka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
+      "meal03": "Pečené kuře na houbách s rýží",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Ovarový talíř s křenem a hořčicí, chléb",
-      "meal03": "Moravský vrabec, bramborové nočky, špenát",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Špagety Carbonára sypané parmazánem",
+      "meal03": "Masové koule v rajské omáčce, těstoviny",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží vývar s masem a nudlemi",
-      "meal02": "Čočka na kyselo s grilovanou klobásou, okurka",
-      "meal03": "Španělský ptáček s rýží",
+      "meal01": "Hrachová polévka",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Thajské nudle s kuřecím masem, zeleninou a bambusovými výhonky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Bramborové šulánky s mákem  a máslem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
+      "meal03": "Burritos mexicanos, tři druhy pikantních omáček",
       "closedText": ""
     }
   ]
