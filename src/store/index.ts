@@ -19,40 +19,29 @@ export default createStore({
     getMenu: (state) => state.dailyMenu,
     getRepeated: (state) => state.repeatedMenu,
     getCurrentDay: (state) => {
-      const now = new Date();
-      const dayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 5 = Friday, 6 = Saturday
-      const currentHour = now.getHours();
+      const curDay = new Date();
+      const currentHour = curDay.getHours();
+      let dayToShow = curDay.getDay();
 
-      // After 14:00 (2 PM), show next day's menu
-      const isAfter14 = currentHour >= 14;
-
-      // Saturday (6) - show Monday's menu
-      if (dayOfWeek === 6) {
-        return state.dailyMenu.find((i) => i.id === 1);
+      // After 2PM (14:00), show next day's menu (except Friday)
+      if (currentHour >= 14 && dayToShow >= 1 && dayToShow <= 4) {
+        // Monday-Thursday after 2PM: show next day
+        dayToShow = dayToShow + 1;
       }
 
-      // Sunday (0) - show Monday's menu
-      if (dayOfWeek === 0) {
-        return state.dailyMenu.find((i) => i.id === 1);
+      // Friday after 2PM or Saturday: don't show menu (next week not ready yet)
+      if (dayToShow === 5 && currentHour >= 14) {
+        return null;
+      }
+      if (dayToShow === 6) {
+        return null;
       }
 
-      // Friday (5)
-      if (dayOfWeek === 5) {
-        // Before 14:00 show Friday's menu, after 14:00 show nothing
-        if (isAfter14) {
-          return null;
-        }
-        return state.dailyMenu.find((i) => i.id === 5);
-      }
-
-      // Monday (1) to Thursday (4)
-      if (dayOfWeek >= 1 && dayOfWeek <= 4) {
-        if (isAfter14) {
-          // Show next day's menu
-          return state.dailyMenu.find((i) => i.id === dayOfWeek + 1);
-        }
-        // Show current day's menu
-        return state.dailyMenu.find((i) => i.id === dayOfWeek);
+      // On Sunday, show Monday's menu (freshly uploaded)
+      if (dayToShow === 0) {
+        return state.dailyMenu.find((i) => i.id == 1);
+      } else if (dayToShow >= 1 && dayToShow <= 5) {
+        return state.dailyMenu.find((i) => i.id == dayToShow);
       }
 
       return null;
