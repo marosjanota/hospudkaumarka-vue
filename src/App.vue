@@ -2,9 +2,9 @@
   <div class="body-wrapper">
     <Navigation/>
     <main>
-      <router-view v-slot="{ Component }">
+      <router-view v-slot="{ Component, route }">
         <transition name="route" mode="out-in">
-            <component :is="Component"></component>
+            <component :is="Component" :key="route.path"></component>
         </transition>
       </router-view>
     </main>

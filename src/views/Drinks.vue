@@ -52,8 +52,8 @@ export default {
   data() {
     return {
       beer: [
-        { name: "Pivo velké", price: "38,-", unit: "0,5l" },
-        { name: "Pivo malé", price: "24,-", unit: "0,3l" },
+        { name: "Pivo velké", price: "40,-", unit: "0,5l" },
+        { name: "Pivo malé", price: "25,-", unit: "0,3l" },
         {
           name: "Vino bíle rozlévané – dle denní nabídky",
           price: "40,-",

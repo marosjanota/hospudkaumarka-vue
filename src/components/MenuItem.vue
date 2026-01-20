@@ -1,8 +1,9 @@
 <template lang="html">
-  <h3 class="title">
-    {{ menu.day }} {{ format_date(repeated.mondayDate, menu.id - 1) }}
-  </h3>
-  <div class="menu-item" v-if="menu.open">
+  <template v-if="menu && repeated">
+    <h3 class="title">
+      {{ menu.day }} {{ format_date(repeated.mondayDate, menu.id - 1) }}
+    </h3>
+    <div class="menu-item" v-if="menu.open">
     <span class="menu-item__value">0,3l</span>
     <span class="menu-item__meal">{{ menu.meal01 }}</span>
     <span class="menu-item__price">{{
@@ -12,30 +13,31 @@
     <span class="menu-item__value">1.</span>
     <span class="menu-item__meal">{{ menu.meal02 }}</span>
     <span class="menu-item__price">{{
-      menu.price02 != null ? menu.price02 : "125,-"
+      menu.price02 != null ? menu.price02 : "130,-"
     }}</span>
 
     <span class="menu-item__value">2.</span>
     <span class="menu-item__meal">{{ menu.meal03 }}</span>
     <span class="menu-item__price">{{
-      menu.price03 != null ? menu.price03 : "135,-"
+      menu.price03 != null ? menu.price03 : "140,-"
     }}</span>
 
     <span class="menu-item__value">3.</span>
     <span class="menu-item__meal">{{ repeated.meal04 }}</span>
     <span class="menu-item__price">{{
-      repeated.price04 != null ? repeated.price04 : "140,-"
+      repeated.price04 != null ? repeated.price04 : "145,-"
     }}</span>
 
     <span class="menu-item__value">4.</span>
     <span class="menu-item__meal">{{ repeated.meal05 }}</span>
     <span class="menu-item__price">{{
-      repeated.price05 != null ? repeated.price05 : "135,-"
+      repeated.price05 != null ? repeated.price05 : "140,-"
     }}</span>
   </div>
-  <div v-else>
-    <p>{{ menu.closedText != null ? menu.closedText : "Zavřeno" }}</p>
-  </div>
+    <div v-else>
+      <p>{{ menu.closedText != null ? menu.closedText : "Zavřeno" }}</p>
+    </div>
+  </template>
 </template>
 <script>
 import { Box } from "@/components";

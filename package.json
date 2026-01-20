@@ -6,7 +6,7 @@
     "db:serve": "json-server --watch src/store/menu.json --port=3311",
     "serve-legacy": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && cp dist/index.html dist/404.html"
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build && cp dist/index.html dist/404.html"
   },
   "dependencies": {
     "axios": "^0.24.0",
