@@ -2,13 +2,13 @@
   "dailyRepeat": {
     "meal04": "Jídlo týdne - Gril mix, tortilla se sýrem a rukolou, salát s cherri rajčaty",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-02-02"
+    "mondayDate": "2026-09-02"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
+      "open": false,
       "meal01": "Bramborová polévka",
       "meal02": "Smažené rančerské kuře, mačkané brambory",
       "meal03": "Segedínský guláš speciál, houskové knedlíky",
@@ -17,38 +17,38 @@
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
+      "open": false,
       "meal01": "Mexická fazolačka",
       "meal02": "Ďábelský sekaný řízek, vařené brambory",
       "meal03": "Vepřová krkovička na šlehačce, bramborové placky",
-      "closedText": ""
+      "closedText": "Dovolená"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
+      "open": false,
       "meal01": "Dýňová polévka",
       "meal02": "Vepřové na pepři s rýží",
       "meal03": "Kuřecí řízek Ondráš se zelným  salátem s křenem",
-      "closedText": ""
+      "closedText": "Dovolená"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
+      "open": false,
       "meal01": "Drůbeží vývar s nudlemi",
       "meal02": "Halušky se zelím, cibulkou a kachním masem",
       "meal03": "Burger s cheddarovou omáčkou, steakové hranolky",
-      "closedText": ""
+      "closedText": "Dovolená"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
+      "open": false,
       "meal01": "Gulášová polévka",
       "meal02": "Palačinky s lesním ovocem a čokoládou, šlehačka",
       "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
-      "closedText": ""
+      "closedText": "Dovolená"
     }
   ]
 }
