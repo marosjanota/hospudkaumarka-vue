@@ -1,54 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Gril mix, tortilla se sýrem a rukolou, salát s cherri rajčaty",
+    "meal04": "Jídlo týdne - Kuřecí rarášci KFC, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-09-02"
+    "mondayDate": "2026-02-16"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "Bramborová polévka",
-      "meal02": "Smažené rančerské kuře, mačkané brambory",
-      "meal03": "Segedínský guláš speciál, houskové knedlíky",
-      "closedText": "Dovolená"
+      "open": true,
+      "meal01": "Srbská čorba",
+      "meal02": "Guláš palivec, variace knedlíků",
+      "meal03": "Burritos mexicanos s pikantní omáčkou",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Ďábelský sekaný řízek, vařené brambory",
-      "meal03": "Vepřová krkovička na šlehačce, bramborové placky",
-      "closedText": "Dovolená"
+      "open": true,
+      "meal01": "Kozí brada",
+      "meal02": "Masové kuličky po pekingsku s rýží",
+      "meal03": "Pečené kuře s nádivkou, vařené brambory",
+      "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "Dýňová polévka",
-      "meal02": "Vepřové na pepři s rýží",
-      "meal03": "Kuřecí řízek Ondráš se zelným  salátem s křenem",
-      "closedText": "Dovolená"
+      "open": true,
+      "meal01": "Kulajda",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Moravský vrabec, bramborové nočky, zelí",
+      "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "Drůbeží vývar s nudlemi",
-      "meal02": "Halušky se zelím, cibulkou a kachním masem",
-      "meal03": "Burger s cheddarovou omáčkou, steakové hranolky",
-      "closedText": "Dovolená"
+      "open": true,
+      "meal01": "Kuřecí vývar s masem a fritátovými nudlemi",
+      "meal02": "Sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Tagliatelle s vepř. panenkou, rukollou, sušenými rajčaty a parmazánem",
+      "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
+      "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Palačinky s lesním ovocem a čokoládou, šlehačka",
-      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
-      "closedText": "Dovolená"
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "closedText": ""
     }
   ]
 }
