@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí rarášci KFC, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, steakové hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-02-16"
+    "mondayDate": "2026-02-23"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Srbská čorba",
-      "meal02": "Guláš palivec, variace knedlíků",
-      "meal03": "Burritos mexicanos s pikantní omáčkou",
+      "meal01": "Polévka kozí brada",
+      "meal02": "Vepřová játra na cibulce, těstoviny",
+      "meal03": "Ďábelská topinka s masovou směsí, sypaná sýrem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kozí brada",
-      "meal02": "Masové kuličky po pekingsku s rýží",
-      "meal03": "Pečené kuře s nádivkou, vařené brambory",
+      "meal01": "Kulajda",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Pečená kachna ¼, variace knedlíků, dvojí zelí",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kulajda",
+      "meal01": "Cibulačka s krutoný",
       "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Moravský vrabec, bramborové nočky, zelí",
+      "meal03": "Čevabčíčí, vařené brambory, hořčice, cibule",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kuřecí vývar s masem a fritátovými nudlemi",
-      "meal02": "Sekaná pečeně s bramborovou kaší a okurkou",
-      "meal03": "Tagliatelle s vepř. panenkou, rukollou, sušenými rajčaty a parmazánem",
+      "meal01": "Italská polévka",
+      "meal02": "Vepřové s křenovou omáčkou, knedlíky",
+      "meal03": "Smažený camembert, hranolky, tatarská omáčka",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "meal02": "Kovbojské fazole s masem a klobásou, chléb",
+      "meal03": "Tuplovaný řízek, domácí bramborový salát",
       "closedText": ""
     }
   ]
