@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak s hříbkovou omáčkou, zakysaná smetana, bram.placky",
+    "meal04": "Jídlo týdne - Grill mix s teriyaki omáčkou, salát z pečených brambor",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-02-23"
+    "mondayDate": "2026-03-02"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramboračka",
-      "meal02": "Debrecínský guláš, houskové knedlíky",
-      "meal03": "Řecký gyros, tzatziky, pita, steakové hranolky",
+      "meal01": "Hovězí vývar s játrovými knedlíčky a nudlemi",
+      "meal02": "Drůbeží rizoto se žampiony, sypané sýrem, okurka",
+      "meal03": "Luhačovický špaček, mačkané brambory",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Kuře a la kachna, červené zelí, bramborové nočky",
-      "meal03": "Grilovaný camembert se slaninou, salát, steakové hranolky",
+      "meal01": "Zahradnická polévka",
+      "meal02": "Guláš katy Mydláře, houskové knedlíky",
+      "meal03": "Tataráček s topinkami a česnekem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Vepřové po dijónsku s rýží",
-      "meal03": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal01": "Bramborová polévka",
+      "meal02": "Vepřová játra na roštu, vařené brambory, tatarská omáčka",
+      "meal03": "Boloňské lasagně zapečené sýrem gouda",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Penne Alfredo s kuřecím masem, bazalkou a mozzarellou",
-      "meal03": "Plněné bramborové knedlíky s listovým špenátem a cibulkou",
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Masové koule v rajské omáčce, těstoviny",
+      "meal03": "Hot – dog s klobásou a trhaným mase, cibulka, americká hořčice",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Zapečené palačinky s tvarohem, rozinkami a čokoládou",
-      "meal03": "Smažený vepřový řízek s bramborovou kaší a okurkou",
+      "meal02": "Bramborové šišky s máslem a mákem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
