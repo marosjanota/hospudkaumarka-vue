@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Grill mix s teriyaki omáčkou, salát z pečených brambor",
+    "meal04": "Jídlo týdne - Smažený sýr Gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-03-02"
+    "mondayDate": "2026-03-09"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Hovězí vývar s játrovými knedlíčky a nudlemi",
-      "meal02": "Drůbeží rizoto se žampiony, sypané sýrem, okurka",
-      "meal03": "Luhačovický špaček, mačkané brambory",
+      "meal01": "Čočková polévka",
+      "meal02": "Segedínský guláš speciál, houskové knedlíky",
+      "meal03": "Smažené thajská rýžové nudle Pad Thai s kuřecím masem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Guláš katy Mydláře, houskové knedlíky",
-      "meal03": "Tataráček s topinkami a česnekem",
+      "meal01": "Květáková polévka",
+      "meal02": "Špagety Carbonára s parmazánem",
+      "meal03": "Mleté ražničí v křupavé krustě s bramborovou kaší",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Vepřová játra na roštu, vařené brambory, tatarská omáčka",
-      "meal03": "Boloňské lasagně zapečené sýrem gouda",
+      "meal01": "Šumavská zelňačka",
+      "meal02": "Maminčino kuře, těstoviny",
+      "meal03": "Ďábelská masová směs, bramboráčky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Masové koule v rajské omáčce, těstoviny",
-      "meal03": "Hot – dog s klobásou a trhaným mase, cibulka, americká hořčice",
+      "meal01": "Čsýrová cibulačka s krutony",
+      "meal02": "Hamburská kýta, houskové knedlíky",
+      "meal03": "Brynzové halušky s rozpuštěnou slaninou",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Bramborové šišky s máslem a mákem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Smažené řízkové duo s bramborovou kaší a okurkou",
       "closedText": ""
     }
   ]
