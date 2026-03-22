@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí prsa v anglické slanině, máslová kukuřice, tortilla se sýrem",
+    "meal04": "Jídlo týdne - Vepřová panenka se šípkovou omáčkou, bramborové rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-03-16"
+    "mondayDate": "2026-03-23"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Francouzská  cibulačka",
-      "meal02": "Guláš cibulář s houskovým knedlíkem",
-      "meal03": "Holandský sekaný  řízek s bramborovou kaší, okurka",
+      "meal01": "Jarní zeleninová polévka",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal03": "Ďábelská topinka s masovou směsí sypaná sýrem",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Dršťková polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Španělský ptáče s rýží",
+      "meal01": "Bramborová  polévka",
+      "meal02": "Čočka na kyselo s grilovanou klobásou, cibulka, okurka",
+      "meal03": "Plzeňský gulaš s houskovým knedlíkem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Vepřová kýta po myslivecku , houskové knedlíky",
-      "meal03": "Mleté biftečky se sázeným vajíčkem a bramborovou kaší, červená řepa",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Gnocchi Bolognese sypané parmazánem",
+      "meal03": "Smažený květák, vařené brambory, tatrská omáčka",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Dýňová polévka",
-      "meal02": "Srbské pikantní rizoto sypané sýrem, okurka",
-      "meal03": "Špíz v BBQ marinádě, steakové hranolky, česnekový dip",
+      "meal01": "Kulajda z vysočiny",
+      "meal02": "Pečené kuře po indicku s rýží",
+      "meal03": "Plněné bramborové knedlíky uzeným masem, zelí, cibulka",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Jahodové taštičky s mascarpone",
-      "meal03": "Smažený  řízek s domácím bramborovým salátem",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řízek s bramborovou kaší, okurka",
       "closedText": ""
     }
   ]
