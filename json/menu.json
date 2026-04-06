@@ -1,54 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, pita, tzatziky, steakové hranolky",
+    "meal04": "Jídlo týdne - Pljaskavica, ajvar, dressing, pita, naše hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-03-30"
+    "mondayDate": "2026-04-06"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Plněný paprikový lusk v rajské omáčce, těstoviny",
-      "meal03": "Ovarový talíř s hořčicí a křenem, chléb",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Italská polévka",
-      "meal02": "Moravský vrabec, halušky, zelí",
-      "meal03": "Vepřové medailonky se švestkovou omáčkou",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Debrecínský guláš, houskové knedlíky",
+      "meal03": "Kuřecí rarášci  v křupavé krustě s bramborovou kaší",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
-      "meal03": "Kuřecí rolka se šunkou a nivou na krémovém rizotu se zeleninou",
+      "meal01": "Drůbeží vývar s masem a nudlemi",
+      "meal02": "Srbské rizoto sypané sýrem, okurka",
+      "meal03": "Vepřové medailomky s pepřovou omáčkou, bramboráčky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Drůbeží krémová polévka s nočky",
-      "meal02": "Mexické fazole s masem a klobásou, rozpečená tortilla",
-      "meal03": "Burger s cheddarovou omáčkou, salát, dressing, cibulové kroužky",
+      "meal01": "Bramborová polévka",
+      "meal02": "Tortellini s mase a rokforovou omáčkou",
+      "meal03": "Halušky se zelím, cibulkou a uzeným masem",
       "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno – státní svátek"
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Palačinky s tvarohem, čokoládou a lesním ovocem",
+      "meal03": "Smažený vepřový řízek s bramborovým salátem",
+      "closedText": ""
     }
   ]
 }
