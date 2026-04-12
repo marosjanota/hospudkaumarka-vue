@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Pljaskavica, ajvar, dressing, pita, naše hranolky",
+    "meal04": "Jídlo týdne - Smažený sýr Gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-04-06"
+    "mondayDate": "2026-04-13"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno"
+      "open": true,
+      "meal01": "Čočková polévka",
+      "meal02": "Guláš kata Mydláře s houskovým knedlíkem",
+      "meal03": "Burritos mexicanos – tortilla plněná mase, zeleninou a sýrem",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Debrecínský guláš, houskové knedlíky",
-      "meal03": "Kuřecí rarášci  v křupavé krustě s bramborovou kaší",
+      "meal01": "Kulajda",
+      "meal02": "Moravský vrabec, bramborové knedlíky, zelí",
+      "meal03": "Ďábelský sekaný řízek, vařené brambory",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Drůbeží vývar s masem a nudlemi",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Vepřové medailomky s pepřovou omáčkou, bramboráčky",
+      "meal01": "Hovězí vývar s fritátovými nudlemi",
+      "meal02": "Vepřové s křenovou omáčkou, houskové knedlíky",
+      "meal03": "Těstovinový salát s kuřecím steakem v anglické slanine, dressing",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Tortellini s mase a rokforovou omáčkou",
-      "meal03": "Halušky se zelím, cibulkou a uzeným masem",
+      "meal01": "Zelňačka",
+      "meal02": "Selský buřt guláš s masem, chléb",
+      "meal03": "Kung – pao s rýží basmati",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Palačinky s tvarohem, čokoládou a lesním ovocem",
-      "meal03": "Smažený vepřový řízek s bramborovým salátem",
+      "meal02": "Tvarohovo jablečná žemlovka",
+      "meal03": "Smažený pastevecký řízek s bramborovou kaší, okurka",
       "closedText": ""
     }
   ]
