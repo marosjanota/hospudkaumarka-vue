@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí steak zapečený se sýrem a slaninou, salát z pečených brambor",
+    "meal04": "Jídlo týdne - Pečené maso v teriyaki omáčce,  hranolky,",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-05-11"
+    "mondayDate": "2026-05-18"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Krkonošské kyselo",
-      "meal02": "Masové koule v rajské omáčce, těstoviny",
-      "meal03": "Doudlebská směs s bramboráčky",
+      "meal01": "Mexická  fazolačka",
+      "meal02": "Vepřové s koprovou omáčkou, houskové knedlíky",
+      "meal03": "Kuřecí nudličky na šlehačce s česnekem, rýže",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Švej ču žou s jasmínovou rýží",
-      "meal03": "Bramborové nočky se zelím, cibulkou a kachním masem",
+      "meal01": "Česneková polévka",
+      "meal02": "Zapečené šunkové fleky, okurka",
+      "meal03": "Zvěřinový guláš Hubert, houskové knedlíky",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Dršťková polévka",
-      "meal02": "Chilli con carne s rozpečenou rortillou",
-      "meal03": "Sekané biftečky se sázeným vajíčkem a bramborovou kaší",
+      "meal01": "Krkonošská cibulačka",
+      "meal02": "Luhačovický špaček s bramborovou kaší",
+      "meal03": "Bryndzové halušky s rozpuštěnou slaninou",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Kuřecí kari polévka",
-      "meal02": "Pečené kuřecí stehno s nádivkou, vařené brambory",
-      "meal03": "Hovězí guláš s červenou cibulí, houskové knedlíky",
+      "meal01": "Zelňačka",
+      "meal02": "Špagety Carbonára s parmazánem",
+      "meal03": "Tortila plněná trhaným masem a sýrem, koriandrová majonéza",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémrm",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "meal02": "Meruňkové knedlíky  s tvarohem a máslem",
+      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
       "closedText": ""
     }
   ]
