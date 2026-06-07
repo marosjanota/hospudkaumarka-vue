@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí medailonky s hříbkovou omáčkou a zakysanou smetanou, rosti",
+    "meal04": "Jídlo týdne - Vepřový steak, restované fazolky, hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-06-01"
+    "mondayDate": "2026-06-08"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Hamburská vepřová kýta, houskové knedlíky",
-      "meal03": "Smažené rančerské kuře, mačkané brambory",
+      "meal01": "Kuřecí kari polévka",
+      "meal02": "Maďarský guláš, houskové knedlíky",
+      "meal03": "Burritos mexicanos, tři druhy pikantních omáček",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
-      "meal03": "Topinka s trhaným masem v BBQ marinádě, sypaná sýrem",
+      "meal01": "Bramborová polévka",
+      "meal02": "Boloňské špagety sypané sýrem gouda",
+      "meal03": "Lokše s thaným kychním masem, zelí, cibulka",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Kulajda",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Španělský ptáček s rýží",
+      "meal01": "Dršťková polévka",
+      "meal02": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal03": "Kuřecí v těstíčku se sladkou chilli omáčkou, jasmínová rýže",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Boršč",
-      "meal02": "Smažené čínské nudle s masem a zeleninou",
-      "meal03": "Plněné bramborové knedlíky, zelí, cibulka",
+      "meal01": "Italská polévka",
+      "meal02": "Kuře na paprice, kolínka, hnedlíky",
+      "meal03": "Vepřová játra na roštu, vařené brambory, tataská omáčka",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Bramborové šulánky s mákem a máslem",
-      "meal03": "Pastevecký řízek s bramborovou kaší a okurkou",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Pavlišovský řízek, zelí, knedlíky – vařené brambory, okurka",
       "closedText": ""
     }
   ]
