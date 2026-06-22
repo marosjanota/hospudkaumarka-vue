@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Grill mix, salát s cherri rajčaty, tortilla plněná sýrem, dressing",
+    "meal04": "Jídlo týdne - Kuřecí rarášci v křupavé krustě, Coleslaw, steakové hranolky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-06-22"
+    "mondayDate": "2026-06-29"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Bramborová krémová polévka",
-      "meal02": "Guláš kata Mydláře, houskové knedlíky",
-      "meal03": "Řecký gyros, pita, tzatziky, hranolky",
+      "meal01": "Dýňová polévka",
+      "meal02": "Kovbojské fazole, chléb, rozpečené tortilla",
+      "meal03": "Pečená krkovička na šlehačce, šťouchané brambory s cibulkou",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Vepřové výpečky, halušky, špenát",
-      "meal03": "Kuřecí rolka se šunkou a nivou, bramborové rosti",
+      "meal01": "Česneková polévka",
+      "meal02": "Špagety s pestem a kuřecím masem, sypané sýrem",
+      "meal03": "Luhačovický špaček s bramborovou kaší",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Čočka na kyselo s opékanou klobásou, okurka, cibulka",
-      "meal03": "Ďábelský sekaný řízek, vařené brambory",
+      "meal01": "Mexická fazolačka",
+      "meal02": "Kung pao s rýží",
+      "meal03": "Grilovaný hermelín, salát, brusinková omáčka, toust",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Srbské rizoto sypané sýrem, okurka",
-      "meal03": "Hovězí s koprovou omáčkou, houskové knedlíky",
+      "meal01": "Žampionová krémová polévka",
+      "meal02": "Plzeňský guláš, houskové knedlíky",
+      "meal03": "Burger se sýrovou omáčkou, salát, dressing, cibulové kroužky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Jahodové knedlíky s tvarohem a máslem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "meal02": "Palačinky s nutellou, lesním ovocem a šlehačkou",
+      "meal03": "Smažený vepřový řízek Sezam s bramborovou kaší a okurkou",
       "closedText": ""
     }
   ]
