@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí rarášci v křupavé krustě, Coleslaw, steakové hranolky",
+    "meal04": "Jídlo týdne - Vepřový steak se sázeným vajíčkem, hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-06-22"
+    "mondayDate": "2026-06-29"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Dýňová polévka",
-      "meal02": "Kovbojské fazole, chléb, rozpečené tortilla",
-      "meal03": "Pečená krkovička na šlehačce, šťouchané brambory s cibulkou",
+      "meal01": "Paprikášová polévka",
+      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
+      "meal03": "Quesadila – tortilla s mexickou rýží, mletým masem, koriandrem a salsou",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Špagety s pestem a kuřecím masem, sypané sýrem",
-      "meal03": "Luhačovický špaček s bramborovou kaší",
+      "meal01": "Kulajda z  vysočiny",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Těstovinový salát se zeleninou, špikované kuřecí prsíčko camembertem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Mexická fazolačka",
-      "meal02": "Kung pao s rýží",
-      "meal03": "Grilovaný hermelín, salát, brusinková omáčka, toust",
+      "meal01": "Brokolicová krémová polévka",
+      "meal02": "Pečené kuře a la kachna, bramborové knedlíky, červené zelí",
+      "meal03": "Zapečené boloňské lasagně sýrem gouda",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Žampionová krémová polévka",
-      "meal02": "Plzeňský guláš, houskové knedlíky",
-      "meal03": "Burger se sýrovou omáčkou, salát, dressing, cibulové kroužky",
+      "meal01": "Krkonošská cibulačka",
+      "meal02": "Kuřecí po indicku s rýží basmati",
+      "meal03": "Pečená panenka v listovém těstě, grilovaná zelenina, rosti",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Palačinky s nutellou, lesním ovocem a šlehačkou",
-      "meal03": "Smažený vepřový řízek Sezam s bramborovou kaší a okurkou",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený kuřecí řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
