@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Vepřový steak se sázeným vajíčkem, hranolky, dressing",
+    "meal04": "Jídlo týdne - Smažený sýr Gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-06-29"
+    "mondayDate": "2026-07-06"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
-      "meal01": "Paprikášová polévka",
-      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
-      "meal03": "Quesadila – tortilla s mexickou rýží, mletým masem, koriandrem a salsou",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Kulajda z  vysočiny",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Těstovinový salát se zeleninou, špikované kuřecí prsíčko camembertem",
+      "meal01": "Zahradnická polévka",
+      "meal02": "Bačovo rizoto s hříbkovou omáčkou, sypané uzeným sýrem",
+      "meal03": "Segedínský guláš s houskovým knedlíkem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Brokolicová krémová polévka",
-      "meal02": "Pečené kuře a la kachna, bramborové knedlíky, červené zelí",
-      "meal03": "Zapečené boloňské lasagně sýrem gouda",
+      "meal01": "Zelňačka s klobásou",
+      "meal02": "Sekaný řízek v těstíčku Diablito s bramborovou kaší a  okurkou",
+      "meal03": "Hovězí s rajskou omáčkou, těstoviny",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Krkonošská cibulačka",
-      "meal02": "Kuřecí po indicku s rýží basmati",
-      "meal03": "Pečená panenka v listovém těstě, grilovaná zelenina, rosti",
+      "meal01": "Francouzská cibulačka s krutony",
+      "meal02": "Kuře  a la bažant s rýží",
+      "meal03": "Tortilla s trhaným masem a  čedarem, salát, česnekový dip",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Smažený kuřecí řízek s domácím bramborovým salátem",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Smažený řízek cordon bleu s bramborovou kaší",
       "closedText": ""
     }
   ]
