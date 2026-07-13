@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr Gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Pečené maso v teriyaki omáčce, steakové hranolky, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-07-06"
+    "mondayDate": "2026-07-13"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno"
+      "open": true,
+      "meal01": "Kuřecí kari polévka",
+      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
+      "meal03": "Masová směs flamendr, bramboráčky",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Bačovo rizoto s hříbkovou omáčkou, sypané uzeným sýrem",
-      "meal03": "Segedínský guláš s houskovým knedlíkem",
+      "meal01": "Bramborová polévka",
+      "meal02": "Debrecínský guláš, houskové knedlíky",
+      "meal03": "Sýrové ražničí s křupavé krustě, hranolky, tatarská omáčka",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Zelňačka s klobásou",
-      "meal02": "Sekaný řízek v těstíčku Diablito s bramborovou kaší a  okurkou",
-      "meal03": "Hovězí s rajskou omáčkou, těstoviny",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Čevapčičí, vařené brambory, hořčice, cibule",
+      "meal03": "Hot dog s trhaným masem a klobásou, cibulka, americká hořčice",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Francouzská cibulačka s krutony",
-      "meal02": "Kuře  a la bažant s rýží",
-      "meal03": "Tortilla s trhaným masem a  čedarem, salát, česnekový dip",
+      "meal01": "Knedlíčková polévka",
+      "meal02": "Pečené kuřeci stehno na žampionech s rýží",
+      "meal03": "Plněné bramborové knedlíky uzeným masem, červené zelí, cibulka",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
-      "meal03": "Smažený řízek cordon bleu s bramborovou kaší",
+      "meal02": "Palačinky s čokoládou, lesním ovocem a šlehačkou",
+      "meal03": "Tuplovaný řízek, vařené brambory, okurka",
       "closedText": ""
     }
   ]
