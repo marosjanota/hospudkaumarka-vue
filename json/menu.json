@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Pečené maso v teriyaki omáčce, steakové hranolky, dressing",
+    "meal04": "Jídlo týdne - Vepřový steak s omáčkou z červeného pepře, bramborové placky",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-07-13"
+    "mondayDate": "2026-07-27"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Kuřecí kari polévka",
-      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
-      "meal03": "Masová směs flamendr, bramboráčky",
+      "meal01": "Hovězí vývar s játrovými knedlíčky",
+      "meal02": "Dalmátské čufty, těstoviny",
+      "meal03": "Burritos mexicanos s pikantní salsou",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Bramborová polévka",
-      "meal02": "Debrecínský guláš, houskové knedlíky",
-      "meal03": "Sýrové ražničí s křupavé krustě, hranolky, tatarská omáčka",
+      "meal01": "Paprikášová polévka",
+      "meal02": "Čočka na kyselo s grilovanou klobásou, okurka",
+      "meal03": "Thajské nudle s masem, zeleninou, bombusovými výhonky a kokos. ml.",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Čevapčičí, vařené brambory, hořčice, cibule",
-      "meal03": "Hot dog s trhaným masem a klobásou, cibulka, americká hořčice",
+      "meal01": "Kulajda",
+      "meal02": "Pečené kuřecí stehno s nádivkou, Vařené brambory",
+      "meal03": "Hamburská vepřová kýta, houskové knedlíky",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Pečené kuřeci stehno na žampionech s rýží",
-      "meal03": "Plněné bramborové knedlíky uzeným masem, červené zelí, cibulka",
+      "meal01": "Drůbeží vývar s fritátovými nudlemi",
+      "meal02": "Domácí sekaná pečeně s bramborovou kaší, okurka",
+      "meal03": "Mexický guláš s hráškovou rýží",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Palačinky s čokoládou, lesním ovocem a šlehačkou",
-      "meal03": "Tuplovaný řízek, vařené brambory, okurka",
+      "meal02": "Alpský knedlík a vanilkovým krémem a mákem",
+      "meal03": "Smažený vepřový řízek s bramborovým salátem",
       "closedText": ""
     }
   ]
