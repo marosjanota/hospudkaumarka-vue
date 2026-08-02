@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
+    "meal04": "Jídlo týdne - Smažený sýr Gouda, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-07-27"
+    "mondayDate": "2026-08-03"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Boloňské špagety sypané sýrem",
-      "meal03": "Holandský sekaný řízek s bramborovou kaší a okurkou",
+      "meal01": "Brokolicová krémová polévka",
+      "meal02": "Sekaný řízek v parmazánovém těstíčku s bramborovou kaší",
+      "meal03": "Kuřecí se sladkou chilli omáčkou, jasmínová rýže",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Zapečené šunkové fleky, okurka",
-      "meal03": "Kuřecí medailonky na  žampionech, bramborové  placky",
+      "meal01": "Ragů polévka",
+      "meal02": "Rančerské smažené kuře, šťouchané brambory",
+      "meal03": "Vepřový steak s šípkovou omáčkou, bramborové placky",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Květáková polévka",
-      "meal02": "Pikantní rizoto po srbsku, sypané sýrem",
-      "meal03": "Smažený camembert v bramboráku, salát Coleslaw",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Vepřové pečeně na česneku, halušky, špenát",
+      "meal03": "Gnocchi s kuřecím masem, rukolou, sušenými rajčaty a mozarellou",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Italská polévka",
-      "meal02": "Masové koule v rajské omáčce, těstoviny",
-      "meal03": "Kovářský špíz, salát z pečených brambor",
+      "meal01": "Boršč",
+      "meal02": "Guláš kata Mydláře, houskové knedlíky",
+      "meal03": "Burger se salátem a čedarovou omáčkou, cibulové kroužky",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Dukátové buchtičky s vanilkovým krémem",
-      "meal03": "Pastevecký řízek, vařené brambory, červená řepa",
+      "meal02": "Borůvkové knedlíky s tvarohem a máslem",
+      "meal03": "Tuplovaný řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
