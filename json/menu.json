@@ -1,54 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažený sýr Gouda, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - ",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-08-03"
+    "mondayDate": "2026-08-10"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": true,
-      "meal01": "Brokolicová krémová polévka",
-      "meal02": "Sekaný řízek v parmazánovém těstíčku s bramborovou kaší",
-      "meal03": "Kuřecí se sladkou chilli omáčkou, jasmínová rýže",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno - dovolená"
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": true,
-      "meal01": "Ragů polévka",
-      "meal02": "Rančerské smažené kuře, šťouchané brambory",
-      "meal03": "Vepřový steak s šípkovou omáčkou, bramborové placky",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno - dovolená"
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Vepřové pečeně na česneku, halušky, špenát",
-      "meal03": "Gnocchi s kuřecím masem, rukolou, sušenými rajčaty a mozarellou",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno - dovolená"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": true,
-      "meal01": "Boršč",
-      "meal02": "Guláš kata Mydláře, houskové knedlíky",
-      "meal03": "Burger se salátem a čedarovou omáčkou, cibulové kroužky",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno - dovolená"
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": true,
-      "meal01": "Gulášová polévka",
-      "meal02": "Borůvkové knedlíky s tvarohem a máslem",
-      "meal03": "Tuplovaný řízek s domácím bramborovým salátem",
-      "closedText": ""
+      "open": false,
+      "meal01": "",
+      "meal02": "",
+      "meal03": "",
+      "closedText": "Zavřeno - dovolená"
     }
   ]
 }
