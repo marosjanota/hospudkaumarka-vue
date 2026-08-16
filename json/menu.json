@@ -1,54 +1,54 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - ",
+    "meal04": "Jídlo týdne - Kuřecí steak s máslovou kukuřicí a tortillou plněnou sýrem, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-08-10"
+    "mondayDate": "2026-08-17"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno - dovolená"
+      "open": true,
+      "meal01": "Bramborová polévka",
+      "meal02": "Segedínský guláš speciál, houskové knedlíky",
+      "meal03": "Zapečené boloňské lasagně sýrem gouda",
+      "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno - dovolená"
+      "open": true,
+      "meal01": "Francouzská cibulačka",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Čínské nudle s masem, zeleninou a ústřicovou omáčkou",
+      "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno - dovolená"
+      "open": true,
+      "meal01": "Zelňačka",
+      "meal02": "Masové karbanátky s balkánským sýrem, bramborová kaše",
+      "meal03": "Kachní prsa na medu s jasmínovou rýží",
+      "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno - dovolená"
+      "open": true,
+      "meal01": "Květáková polévka",
+      "meal02": "Dýňové rizoto s pečeným kuřecím stehnem a parmazánem",
+      "meal03": "Hovězí po anglicku, hranolky, tatarská omáčka",
+      "closedText": ""
     },
     {
       "id": 5,
       "day": "Pátek",
-      "open": false,
-      "meal01": "",
-      "meal02": "",
-      "meal03": "",
-      "closedText": "Zavřeno - dovolená"
+      "open": true,
+      "meal01": "Gulášová polévka",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "closedText": ""
     }
   ]
 }
