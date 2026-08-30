@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Trhané maso v BBQ marinádě, steakové hranolky, česnekový dressing",
+    "meal04": "Jídlo týdne - Kuřecí medailonky s hříbkovou omáčkou, zakysaná smetana, rosti",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-08-24"
+    "mondayDate": "2026-08-31"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Zahradnická polévka",
-      "meal02": "Kuřecí paprikáš, těstoviny",
-      "meal03": "Domácí sekaná pečeně s bramborovou kaší a okurkou",
+      "meal01": "Čínská pikantní polévka",
+      "meal02": "Hamburská kýta s houskovým knedlíkem",
+      "meal03": "Burritos mexicanos s pikantní salsou",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Čočková polévka",
-      "meal02": "Debrecínský guláš, houskové knedlíky",
-      "meal03": "Kuře a la kachna, zelí, bramborové knedlíky",
+      "meal01": "Česneková polévka",
+      "meal02": "Holandský sekaný řízek s bramborovu kaší a okurkou",
+      "meal03": "Srbské ražničí s rýží",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Špagety Carbonára sypané parmazánem",
-      "meal03": "Ďábelská masová směs, bramborové placky",
+      "meal01": "|Brokolicová krémová polévka",
+      "meal02": "Čočka na kyselo s opékanou klobásou, cibulka, okurka",
+      "meal03": "Vepřové výpečky, halušky, zelí",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Knedlíčková polévka",
-      "meal02": "Španělský ptáček s rýží",
-      "meal03": "Mleté biftečky se sázeným vajíčkem, mačkané brambory s cibulkou",
+      "meal01": "Hovězí vývar s játrovými knedlíčky",
+      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
+      "meal03": "Burger s karamelizovanou cibulkou, steakové hranolky, dressing",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Bramborové šulánky s mákem a máslem",
-      "meal03": "Plněný vepřový řízek nivou a šunkou, vařené brambory, okurka",
+      "meal02": "Jahodové knedlíky s tvarohem, cukrem a máslem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": ""
     }
   ]
