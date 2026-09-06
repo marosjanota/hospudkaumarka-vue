@@ -1,54 +1,71 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Řecký gyros, tzatziky, pita, steakové hranolky",
+    "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-01-19"
+    "mondayDate": "2026-01-19",
+    "price04": "145,-",
+    "price05": "140,-"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Zelňačka",
-      "meal02": "Hamburská vepřová kýta, houskové knedlíky",
-      "meal03": "Topinka s pečeným trhaným masem, sypaná sýrem",
-      "closedText": ""
+      "meal01": "Zelná s klobásou",
+      "meal02": "Vepřová kýta po myslivecku, houskové knedlíky",
+      "meal03": "Pljaskavica, pita, ajvar, steakové hranolky",
+      "closedText": "",
+      "price01": "35,-",
+      "price02": "130,-",
+      "price03": "140,-"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Sýrová cibulačka",
-      "meal02": "Holandský sekaný řízek s bramborovou kaší, okurka",
-      "meal03": "Pečené kuře na houbách s rýží",
-      "closedText": ""
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Kung pao s rýží basmati",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem",
+      "closedText": "",
+      "price01": "35,-",
+      "price02": "130,-",
+      "price03": "140,-"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Frankfurtská polévka",
-      "meal02": "Špagety Carbonára sypané parmazánem",
-      "meal03": "Masové koule v rajské omáčce, těstoviny",
-      "closedText": ""
+      "meal01": "Dršťková polévka",
+      "meal02": "Ďábelský sekaný řízek, vařené brambory",
+      "meal03": "Halušky se zelím, cibulkou a kachním masem",
+      "closedText": "",
+      "price01": "35,-",
+      "price02": "130,-",
+      "price03": "140,-"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hrachová polévka",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Thajské nudle s kuřecím masem, zeleninou a bambusovými výhonky",
-      "closedText": ""
+      "meal01": "Hovězí vývar s nočky",
+      "meal02": "Zapečené francouzské barmbory, okurka",
+      "meal03": "Smažené kuřecí paličky, mačkané brambory, salát Coleslaw",
+      "closedText": "",
+      "price01": "35,-",
+      "price02": "130,-",
+      "price03": "140,-"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Brynzové halušky s rozpuštěnou slaninou",
-      "meal03": "Burritos mexicanos, tři druhy pikantních omáček",
-      "closedText": ""
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
+      "closedText": "",
+      "price01": "35,-",
+      "price02": "130,-",
+      "price03": "140,-"
     }
   ]
 }
