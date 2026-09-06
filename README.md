@@ -72,5 +72,13 @@ node test/parser.test.js
 
 ## Nasazení
 
-GitHub Pages servíruje větev `main` z kořene repozitáře. Push = nasazeno,
-žádný build krok. Doména je v souboru `CNAME`.
+GitHub Pages servíruje větev **`static-rewrite`** z kořene repozitáře. Push do
+téhle větve = nasazeno, žádný build krok. Doména je v souboru `CNAME`.
+
+Větev `main` je zmrazený archiv původní Vue verze a **nikam se nepublikuje**.
+Když se v ní něco změní, na webu se to neprojeví.
+
+> Název větve je na jednom místě v `js/admin.js` (konstanta `BRANCH`). Musí
+> sedět s nastavením v Settings → Pages, jinak nástroj na jídelníček uloží
+> data do větve, kterou nikdo neservíruje. Admin stránka proto dole vypisuje,
+> kam přesně zapisuje.

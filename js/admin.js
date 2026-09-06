@@ -8,7 +8,9 @@
 
   var REPO_OWNER = "marosjanota";
   var REPO_NAME = "hospudkaumarka-vue";
-  var BRANCH = "main"; // větev, ze které se web publikuje
+  // Větev, ze které GitHub Pages publikuje web. Musí sedět s nastavením
+  // v Settings → Pages, jinak se uložený jídelníček na webu neobjeví.
+  var BRANCH = "static-rewrite";
   var FILE_PATH = "json/menu.json";
   var TOKEN_KEY = "hum-github-token";
 
@@ -522,6 +524,11 @@
 
     buildForm();
     $("mondayDate").value = nextMonday();
+
+    // Kam se ukládá – ať je vidět, že to sedí s nastavením GitHub Pages.
+    $("target").textContent =
+      "Ukládá se do: " + REPO_OWNER + "/" + REPO_NAME +
+      " → větev " + BRANCH + " → " + FILE_PATH;
 
     var savedToken = localStorage.getItem(TOKEN_KEY);
     if (savedToken) $("token").value = savedToken;
