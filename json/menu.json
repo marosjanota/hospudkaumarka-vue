@@ -1,44 +1,44 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Kuřecí medailonky s hříbkovou omáčkou, zakysaná smetana, rosti",
+    "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-08-31"
+    "mondayDate": "2026-09-07"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Čínská pikantní polévka",
-      "meal02": "Hamburská kýta s houskovým knedlíkem",
-      "meal03": "Burritos mexicanos s pikantní salsou",
+      "meal01": "Zelná s klobásou",
+      "meal02": "Vepřová kýta po myslivecku, houskové knedlíky",
+      "meal03": "Pljaskavica, pita, ajvar, steakové hranolky",
       "closedText": ""
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Česneková polévka",
-      "meal02": "Holandský sekaný řízek s bramborovu kaší a okurkou",
-      "meal03": "Srbské ražničí s rýží",
+      "meal01": "Thajská pikantní polévka",
+      "meal02": "Kung pao s rýží basmati",
+      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem",
       "closedText": ""
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "|Brokolicová krémová polévka",
-      "meal02": "Čočka na kyselo s opékanou klobásou, cibulka, okurka",
-      "meal03": "Vepřové výpečky, halušky, zelí",
+      "meal01": "Dršťková polévka",
+      "meal02": "Ďábelský sekaný řízek, vařené brambory",
+      "meal03": "Halušky se zelím, cibulkou a kachním masem",
       "closedText": ""
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hovězí vývar s játrovými knedlíčky",
-      "meal02": "Smažený květák, vařené brambory, tatarská omáčka",
-      "meal03": "Burger s karamelizovanou cibulkou, steakové hranolky, dressing",
+      "meal01": "Hovězí vývar s nočky",
+      "meal02": "Zapečené francouzské barmbory, okurka",
+      "meal03": "Smažené kuřecí paličky, mačkané brambory, salát Coleslaw",
       "closedText": ""
     },
     {
@@ -46,8 +46,8 @@
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Jahodové knedlíky s tvarohem, cukrem a máslem",
-      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
+      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
+      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
       "closedText": ""
     }
   ]
