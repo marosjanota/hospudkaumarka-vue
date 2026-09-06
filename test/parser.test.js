@@ -41,7 +41,7 @@ function loadBrowserScript(file) {
 loadBrowserScript("js/menu.js");
 loadBrowserScript("js/admin.js");
 
-const { parseDocxText } = window.MenuParser;
+const { parseDocxText, defaultMonday } = window.MenuParser;
 const { pickDayId, formatDayDate } = window.Menu;
 
 /* --- Drobný test runner ------------------------------------------------- */
@@ -137,6 +137,23 @@ mammoth
     check("pátek 15:00 → nic", at("2026-01-23T15:00"), null);
     check("sobota → nic", at("2026-01-24T11:00"), null);
     check("neděle → po", at("2026-01-25T11:00"), 1);
+
+    group("Předvyplněné pondělí v adminu");
+    // 2026-09-07 je pondělí, 2026-09-14 to následující.
+    const monday = (iso) => defaultMonday(new Date(iso));
+
+    check("pondělí → tenhle týden", monday("2026-09-07T09:00"), "2026-09-07");
+    check("úterý → tenhle týden", monday("2026-09-08T09:00"), "2026-09-07");
+    check("středa → tenhle týden", monday("2026-09-09T18:00"), "2026-09-07");
+    check("čtvrtek → tenhle týden", monday("2026-09-10T09:00"), "2026-09-07");
+    check("pátek → tenhle týden", monday("2026-09-11T23:30"), "2026-09-07");
+    check("sobota → příští týden", monday("2026-09-12T09:00"), "2026-09-14");
+    check("neděle → příští týden", monday("2026-09-13T20:00"), "2026-09-14");
+
+    // Přelom měsíce i roku: 2026-11-30 a 2026-12-28 jsou pondělky.
+    check("neděle přes přelom měsíce", monday("2026-11-29T20:00"), "2026-11-30");
+    check("neděle přes přelom roku", monday("2027-01-03T20:00"), "2027-01-04");
+    check("pátek na konci roku", monday("2027-01-01T12:00"), "2026-12-28");
 
     group("Formát data");
     check("pondělí", formatDayDate("2026-01-19", 0), "19. ledna");

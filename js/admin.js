@@ -153,9 +153,19 @@
     return date.getFullYear() + "-" + m + "-" + d;
   }
 
-  function nextMonday() {
-    var d = new Date();
-    d.setDate(d.getDate() + ((8 - d.getDay()) % 7 || 7));
+  /* Který týden se nejspíš nahrává.
+     Po–Pá  → pondělí tohohle týdne (v pondělí se ještě často něco mění,
+              a přes týden se opravuje běžící jídelníček)
+     So, Ne → pondělí toho příštího (to je ten obvyklý nedělní upload) */
+  function defaultMonday(now) {
+    now = now || new Date();
+    var dow = now.getDay(); // 0 = neděle … 6 = sobota
+    var d = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+
+    if (dow === 0) d.setDate(d.getDate() + 1); // neděle → zítřek
+    else if (dow === 6) d.setDate(d.getDate() + 2); // sobota → pozítří
+    else d.setDate(d.getDate() - (dow - 1)); // po–pá → zpět na pondělí
+
     return toDateInput(d);
   }
 
@@ -240,14 +250,16 @@
     return { dailyRepeat: repeat, dailyMenu: dailyMenu };
   }
 
-  /* Objekt → formulář. */
-  function fill(data) {
+  /* Objekt → formulář. `withDate` se použije jen při ručním načtení toho,
+     co je na webu; při startu se datum nechává spočítané podle dneška,
+     protože jde o týden, který se nahrává, ne o ten publikovaný. */
+  function fill(data, withDate) {
     var repeat = data.dailyRepeat || {};
     $("meal04").value = repeat.meal04 || "";
     $("meal05").value = repeat.meal05 || "";
     $("price04").value = repeat.price04 || "";
     $("price05").value = repeat.price05 || "";
-    if (repeat.mondayDate) $("mondayDate").value = repeat.mondayDate;
+    if (withDate && repeat.mondayDate) $("mondayDate").value = repeat.mondayDate;
 
     (data.dailyMenu || []).forEach(function (entry) {
       if (!dayEl(entry.id)) return;
@@ -491,11 +503,11 @@
 
   /* --- Ostatní tlačítka ------------------------------------------------- */
 
-  function loadCurrent() {
+  function loadCurrent(withDate) {
     var saveStatus = $("save-status");
     window.Menu.load()
       .then(function (data) {
-        fill(data);
+        fill(data, withDate);
         status(saveStatus, "Načten jídelníček, který je teď na webu.", "ok");
       })
       .catch(function (err) {
@@ -523,7 +535,7 @@
     if (!weekBox) return;
 
     buildForm();
-    $("mondayDate").value = nextMonday();
+    $("mondayDate").value = defaultMonday();
 
     // Kam se ukládá – ať je vidět, že to sedí s nastavením GitHub Pages.
     $("target").textContent =
@@ -578,7 +590,9 @@
     });
 
     $("save").addEventListener("click", save);
-    $("reload").addEventListener("click", loadCurrent);
+    $("reload").addEventListener("click", function () {
+      loadCurrent(true); // ruční načtení bere i datum z publikovaného souboru
+    });
     $("download").addEventListener("click", download);
     $("forget").addEventListener("click", function () {
       localStorage.removeItem(TOKEN_KEY);
@@ -587,11 +601,11 @@
     });
 
     // Start s tím, co je právě na webu.
-    loadCurrent();
+    loadCurrent(false);
   }
 
   // Vystaveno kvůli testům parseru (viz test/parser.test.js).
-  window.MenuParser = { parseDocxText: parseDocxText, nextMonday: nextMonday };
+  window.MenuParser = { parseDocxText: parseDocxText, defaultMonday: defaultMonday };
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

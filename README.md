@@ -55,6 +55,18 @@ zadává jednou. Nastavení repozitáře a větve je nahoře v `js/admin.js`.
 Parser je jen pomůcka; poslední slovo má vždycky formulář. Když se ve Wordu
 změní formátování, nejhorší co se stane je, že se něco nepředvyplní.
 
+**Pole „Týden od (pondělí)"** se předvyplní podle toho, kdy se stránka otevře:
+
+| Kdy | Předvyplní se |
+| --- | --- |
+| pondělí–pátek | pondělí **tohohle** týdne — aby šlo opravovat běžící jídelníček |
+| sobota, neděle | pondělí **příštího** týdne — obvyklý nedělní upload |
+
+Když má nahraný Word datum v hlavičce, vyhraje to datum z něj. Tlačítko
+*Načíst současný jídelníček* vrátí i datum z publikovaného souboru. Jinak se
+datum z `menu.json` do pole netahá — jde o týden, který se nahrává, ne o ten,
+co je zrovna na webu.
+
 ## Vývoj
 
 Otevřít soubory rovnou v prohlížeči nejde — `fetch` na `json/menu.json` by
