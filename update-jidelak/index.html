@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update jídelníčku</title>
+
+    <meta name="author" content="Maroš Janota" />
+    <meta name="description" content="Interní nástroj pro nahrání jídelníčku." />
+    <meta
+      name="keywords"
+      content="Hospůdka u Marka, hospoda, pivo, restaurace, jídlo"
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="canonical" href="https://hospudkaumarka.cz/update-jidelak/" />
+
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Update jídelníčku" />
+    <meta property="og:description" content="Interní nástroj pro nahrání jídelníčku." />
+    <meta property="og:url" content="https://hospudkaumarka.cz/update-jidelak/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Update jídelníčku" />
+    <meta name="twitter:description" content="Interní nástroj pro nahrání jídelníčku." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta name="robots" content="noindex, nofollow" />
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <nav class="nav">
+        <div class="nav__body">
+          <a href="/" class="logo">
+            <div class="box ta-c">Hospůdka<br />u Marka</div>
+          </a>
+          <div class="nav__items">
+            <a href="/poledni-menu/" class="nav__items--item">Denní nabídka</a>
+            <a href="/napojovy-listek/" class="nav__items--item">Nápojový lístek</a>
+            <a href="/kontakt/" class="nav__items--item">Kontakt</a>
+          </div>
+          <button
+            class="nav__burger"
+            type="button"
+            aria-label="Menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+
+      <main>
+        <section class="section admin">
+          <div class="section__content">
+            <div class="box">
+              <h2 class="box__title">Jídelníček</h2>
+              <div class="box__content">
+                <div
+                  class="dropzone"
+                  id="dropzone"
+                  role="button"
+                  tabindex="0"
+                  aria-label="Nahrát Word s jídelníčkem"
+                >
+                  <div class="dropzone__icon">📄</div>
+                  <p class="text--bold">
+                    Přetáhni sem Word s jídelníčkem, nebo klikni a vyber soubor
+                  </p>
+                  <p class="admin__hint">
+                    .docx – rovnou z přílohy e-mailu. Po načtení všechno zkontroluj
+                    a případně oprav níže.
+                  </p>
+                  <input
+                    type="file"
+                    id="file"
+                    accept=".doc,.docx"
+                    hidden
+                  />
+                </div>
+
+                <p id="parse-status" class="status mt-lg" hidden></p>
+
+                <div class="admin__row mt-xl">
+                  <label class="admin__label" for="mondayDate">Týden od (pondělí)</label>
+                  <input type="date" id="mondayDate" />
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <h2 class="box__title">Celý týden</h2>
+              <div class="box__content">
+                <div id="week"></div>
+
+                <div class="admin__day">
+                  <h3>Každý den</h3>
+                  <div class="admin__meal">
+                    <span>3.</span>
+                    <input type="text" id="meal04" placeholder="Jídlo týdne" />
+                    <input type="text" id="price04" placeholder="145,-" />
+                  </div>
+                  <div class="admin__meal">
+                    <span>4.</span>
+                    <input type="text" id="meal05" placeholder="Salát" />
+                    <input type="text" id="price05" placeholder="140,-" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <h2 class="box__title">Náhled</h2>
+              <div class="box__content admin__preview">
+                <div id="preview"></div>
+              </div>
+            </div>
+
+            <div class="box">
+              <h2 class="box__title">Uložení</h2>
+              <div class="box__content">
+                <div class="admin__row">
+                  <label class="admin__label" for="token">GitHub token</label>
+                  <input
+                    type="password"
+                    id="token"
+                    autocomplete="off"
+                    placeholder="github_pat_…"
+                  />
+                </div>
+                <p class="admin__hint">
+                  Fine-grained token s právem <strong>Contents: write</strong> jen na
+                  tento repozitář. Uloží se do tohoto prohlížeče, takže ho zadáváš
+                  jen jednou.
+                </p>
+
+                <div class="admin__actions">
+                  <button class="btn" type="button" id="save">Uložit a publikovat</button>
+                  <button class="btn btn--ghost" type="button" id="reload">
+                    Načíst současný jídelníček
+                  </button>
+                  <button class="btn btn--ghost" type="button" id="download">
+                    Stáhnout JSON
+                  </button>
+                  <button class="btn btn--ghost" type="button" id="forget">
+                    Zapomenout token
+                  </button>
+                </div>
+
+                <p id="save-status" class="status mt-lg" hidden></p>
+
+                <details class="mt-lg">
+                  <summary class="admin__hint">Zobrazit JSON</summary>
+                  <pre id="json"></pre>
+                </details>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <section class="section section--sec">
+          <div class="section__content">
+            <div class="ta-c">
+              &copy; Hospůdka u Marka <span data-year></span>
+              <span class="divider">|</span>
+              Vytvořil:
+              <a href="https://marosjanota.cz" target="_blank" rel="noopener" class="ml-md"
+                >Maroš Janota</a
+              >
+              <a href="/update-jidelak/" class="btn_inv ml-md">Admin</a>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+
+    <script src="/js/vendor/mammoth.browser.min.js"></script>
+    <script src="/js/menu.js"></script>
+    <script src="/js/site.js"></script>
+    <script src="/js/admin.js"></script>
+  </body>
+</html>
