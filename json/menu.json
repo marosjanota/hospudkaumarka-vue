@@ -1,71 +1,71 @@
 {
   "dailyRepeat": {
-    "meal04": "Jídlo týdne - Smažené sýrové duo, hranolky, tatarská omáčka",
+    "meal04": "Jídlo týdne - Grilovaná krkovička v teriyaki omáčce, pečené brambory, dressing",
     "meal05": "Salát Caesar s kuřecím masem, krutony a sýrem",
-    "mondayDate": "2026-09-07",
-    "price04": "145,-",
-    "price05": "140,-"
+    "mondayDate": "2026-09-14",
+    "price04": "150,-",
+    "price05": "145,-"
   },
   "dailyMenu": [
     {
       "id": 1,
       "day": "Pondělí",
       "open": true,
-      "meal01": "Zelná s klobásou",
-      "meal02": "Vepřová kýta po myslivecku, houskové knedlíky",
-      "meal03": "Pljaskavica, pita, ajvar, steakové hranolky",
+      "meal01": "Bramborová polévka",
+      "meal02": "Guláš kata Mydláře, houskové knedlíky",
+      "meal03": "Grilovaný hermelín, steakové hranolky, brusinková omáčka",
       "closedText": "",
       "price01": "35,-",
-      "price02": "130,-",
-      "price03": "140,-"
+      "price02": "135,-",
+      "price03": "145,-"
     },
     {
       "id": 2,
       "day": "Úterý",
       "open": true,
-      "meal01": "Thajská pikantní polévka",
-      "meal02": "Kung pao s rýží basmati",
-      "meal03": "Kuřecí řízek Ondráš se zelným salátem s křenem",
+      "meal01": "Čočková polévka",
+      "meal02": "Boloňské špagety sypané sýrem",
+      "meal03": "Vepřová játra na roštu, hranolky, tatarská omáčka",
       "closedText": "",
       "price01": "35,-",
-      "price02": "130,-",
-      "price03": "140,-"
+      "price02": "135,-",
+      "price03": "145,-"
     },
     {
       "id": 3,
       "day": "Středa",
       "open": true,
-      "meal01": "Dršťková polévka",
-      "meal02": "Ďábelský sekaný řízek, vařené brambory",
-      "meal03": "Halušky se zelím, cibulkou a kachním masem",
+      "meal01": "Frankfurtská polévka",
+      "meal02": "Čevabčičí, vařené brambory, hořčice, cibule",
+      "meal03": "Gnocchi s kuřecím masem, rukolou a mozzarellou",
       "closedText": "",
       "price01": "35,-",
-      "price02": "130,-",
-      "price03": "140,-"
+      "price02": "135,-",
+      "price03": "145,-"
     },
     {
       "id": 4,
       "day": "Čtvrtek",
       "open": true,
-      "meal01": "Hovězí vývar s nočky",
-      "meal02": "Zapečené francouzské barmbory, okurka",
-      "meal03": "Smažené kuřecí paličky, mačkané brambory, salát Coleslaw",
+      "meal01": "Hovězí vývar s játrovými knedlíčky",
+      "meal02": "Kuřecí po indicku s rýží",
+      "meal03": "Burger s trhaným masem, salát, BBQ omáčka, naše hranolky",
       "closedText": "",
       "price01": "35,-",
-      "price02": "130,-",
-      "price03": "140,-"
+      "price02": "135,-",
+      "price03": "145,-"
     },
     {
       "id": 5,
       "day": "Pátek",
       "open": true,
       "meal01": "Gulášová polévka",
-      "meal02": "Alpský knedlík s vanilkovým krémem a mákem",
-      "meal03": "Tuplovaný řízek s bramborovou kaší a okurkou",
+      "meal02": "Dukátové buchtičky s vanilkovým krémem",
+      "meal03": "Smažený vepřový řízek s domácím bramborovým salátem",
       "closedText": "",
       "price01": "35,-",
-      "price02": "130,-",
-      "price03": "140,-"
+      "price02": "135,-",
+      "price03": "145,-"
     }
   ]
 }
