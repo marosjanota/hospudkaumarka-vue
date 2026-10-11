@@ -199,9 +199,14 @@ mammoth
 
     check("zavřený den a prázdné jídlo se vynechají", rows.length, 9);
     check("polévka s výchozí cenou", rows[0], {
-      dayId: 1, day: "Pondělí", label: "0,3l", date: "2026-10-12", name: "Zelňačka", price: 35,
+      dayId: 1, day: "Pondělí", label: "0,3l", soup: true, date: "2026-10-12", name: "Zelňačka", price: 35,
     });
     check("cena z jídelníčku jako číslo", rows[1].price, 135);
+    check(
+      "polévka je označená jen u polévky",
+      rows.map((row) => row.soup),
+      [true, false, false, false, true, false, false, false, false]
+    );
     check("jídlo týdne bez předpony", rows[2].name, "Řecký gyros & tzatziky");
     check("jídlo týdne – cena", rows[2].price, 150);
     check("salát se opakuje každý den", [rows[3].name, rows[8].name], ["Salát Caesar", "Salát Caesar"]);

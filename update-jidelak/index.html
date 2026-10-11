@@ -169,13 +169,17 @@
           <dialog class="export" id="export-dialog" aria-labelledby="export-title">
             <h2 id="export-title">Export pro Foodora</h2>
             <p class="admin__hint">
-              Ceny vycházejí z jídelníčku. Přirážka se přičte ke všem najednou
-              a patří do ní i obal – ten se zvlášť neúčtuje. Jednotlivé ceny
-              jdou pak ještě přepsat ručně.
+              Polévka má pevnou cenu. U ostatních jídel se k ceně z jídelníčku
+              přičte přirážka – patří do ní i obal, ten se zvlášť neúčtuje.
+              Jednotlivé ceny jdou pak ještě přepsat ručně.
             </p>
 
             <div class="admin__row mt-lg">
-              <label class="admin__label" for="export-surcharge">Přirážka (Kč)</label>
+              <label class="admin__label" for="export-soup">Cena polévky (Kč)</label>
+              <input type="text" inputmode="numeric" id="export-soup" />
+            </div>
+            <div class="admin__row">
+              <label class="admin__label" for="export-surcharge">Přirážka na jídla (Kč)</label>
               <input type="text" inputmode="numeric" id="export-surcharge" />
             </div>
             <div class="admin__row">

@@ -21,7 +21,10 @@
   // Obal se už zvlášť neúčtuje – je započítaný v ceně jídla (přirážka).
   // Sloupec v šabloně ale zůstává, takže se do něj píše nula.
   var EXPORT_PACKAGING = 0;
+  // Polévka má v exportu pevnou cenu, na ostatní jídla se přičítá přirážka.
+  var EXPORT_SOUP_PRICE = 45;
   var SURCHARGE_KEY = "hum-export-surcharge";
+  var SOUP_PRICE_KEY = "hum-export-soup-price";
 
   var DAYS = [
     { id: 1, name: "Pondělí", match: /^pond[eě]l[ií]/i },
@@ -542,7 +545,7 @@
   /* --- Export pro rozvoz (XLSX) ----------------------------------------- */
 
   var EXPORT_SLOTS = [
-    { label: "0,3l", meal: "meal01", price: "price01", daily: true },
+    { label: "0,3l", meal: "meal01", price: "price01", daily: true, soup: true },
     { label: "1.", meal: "meal02", price: "price02", daily: true },
     { label: "2.", meal: "meal03", price: "price03", daily: true },
     { label: "3.", meal: "meal04", price: "price04", daily: false },
@@ -580,6 +583,7 @@
           dayId: day.id,
           day: day.day,
           label: slot.label,
+          soup: !!slot.soup,
           date: addDays(repeat.mondayDate, day.id - 1),
           name: name,
           price: priceNumber(source[slot.price] || window.Menu.FALLBACK_PRICES[slot.price]),
@@ -817,11 +821,17 @@
     return Array.from($("export-list").querySelectorAll("[data-export-price]"));
   }
 
-  function applySurcharge() {
+  /* Přepočítá všechny ceny: polévka má pevnou cenu (prázdné pole = cena
+     z jídelníčku), ostatní jídla cenu z jídelníčku + přirážku. */
+  function applyPrices() {
     var surcharge = priceNumber($("export-surcharge").value) || 0;
+    var soupPrice = priceNumber($("export-soup").value);
+
     exportPriceInputs().forEach(function (input, i) {
-      var base = exportDraft[i].price;
-      input.value = base == null ? "" : String(base + surcharge);
+      var row = exportDraft[i];
+      var price = row.price == null ? null : row.price + surcharge;
+      if (row.soup) price = soupPrice != null ? soupPrice : row.price;
+      input.value = price == null ? "" : String(price);
       input.classList.remove("is-empty");
     });
   }
@@ -868,9 +878,11 @@
     });
 
     $("export-surcharge").value = localStorage.getItem(SURCHARGE_KEY) || "0";
+    var savedSoup = localStorage.getItem(SOUP_PRICE_KEY);
+    $("export-soup").value = savedSoup != null ? savedSoup : String(EXPORT_SOUP_PRICE);
     $("export-posid").value = String(EXPORT_POS_ID);
     $("export-status").hidden = true;
-    applySurcharge();
+    applyPrices();
 
     $("export-dialog").showModal();
   }
@@ -913,6 +925,8 @@
     saveFile(blob, "dj_food_import_" + exportDraft[0].date + ".xlsx");
 
     localStorage.setItem(SURCHARGE_KEY, String(priceNumber($("export-surcharge").value) || 0));
+    var soupPrice = priceNumber($("export-soup").value);
+    localStorage.setItem(SOUP_PRICE_KEY, soupPrice == null ? "" : String(soupPrice));
     $("export-dialog").close();
     status($("save-status"), "XLSX pro Foodora stažen – řádků: " + rows.length + ".", "ok");
   }
@@ -986,7 +1000,8 @@
     });
     $("download").addEventListener("click", download);
     $("export").addEventListener("click", openExport);
-    $("export-surcharge").addEventListener("input", applySurcharge);
+    $("export-surcharge").addEventListener("input", applyPrices);
+    $("export-soup").addEventListener("input", applyPrices);
     $("export-download").addEventListener("click", downloadExport);
     $("export-cancel").addEventListener("click", function () {
       $("export-dialog").close();

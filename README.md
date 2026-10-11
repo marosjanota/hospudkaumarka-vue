@@ -76,9 +76,10 @@ sloupce `název`, `popis`, `cena`, `cena - obal`, `datum`, `pos id`.
 
 - Bere se to, co je zrovna ve formuláři, stejně jako JSON.
 - Jídlo týdne a salát se opakují u každého dne, zavřené dny se vynechají.
-- Ceny pro rozvoz jsou vyšší než v jídelníčku: v okně exportu se zadá
-  **přirážka** (přičte se ke všem, prohlížeč si ji pamatuje) a jednotlivé ceny
-  jdou ještě přepsat ručně.
+- Ceny pro rozvoz jsou vyšší než v jídelníčku. V okně exportu se zadá
+  **cena polévky** (pevná, výchozí 45 Kč) a **přirážka na jídla** (přičte se
+  ke všem ostatním). Prohlížeč si obojí pamatuje a jednotlivé ceny jdou ještě
+  přepsat ručně.
 - Obal se zvlášť neúčtuje, je součástí ceny jídla (tedy přirážky). Sloupec
   `cena - obal` v souboru zůstává a je v něm vždy `0`.
 - `popis` zůstává prázdný. Výchozí POS ID je nahoře v `js/admin.js`
