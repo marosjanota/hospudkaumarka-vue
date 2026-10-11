@@ -1,4 +1,5 @@
-/* Update jídelníčku: Word (.docx) → formulář → json/menu.json na GitHubu.
+/* Update jídelníčku: Word (.docx) → formulář → json/menu.json na GitHubu,
+   a z téhož formuláře XLSX pro rozvoz.
    Parser jen předvyplní, poslední slovo má vždycky formulář. */
 
 (function () {
@@ -13,6 +14,12 @@
   var BRANCH = "static-rewrite";
   var FILE_PATH = "json/menu.json";
   var TOKEN_KEY = "hum-github-token";
+
+  // Export pro rozvoz (XLSX podle docs/dj_food_import_template.xlsx).
+  // Obojí jde přepsat v okně exportu; tady jsou jen výchozí hodnoty.
+  var EXPORT_POS_ID = 1234; // zatím zástupné číslo, skutečné POS ID se doplní
+  var EXPORT_PACKAGING = 15; // cena obalu v Kč
+  var SURCHARGE_KEY = "hum-export-surcharge";
 
   var DAYS = [
     { id: 1, name: "Pondělí", match: /^pond[eě]l[ií]/i },
@@ -515,15 +522,400 @@
       });
   }
 
+  function saveFile(blob, name) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = name;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
   function download() {
     var blob = new Blob([JSON.stringify(collect(), null, 2) + "\n"], {
       type: "application/json",
     });
-    var a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = "menu.json";
-    a.click();
-    URL.revokeObjectURL(a.href);
+    saveFile(blob, "menu.json");
+  }
+
+  /* --- Export pro rozvoz (XLSX) ----------------------------------------- */
+
+  var EXPORT_SLOTS = [
+    { label: "0,3l", meal: "meal01", price: "price01", daily: true },
+    { label: "1.", meal: "meal02", price: "price02", daily: true },
+    { label: "2.", meal: "meal03", price: "price03", daily: true },
+    { label: "3.", meal: "meal04", price: "price04", daily: false },
+    { label: "4.", meal: "meal05", price: "price05", daily: false },
+  ];
+
+  function priceNumber(text) {
+    var num = String(text == null ? "" : text).match(/\d+/);
+    return num ? Number(num[0]) : null;
+  }
+
+  /* "2026-10-12" + offset dní → "2026-10-14". */
+  function addDays(isoDate, offsetDays) {
+    var parts = isoDate.split("-");
+    return toDateInput(new Date(+parts[0], +parts[1] - 1, +parts[2] + offsetDays));
+  }
+
+  /* Jídelníček (stejný objekt jako menu.json) → řádky exportu. Jídlo týdne
+     a salát se opakují u každého dne, zavřené dny a prázdná jídla se
+     vynechají. Cena je ta, kterou ukazuje web – včetně výchozích cen. */
+  function exportRows(data) {
+    var repeat = data.dailyRepeat || {};
+    var rows = [];
+    if (!repeat.mondayDate) return rows;
+
+    (data.dailyMenu || []).forEach(function (day) {
+      if (day.open === false) return;
+
+      EXPORT_SLOTS.forEach(function (slot) {
+        var source = slot.daily ? day : repeat;
+        var name = (source[slot.meal] || "").replace(/^jídlo týdne\s*[-–:]\s*/i, "").trim();
+        if (!name) return;
+
+        rows.push({
+          dayId: day.id,
+          day: day.day,
+          label: slot.label,
+          date: addDays(repeat.mondayDate, day.id - 1),
+          name: name,
+          price: priceNumber(source[slot.price] || window.Menu.FALLBACK_PRICES[slot.price]),
+        });
+      });
+    });
+
+    return rows;
+  }
+
+  /* Pořadové číslo dne, jak ho ukládá Excel (1 = 1. 1. 1900). */
+  function excelSerial(isoDate) {
+    var parts = isoDate.split("-");
+    return Date.UTC(+parts[0], +parts[1] - 1, +parts[2]) / 86400000 + 25569;
+  }
+
+  function xmlEscape(text) {
+    return String(text)
+      .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  var CRC_TABLE = (function () {
+    var table = [];
+    for (var n = 0; n < 256; n++) {
+      var c = n;
+      for (var k = 0; k < 8; k++) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1;
+      table[n] = c >>> 0;
+    }
+    return table;
+  })();
+
+  function crc32(bytes) {
+    var crc = 0xffffffff;
+    for (var i = 0; i < bytes.length; i++) {
+      crc = CRC_TABLE[(crc ^ bytes[i]) & 0xff] ^ (crc >>> 8);
+    }
+    return (crc ^ 0xffffffff) >>> 0;
+  }
+
+  function u16(n) {
+    return [n & 0xff, (n >>> 8) & 0xff];
+  }
+
+  function u32(n) {
+    return [n & 0xff, (n >>> 8) & 0xff, (n >>> 16) & 0xff, (n >>> 24) & 0xff];
+  }
+
+  /* Soubory [{ name, text }] → ZIP bez komprese. Na pár kB XML to stačí
+     a není kvůli tomu potřeba další knihovna. */
+  function zip(files) {
+    var encoder = new TextEncoder();
+    var local = [];
+    var central = [];
+
+    files.forEach(function (file) {
+      var name = Array.from(encoder.encode(file.name));
+      var data = Array.from(encoder.encode(file.text));
+      // Část hlavičky společná pro lokální i centrální záznam.
+      var meta = [].concat(
+        u16(20), // verze potřebná k rozbalení
+        u16(0x0800), // názvy v UTF-8
+        u16(0), // bez komprese
+        u16(0), // čas
+        u16(0x21), // datum 1. 1. 1980
+        u32(crc32(data)),
+        u32(data.length),
+        u32(data.length),
+        u16(name.length),
+        u16(0)
+      );
+      var offset = local.length;
+
+      local = local.concat(u32(0x04034b50), meta, name, data);
+      central = central.concat(
+        u32(0x02014b50), u16(20), meta, u16(0), u16(0), u16(0), u32(0), u32(offset), name
+      );
+    });
+
+    var end = [].concat(
+      u32(0x06054b50), u16(0), u16(0), u16(files.length), u16(files.length),
+      u32(central.length), u32(local.length), u16(0)
+    );
+
+    return new Uint8Array(local.concat(central, end));
+  }
+
+  /* Řádky [{ name, description, price, packaging, date, posId }] → .xlsx
+     se stejnými sloupci, listem a formátem data jako šablona. */
+  function buildXlsx(rows) {
+    var XML = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n';
+    var MAIN = "http://schemas.openxmlformats.org/spreadsheetml/2006/main";
+    var REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships";
+    var PKG = "http://schemas.openxmlformats.org/package/2006/relationships";
+    var TYPE = "application/vnd.openxmlformats-officedocument.spreadsheetml.";
+
+    var strings = [];
+    var stringIndex = {};
+
+    function text(ref, value) {
+      if (value == null || value === "") return "";
+      if (!(value in stringIndex)) {
+        stringIndex[value] = strings.length;
+        strings.push(value);
+      }
+      return '<c r="' + ref + '" t="s"><v>' + stringIndex[value] + "</v></c>";
+    }
+
+    function number(ref, value, style) {
+      if (value == null || value === "") return "";
+      return '<c r="' + ref + '"' + (style ? ' s="' + style + '"' : "") + "><v>" + value + "</v></c>";
+    }
+
+    var header = ["název", "popis", "cena", "cena - obal", "datum", "pos id"];
+    var sheetRows = [
+      '<row r="1">' +
+        header
+          .map(function (title, i) {
+            return text("ABCDEF"[i] + "1", title);
+          })
+          .join("") +
+        "</row>",
+    ];
+
+    rows.forEach(function (row, i) {
+      var r = i + 2;
+      sheetRows.push(
+        '<row r="' + r + '">' +
+          text("A" + r, row.name) +
+          text("B" + r, row.description) +
+          number("C" + r, row.price) +
+          number("D" + r, row.packaging) +
+          number("E" + r, excelSerial(row.date), 1) +
+          number("F" + r, row.posId) +
+          "</row>"
+      );
+    });
+
+    return zip([
+      {
+        name: "[Content_Types].xml",
+        text:
+          XML +
+          '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">' +
+          '<Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>' +
+          '<Default Extension="xml" ContentType="application/xml"/>' +
+          '<Override PartName="/xl/workbook.xml" ContentType="' + TYPE + 'sheet.main+xml"/>' +
+          '<Override PartName="/xl/worksheets/sheet1.xml" ContentType="' + TYPE + 'worksheet+xml"/>' +
+          '<Override PartName="/xl/styles.xml" ContentType="' + TYPE + 'styles+xml"/>' +
+          '<Override PartName="/xl/sharedStrings.xml" ContentType="' + TYPE + 'sharedStrings+xml"/>' +
+          "</Types>",
+      },
+      {
+        name: "_rels/.rels",
+        text:
+          XML +
+          '<Relationships xmlns="' + PKG + '">' +
+          '<Relationship Id="rId1" Type="' + REL + '/officeDocument" Target="xl/workbook.xml"/>' +
+          "</Relationships>",
+      },
+      {
+        name: "xl/workbook.xml",
+        text:
+          XML +
+          '<workbook xmlns="' + MAIN + '" xmlns:r="' + REL + '">' +
+          '<sheets><sheet name="Worksheet" sheetId="1" r:id="rId1"/></sheets>' +
+          "</workbook>",
+      },
+      {
+        name: "xl/_rels/workbook.xml.rels",
+        text:
+          XML +
+          '<Relationships xmlns="' + PKG + '">' +
+          '<Relationship Id="rId1" Type="' + REL + '/worksheet" Target="worksheets/sheet1.xml"/>' +
+          '<Relationship Id="rId2" Type="' + REL + '/styles" Target="styles.xml"/>' +
+          '<Relationship Id="rId3" Type="' + REL + '/sharedStrings" Target="sharedStrings.xml"/>' +
+          "</Relationships>",
+      },
+      {
+        // Styl 1 = datum dd/mm/yyyy, stejně jako v šabloně.
+        name: "xl/styles.xml",
+        text:
+          XML +
+          '<styleSheet xmlns="' + MAIN + '">' +
+          '<numFmts count="1"><numFmt numFmtId="164" formatCode="dd/mm/yyyy"/></numFmts>' +
+          '<fonts count="1"><font><sz val="11"/><color rgb="FF000000"/><name val="Calibri"/></font></fonts>' +
+          '<fills count="2"><fill><patternFill patternType="none"/></fill>' +
+          '<fill><patternFill patternType="gray125"/></fill></fills>' +
+          '<borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders>' +
+          '<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>' +
+          '<cellXfs count="2">' +
+          '<xf xfId="0" fontId="0" numFmtId="0" fillId="0" borderId="0"/>' +
+          '<xf xfId="0" fontId="0" numFmtId="164" fillId="0" borderId="0" applyNumberFormat="1"/>' +
+          "</cellXfs>" +
+          '<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>' +
+          "</styleSheet>",
+      },
+      {
+        name: "xl/sharedStrings.xml",
+        text:
+          XML +
+          '<sst xmlns="' + MAIN + '" count="' + strings.length + '" uniqueCount="' + strings.length + '">' +
+          strings
+            .map(function (value) {
+              return '<si><t xml:space="preserve">' + xmlEscape(value) + "</t></si>";
+            })
+            .join("") +
+          "</sst>",
+      },
+      {
+        name: "xl/worksheets/sheet1.xml",
+        text:
+          XML +
+          '<worksheet xmlns="' + MAIN + '">' +
+          "<cols>" +
+          '<col min="1" max="1" width="30" customWidth="1"/>' +
+          '<col min="2" max="2" width="45" customWidth="1"/>' +
+          '<col min="3" max="6" width="15" customWidth="1"/>' +
+          "</cols>" +
+          "<sheetData>" + sheetRows.join("") + "</sheetData>" +
+          "</worksheet>",
+      },
+    ]);
+  }
+
+  /* Okno exportu: ceny pro rozvoz jsou jiné než v jídelníčku, takže se
+     před stažením dají upravit – hromadně přirážkou i každá zvlášť. */
+
+  var exportDraft = [];
+
+  function exportPriceInputs() {
+    return Array.from($("export-list").querySelectorAll("[data-export-price]"));
+  }
+
+  function applySurcharge() {
+    var surcharge = priceNumber($("export-surcharge").value) || 0;
+    exportPriceInputs().forEach(function (input, i) {
+      var base = exportDraft[i].price;
+      input.value = base == null ? "" : String(base + surcharge);
+      input.classList.remove("is-empty");
+    });
+  }
+
+  function openExport() {
+    var data = collect();
+    if (!data.dailyRepeat.mondayDate) {
+      status($("save-status"), "Nejdřív vyplň datum pondělí – export z něj počítá datum každého dne.", "err");
+      return;
+    }
+
+    exportDraft = exportRows(data);
+    if (!exportDraft.length) {
+      status($("save-status"), "V jídelníčku není žádné jídlo k exportu.", "err");
+      return;
+    }
+
+    var list = $("export-list");
+    list.textContent = "";
+    var lastDay = null;
+
+    exportDraft.forEach(function (row) {
+      if (row.dayId !== lastDay) {
+        lastDay = row.dayId;
+        var heading = document.createElement("h3");
+        heading.textContent =
+          row.day + " " + window.Menu.formatDayDate(data.dailyRepeat.mondayDate, row.dayId - 1);
+        list.appendChild(heading);
+      }
+
+      var line = document.createElement("div");
+      line.className = "admin__meal";
+      var label = document.createElement("span");
+      label.textContent = row.label;
+      var name = document.createElement("span");
+      name.textContent = row.name;
+      var price = document.createElement("input");
+      price.type = "text";
+      price.inputMode = "numeric";
+      price.setAttribute("data-export-price", "");
+      price.setAttribute("aria-label", "Cena – " + row.day + ", " + row.name);
+      line.append(label, name, price);
+      list.appendChild(line);
+    });
+
+    $("export-surcharge").value = localStorage.getItem(SURCHARGE_KEY) || "0";
+    $("export-packaging").value = String(EXPORT_PACKAGING);
+    $("export-posid").value = String(EXPORT_POS_ID);
+    $("export-status").hidden = true;
+    applySurcharge();
+
+    $("export-dialog").showModal();
+  }
+
+  function downloadExport() {
+    var whole = /^\d+$/;
+    var invalid = 0;
+
+    var prices = exportPriceInputs().map(function (input) {
+      var ok = whole.test(input.value.trim());
+      input.classList.toggle("is-empty", !ok);
+      if (!ok) invalid++;
+      return Number(input.value.trim());
+    });
+
+    var extras = ["export-packaging", "export-posid"].map(function (id) {
+      var value = $(id).value.trim();
+      var ok = value === "" || whole.test(value);
+      $(id).classList.toggle("is-empty", !ok);
+      if (!ok) invalid++;
+      return value === "" ? null : Number(value);
+    });
+
+    if (invalid) {
+      status($("export-status"), "Zvýrazněná pole musí být celé číslo v Kč.", "err");
+      return;
+    }
+
+    var rows = exportDraft.map(function (row, i) {
+      return {
+        name: row.name,
+        description: "",
+        price: prices[i],
+        packaging: extras[0],
+        date: row.date,
+        posId: extras[1],
+      };
+    });
+
+    var blob = new Blob([buildXlsx(rows)], {
+      type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    });
+    saveFile(blob, "dj_food_import_" + exportDraft[0].date + ".xlsx");
+
+    localStorage.setItem(SURCHARGE_KEY, String(priceNumber($("export-surcharge").value) || 0));
+    $("export-dialog").close();
+    status($("save-status"), "XLSX pro rozvoz stažen – řádků: " + rows.length + ".", "ok");
   }
 
   /* --- Start ------------------------------------------------------------ */
@@ -594,6 +986,12 @@
       loadCurrent(true); // ruční načtení bere i datum z publikovaného souboru
     });
     $("download").addEventListener("click", download);
+    $("export").addEventListener("click", openExport);
+    $("export-surcharge").addEventListener("input", applySurcharge);
+    $("export-download").addEventListener("click", downloadExport);
+    $("export-cancel").addEventListener("click", function () {
+      $("export-dialog").close();
+    });
     $("forget").addEventListener("click", function () {
       localStorage.removeItem(TOKEN_KEY);
       $("token").value = "";
@@ -605,7 +1003,12 @@
   }
 
   // Vystaveno kvůli testům parseru (viz test/parser.test.js).
-  window.MenuParser = { parseDocxText: parseDocxText, defaultMonday: defaultMonday };
+  window.MenuParser = {
+    parseDocxText: parseDocxText,
+    defaultMonday: defaultMonday,
+    exportRows: exportRows,
+    buildXlsx: buildXlsx,
+  };
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

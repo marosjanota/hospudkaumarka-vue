@@ -816,6 +816,31 @@ footer {
   border-left-color: var(--color-primary);
 }
 
+.export {
+  border: none;
+  border-radius: var(--border-radius-big);
+  padding: var(--gap-xl);
+  width: min(46rem, 94vw);
+  max-height: 90vh;
+  color: var(--color-font);
+  background: var(--color-background);
+  box-shadow: var(--box-shadow);
+}
+
+.export::backdrop {
+  background: rgb(0 0 0 / 60%);
+}
+
+.export h2 {
+  margin-top: 0;
+}
+
+.export__list h3 {
+  border-top: 1px solid var(--color-separator);
+  padding-top: var(--gap-lg);
+  margin: var(--gap-lg) 0 var(--gap-md);
+}
+
 .admin__preview .menu + .menu {
   margin-top: var(--gap-lg);
 }
