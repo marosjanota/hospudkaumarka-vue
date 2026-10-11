@@ -142,14 +142,14 @@
 
                 <div class="admin__actions">
                   <button class="btn" type="button" id="save">Uložit a publikovat</button>
+                  <button class="btn btn--sec" type="button" id="export">
+                    Export pro Foodora (XLSX)
+                  </button>
                   <button class="btn btn--ghost" type="button" id="reload">
                     Načíst současný jídelníček
                   </button>
                   <button class="btn btn--ghost" type="button" id="download">
                     Stáhnout JSON
-                  </button>
-                  <button class="btn btn--ghost" type="button" id="export">
-                    Export pro Foodora (XLSX)
                   </button>
                   <button class="btn btn--ghost" type="button" id="forget">
                     Zapomenout token
@@ -169,17 +169,14 @@
           <dialog class="export" id="export-dialog" aria-labelledby="export-title">
             <h2 id="export-title">Export pro Foodora</h2>
             <p class="admin__hint">
-              Ceny vycházejí z jídelníčku. Přirážka se přičte ke všem najednou,
-              jednotlivé ceny jdou pak ještě přepsat ručně.
+              Ceny vycházejí z jídelníčku. Přirážka se přičte ke všem najednou
+              a patří do ní i obal – ten se zvlášť neúčtuje. Jednotlivé ceny
+              jdou pak ještě přepsat ručně.
             </p>
 
             <div class="admin__row mt-lg">
               <label class="admin__label" for="export-surcharge">Přirážka (Kč)</label>
               <input type="text" inputmode="numeric" id="export-surcharge" />
-            </div>
-            <div class="admin__row">
-              <label class="admin__label" for="export-packaging">Obal (Kč)</label>
-              <input type="text" inputmode="numeric" id="export-packaging" />
             </div>
             <div class="admin__row">
               <label class="admin__label" for="export-posid">POS ID</label>

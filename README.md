@@ -68,9 +68,9 @@ Když má nahraný Word datum v hlavičce, vyhraje to datum z něj. Tlačítko
 datum z `menu.json` do pole netahá — jde o týden, který se nahrává, ne o ten,
 co je zrovna na webu.
 
-## Export pro rozvoz (XLSX)
+## Export pro Foodora (XLSX)
 
-Tlačítko **Export pro rozvoz (XLSX)** na `/update-jidelak/` vyrobí soubor ve
+Tlačítko **Export pro Foodora (XLSX)** na `/update-jidelak/` vyrobí soubor ve
 tvaru šablony `docs/dj_food_import_template.xlsx` – jeden řádek na jídlo a den,
 sloupce `název`, `popis`, `cena`, `cena - obal`, `datum`, `pos id`.
 
@@ -79,8 +79,10 @@ sloupce `název`, `popis`, `cena`, `cena - obal`, `datum`, `pos id`.
 - Ceny pro rozvoz jsou vyšší než v jídelníčku: v okně exportu se zadá
   **přirážka** (přičte se ke všem, prohlížeč si ji pamatuje) a jednotlivé ceny
   jdou ještě přepsat ručně.
-- `popis` zůstává prázdný. Výchozí obal a POS ID jsou nahoře v `js/admin.js`
-  (`EXPORT_PACKAGING`, `EXPORT_POS_ID`) a dají se přepsat i v okně exportu.
+- Obal se zvlášť neúčtuje, je součástí ceny jídla (tedy přirážky). Sloupec
+  `cena - obal` v souboru zůstává a je v něm vždy `0`.
+- `popis` zůstává prázdný. Výchozí POS ID je nahoře v `js/admin.js`
+  (`EXPORT_POS_ID`) a dá se přepsat i v okně exportu.
 
 Soubor se jen stáhne, na GitHub se neukládá.
 

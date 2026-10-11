@@ -16,9 +16,11 @@
   var TOKEN_KEY = "hum-github-token";
 
   // Export pro rozvoz (XLSX podle docs/dj_food_import_template.xlsx).
-  // Obojí jde přepsat v okně exportu; tady jsou jen výchozí hodnoty.
+  // POS ID jde přepsat v okně exportu; tady je jen výchozí hodnota.
   var EXPORT_POS_ID = 1234; // zatím zástupné číslo, skutečné POS ID se doplní
-  var EXPORT_PACKAGING = 15; // cena obalu v Kč
+  // Obal se už zvlášť neúčtuje – je započítaný v ceně jídla (přirážka).
+  // Sloupec v šabloně ale zůstává, takže se do něj píše nula.
+  var EXPORT_PACKAGING = 0;
   var SURCHARGE_KEY = "hum-export-surcharge";
 
   var DAYS = [
@@ -805,8 +807,9 @@
     ]);
   }
 
-  /* Okno exportu: ceny pro rozvoz jsou jiné než v jídelníčku, takže se
-     před stažením dají upravit – hromadně přirážkou i každá zvlášť. */
+  /* Okno exportu: ceny pro rozvoz jsou jiné než v jídelníčku (je v nich
+     i obal), takže se před stažením dají upravit – hromadně přirážkou
+     i každá zvlášť. */
 
   var exportDraft = [];
 
@@ -865,7 +868,6 @@
     });
 
     $("export-surcharge").value = localStorage.getItem(SURCHARGE_KEY) || "0";
-    $("export-packaging").value = String(EXPORT_PACKAGING);
     $("export-posid").value = String(EXPORT_POS_ID);
     $("export-status").hidden = true;
     applySurcharge();
@@ -884,16 +886,13 @@
       return Number(input.value.trim());
     });
 
-    var extras = ["export-packaging", "export-posid"].map(function (id) {
-      var value = $(id).value.trim();
-      var ok = value === "" || whole.test(value);
-      $(id).classList.toggle("is-empty", !ok);
-      if (!ok) invalid++;
-      return value === "" ? null : Number(value);
-    });
+    var posId = $("export-posid").value.trim();
+    var posIdOk = posId === "" || whole.test(posId);
+    $("export-posid").classList.toggle("is-empty", !posIdOk);
+    if (!posIdOk) invalid++;
 
     if (invalid) {
-      status($("export-status"), "Zvýrazněná pole musí být celé číslo v Kč.", "err");
+      status($("export-status"), "Zvýrazněná pole musí být celé číslo.", "err");
       return;
     }
 
@@ -902,9 +901,9 @@
         name: row.name,
         description: "",
         price: prices[i],
-        packaging: extras[0],
+        packaging: EXPORT_PACKAGING,
         date: row.date,
-        posId: extras[1],
+        posId: posId === "" ? null : Number(posId),
       };
     });
 
@@ -915,7 +914,7 @@
 
     localStorage.setItem(SURCHARGE_KEY, String(priceNumber($("export-surcharge").value) || 0));
     $("export-dialog").close();
-    status($("save-status"), "XLSX pro rozvoz stažen – řádků: " + rows.length + ".", "ok");
+    status($("save-status"), "XLSX pro Foodora stažen – řádků: " + rows.length + ".", "ok");
   }
 
   /* --- Start ------------------------------------------------------------ */

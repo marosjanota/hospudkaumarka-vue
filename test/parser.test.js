@@ -211,7 +211,7 @@ mammoth
     const xlsx = unzipStored(
       buildXlsx(
         rows.map((row) => ({
-          name: row.name, description: "", price: row.price + 20, packaging: 15,
+          name: row.name, description: "", price: row.price + 20, packaging: 0,
           date: row.date, posId: 1234,
         }))
       )
@@ -230,7 +230,7 @@ mammoth
     check(
       "xlsx – řádek 2",
       sheet.match(/<row r="2">.*?<\/row>/)[0],
-      '<row r="2"><c r="A2" t="s"><v>6</v></c><c r="C2"><v>55</v></c><c r="D2"><v>15</v></c>' +
+      '<row r="2"><c r="A2" t="s"><v>6</v></c><c r="C2"><v>55</v></c><c r="D2"><v>0</v></c>' +
         '<c r="E2" s="1"><v>46307</v></c><c r="F2"><v>1234</v></c></row>'
     );
     check("xlsx – pátek o čtyři dny později", /<c r="E6" s="1"><v>46311<\/v>/.test(sheet), true);

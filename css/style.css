@@ -769,6 +769,15 @@ footer {
   cursor: not-allowed;
 }
 
+.btn--sec {
+  background: var(--color-secondary);
+  color: var(--color-secondary-text);
+}
+
+.btn--sec:hover:not(:disabled) {
+  background: var(--color-secondary-hover);
+}
+
 .btn--ghost {
   background: none;
   color: var(--color-font);
