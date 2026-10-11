@@ -16,8 +16,9 @@
   var TOKEN_KEY = "hum-github-token";
 
   // Export pro rozvoz (XLSX podle docs/dj_food_import_template.xlsx).
-  // POS ID jde přepsat v okně exportu; tady je jen výchozí hodnota.
-  var EXPORT_POS_ID = 1234; // zatím zástupné číslo, skutečné POS ID se doplní
+  // POS ID je nepovinné a zatím ho neznáme – sloupec zůstává prázdný.
+  // Až bude, stačí ho doplnit sem (nebo pokaždé v okně exportu).
+  var EXPORT_POS_ID = "";
   // Obal se už zvlášť neúčtuje – je započítaný v ceně jídla (přirážka).
   // Sloupec v šabloně ale zůstává, takže se do něj píše nula.
   var EXPORT_PACKAGING = 0;

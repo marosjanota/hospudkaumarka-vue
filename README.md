@@ -82,8 +82,9 @@ sloupce `název`, `popis`, `cena`, `cena - obal`, `datum`, `pos id`.
   přepsat ručně.
 - Obal se zvlášť neúčtuje, je součástí ceny jídla (tedy přirážky). Sloupec
   `cena - obal` v souboru zůstává a je v něm vždy `0`.
-- `popis` zůstává prázdný. Výchozí POS ID je nahoře v `js/admin.js`
-  (`EXPORT_POS_ID`) a dá se přepsat i v okně exportu.
+- `popis` zůstává prázdný. `pos id` je nepovinné a zatím taky prázdné; až
+  bude známé, doplní se nahoře v `js/admin.js` (`EXPORT_POS_ID`) nebo přímo
+  v okně exportu.
 
 Soubor se jen stáhne, na GitHub se neukládá.
 
